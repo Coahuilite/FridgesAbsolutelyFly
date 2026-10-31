@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Defs>
+  <!-- Regular hauling work fills cabinets according to their storage filter. / 常规搬运工作按储存筛选器填充柜子。 -->
+  <WorkGiverDef>
+    <defName>FAF_LoadRefrigeratorCabinet</defName>
+    <label>load freezers</label>
+    <giverClass>FAF.Cabinet.WorkGiver_LoadCabinet</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>91</priorityInType>
+    <verb>load</verb><gerund>loading freezers</gerund>
+    <scanThings>true</scanThings>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+  </WorkGiverDef>
+</Defs>

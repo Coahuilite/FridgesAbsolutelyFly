@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_PreservationGuide>腐烂、温度损坏与孵化各有条件，风化与老化仍会分别继续。</FAF_PreservationGuide>
+  <FAF_PreservationTemperature>物品温度：{0} · {1}</FAF_PreservationTemperature>
+  <FAF_PreservationNotApplicable>腐烂保鲜不适用</FAF_PreservationNotApplicable>
+  <FAF_PreservationFrozen>冷冻条件</FAF_PreservationFrozen>
+  <FAF_PreservationChilled>冷藏条件</FAF_PreservationChilled>
+  <FAF_PreservationNormal>正常腐烂条件</FAF_PreservationNormal>
+  <FAF_PreservationNoRottable>腐烂：此物品不适用。</FAF_PreservationNoRottable>
+  <FAF_PreservationProgress>{0} · 腐烂进度：达到腐败阈值的{1}</FAF_PreservationProgress>
+  <FAF_PreservationRate>腐烂速率：普通速率的{0}倍 · 距腐败：{1}</FAF_PreservationRate>
+  <FAF_PreservationAlreadyRotten>已腐败</FAF_PreservationAlreadyRotten>
+  <FAF_PreservationInactive>∞（当前不发生腐烂）</FAF_PreservationInactive>
+  <FAF_PreservationStopped>∞（腐烂暂停）</FAF_PreservationStopped>
+  <FAF_PreservationRateTip>速率依据物品当前温度。预计剩余时间假定温度不再变化；冷冻会暂停腐烂，但不会清除已经累积的进度。</FAF_PreservationRateTip>
+  <FAF_TemperatureDamageProgress>温度损坏：{0}</FAF_TemperatureDamageProgress>
+  <FAF_TemperatureDamageSafeRange>安全温度范围：{0} – {1}</FAF_TemperatureDamageSafeRange>
+  <FAF_HatchingTemperatureDamaged>无法孵化：已因温度损坏。</FAF_HatchingTemperatureDamaged>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_FlyingFridgeCabinet.label>涅瓦莲家用冷柜</FAF_FlyingFridgeCabinet.label>
+  <FAF_FlyingFridgeCabinet.description>一台涅瓦莲家用电冷柜，顶部是透明的玻璃盖，里头存着什么一眼便知。\n\n可调为冷藏或冷冻，由电网或内置的可充电电池供电，也可选用涅瓦莲冷却液作备用。相应改装后，电力还能制热，并为柜中乘员维持可呼吸气氛与温度；冷却液只能制冷，不提供热量或空气。选择涅瓦莲便携睡垫后，还可兼作仅限涅瓦莲使用的床位。主冷藏仓有货物时，安装会先询问是否移出，独立运输舱保持原样；睡垫会占用整个冷藏储物格。</FAF_FlyingFridgeCabinet.description>
+  <FAF_CabinetMattress.label>涅瓦莲便携睡垫</FAF_CabinetMattress.label>
+  <FAF_CabinetMattress.description>一张冰蓝色绗缝的涅瓦莲睡垫，轻薄柔软，带一只小枕头。摊开便是小憩的地方，卷起就能随身上路，匆忙的歇脚处也因此有了一点家的样子。\n\n单独铺开时，它是可供远行队携带的睡袋，品质影响休息效率。\n\n尺寸规整得有些讲究，似乎刚好能放进一台小冷柜。</FAF_CabinetMattress.description>
+</LanguageData>

@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: MPL-2.0
+name: Verify source
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  source:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      # EN: The cloud checks source/content/history, not a fake build without proprietary references.
+      # 中：云端检查源码/内容/历史，不在缺少私有引用时伪称完成游戏编译。
+      - name: Verify source and HEAD history
+        shell: pwsh
+        env:
+          FAF_PR_SOURCE_BRANCH: ${{ github.head_ref }}
+          FAF_PR_TARGET_BRANCH: ${{ github.base_ref }}
+        run: |
+          $options = @{ FullHistory = $true }
+          # EN: main accepts only the development branch matching the product's major/minor version.
+          # 中：main只接受与产品主／次版本对应的开发分支。
+          if ($env:GITHUB_EVENT_NAME -eq 'pull_request' -and $env:FAF_PR_TARGET_BRANCH -eq 'main') {
+            $options.PullRequestSourceBranch = $env:FAF_PR_SOURCE_BRANCH
+          }
+          ./Build/Verify.ps1 @options

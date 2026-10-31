@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Defs>
+  <!-- True held-item refrigeration; no loose items on storage cells. / 真正的持有物冷藏，不使用储存格上的散落物品。 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>FAF_FlyingFridgeCabinet</defName>
+    <label>Nivarian household freezer</label>
+    <description>A Nivarian household electric freezer with a clear glass lid, so what it holds is visible at a glance.\n\nIt refrigerates or freezes, runs on the grid or a rechargeable built-in battery, and can use Nivarian coolant as a backup. After the relevant retrofit, electricity can also heat and maintain breathable air and temperature for occupants; coolant only cools, supplying neither heat nor air. Choose a Nivarian portable sleeping pad to add a bed for Nivarians only. If the refrigerated compartment contains cargo, installation asks to move it out first; the independent transport bay is unchanged. The pad occupies the entire refrigerated compartment.</description>
+    <thingClass>FAF.Cabinet.Building_FlyingFridgeCabinet</thingClass>
+    <dropPodActive>FAF_CabinetActivePod</dropPodActive>
+    <dropPodFaller>FAF_CabinetIncoming</dropPodFaller>
+    <graphicData>
+      <texPath>FAF/Buildings/FlyingCabinetInterior</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(1,2)</size>
+    <uiIconPath>FAF/UI/FlyingCabinet</uiIconPath>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>40</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <designationCategory>Temperature</designationCategory>
+    <uiOrder>2050</uiOrder>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>3500</WorkToBuild>
+      <Mass>45</Mass>
+      <Flammability>0.3</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Nivarian_DragonCrystal>6</Nivarian_DragonCrystal>
+      <Nivarian_CryoCoolant>2</Nivarian_CryoCoolant>
+    </costList>
+    <researchPrerequisites>
+      <li>FAF_SPICE_Cabinet</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <building>
+      <isEdifice>false</isEdifice>
+      <deconstructible>true</deconstructible>
+      <preventDeteriorationInside>true</preventDeteriorationInside>
+      <maxItemsInCell>6</maxItemsInCell>
+      <storageGroupTag>FAF_FlyingCabinet</storageGroupTag>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Root</li>
+          </categories>
+          <disallowNotEverStorable>true</disallowNotEverStorable>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Foods</li>
+            <li>Medicine</li>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+      <li>FAF.Cabinet.ITab_CabinetContents</li>
+    </inspectorTabs>
+    <comps>
+      <!-- One explicit native connector registers the battery and variable refrigeration load once.
+           唯一显式原生接线点仅登记一次电池与可变制冷负载。 -->
+      <li Class="FAF.Cabinet.Integration.CompProperties_CabinetBattery">
+        <compClass>FAF.Cabinet.Integration.CompFridgeCabinetBattery</compClass>
+        <storedEnergyMax>360</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <transmitsPower>false</transmitsPower>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>FAF.Cabinet.Integration.CompFridgeCabinetPowerLoad</compClass>
+        <basePowerConsumption>120</basePowerConsumption>
+        <transmitsPower>false</transmitsPower>
+        <showPowerNeededIfOff>false</showPowerNeededIfOff>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CompProperties_CabinetCoolant">
+        <compClass>FAF.Cabinet.Integration.CompFridgeCabinetCoolant</compClass>
+        <fuelCapacity>5</fuelCapacity>
+        <initialFuelPercent>0</initialFuelPercent>
+        <initialAllowAutoRefuel>false</initialAllowAutoRefuel>
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>false</targetFuelLevelConfigurable>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <externalTicking>true</externalTicking>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <canEjectFuel>true</canEjectFuel>
+        <autoRefuelPercent>0.25</autoRefuelPercent>
+        <fuelFilter>
+          <thingDefs>
+            <li>Nivarian_CryoCoolant</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <!-- Native CompTransporter is the sole bay tick authority.
+           原生CompTransporter为运输舱唯一更新者。 -->
+      <li Class="FAF.Transport.CompProperties_CabinetTransport">
+        <shouldTickContents>true</shouldTickContents>
+        <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+        <max1PerGroup>false</max1PerGroup>
+      </li>
+      <li Class="FAF.Cabinet.CompProperties_FridgeCabinetTemperature">
+        <compClass>FAF.Cabinet.CompFridgeCabinetTemperature</compClass>
+        <defaultTargetTemperature>-5</defaultTargetTemperature>
+        <minTargetTemperature>-30</minTargetTemperature>
+        <maxTargetTemperature>10</maxTargetTemperature>
+        <wattsPerDegree>4.8</wattsPerDegree>
+        <coolantWattDaysPerUnit>360</coolantWattDaysPerUnit>
+        <icyCoreMaximumTemperature>10</icyCoreMaximumTemperature>
+        <lifeSupportWatts>80</lifeSupportWatts>
+        <vacuumLeakTimeConstantTicks>3600</vacuumLeakTimeConstantTicks>
+        <vacuumRecoveryTimeConstantTicks>300</vacuumRecoveryTimeConstantTicks>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- This is both the installable bedroll and the quality-bearing cabinet insert. / 此物既是可安装睡袋，也是携带品质的柜用内衬。 -->
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>FAF_CabinetMattress</defName>
+    <label>Nivarian portable sleeping pad</label>
+    <description>An ice-blue quilted Nivarian sleeping pad, thin, soft and light, with a little pillow. Spread it out for a nap, roll it up for the road; even a hurried stop begins to feel a little like home.\n\nOn its own it works as a caravan bedroll; higher quality means better rest effectiveness.\n\nIts dimensions are oddly deliberate, as though it would fit neatly into a small freezer.</description>
+    <thingClass>FAF.Cabinet.Building_CabinetMattress</thingClass>
+    <!-- BedBase assumes facility support; this mattress deliberately has none. / BedBase假定支持设施；本床垫按设计不接受设施加成。 -->
+    <placeWorkers Inherit="False" />
+    <graphicData>
+      <texPath>FAF/Things/PortableSleepingPad</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <costList>
+      <Nivarian_Scale>5</Nivarian_Scale>
+    </costList>
+    <!-- EN: Standalone bedding is available from the start; materials and quality stay native. -->
+    <!-- 中：独立睡垫开局可用；材料与品质仍按原生规则处理。 -->
+    <researchPrerequisites Inherit="False" />
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToBuild>900</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1</Flammability>
+      <BedRestEffectiveness>1.05</BedRestEffectiveness>
+      <Comfort>0</Comfort>
+      <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+      <MedicalTendQualityOffset>0</MedicalTendQualityOffset>
+    </statBases>
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>0</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <destroySound>BuildingDestroyed_Soft_Medium</destroySound>
+    </building>
+    <passability>Standable</passability>
+    <pathCost>10</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <uiOrder>2026</uiOrder>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_AutoCoolantCargoHint>Uses this freezer&apos;s whole bottled cargo first, including bottles intended as gifts. When none remain, map haulers can fetch external bottles. Adding coolant to the tank is not cooling consumption.</FAF_AutoCoolantCargoHint>
+  <FAF_AutoCoolantEnable>Automatic coolant supply</FAF_AutoCoolantEnable>
+  <FAF_AutoCoolantLocked>Automatic supply requires Project D.I.L.L.</FAF_AutoCoolantLocked>
+  <FAF_AutoCoolantNoStoredCoolant>No bottled coolant is available in this freezer&apos;s cargo.</FAF_AutoCoolantNoStoredCoolant>
+  <FAF_AutoCoolantOff>Automatic supply is off.</FAF_AutoCoolantOff>
+  <FAF_AutoCoolantReady>Stored coolant is available; supply will run on the next scheduled update.</FAF_AutoCoolantReady>
+  <FAF_AutoCoolantTarget>Refill target</FAF_AutoCoolantTarget>
+  <FAF_AutoCoolantTargetInvalid>Enter a number from 0 to {0}.</FAF_AutoCoolantTargetInvalid>
+  <FAF_AutoCoolantTargetRange>Range: 0–{0} units; changing it does not drain coolant.</FAF_AutoCoolantTargetRange>
+  <FAF_AutoCoolantTransferring>Waiting for the current cargo handoff to finish.</FAF_AutoCoolantTransferring>
+  <FAF_AutoCoolantUnavailable>This freezer&apos;s supplies cannot be accessed right now.</FAF_AutoCoolantUnavailable>
+  <FAF_AutoCoolantWaitingSpace>Waiting: less than one whole bottle fits below the refill target.</FAF_AutoCoolantWaitingSpace>
+  <FAF_CoolantThermalUse>Cooling consumption: {0} / day</FAF_CoolantThermalUse>
+  <FAF_CorpseCargoHeldElsewhere>This corpse is in the transport cargo or another container. Use that container&apos;s controls to move it.</FAF_CorpseCargoHeldElsewhere>
+  <FAF_CorpseCargoHint>Corpses are cargo, not living occupants.</FAF_CorpseCargoHint>
+  <FAF_CorpseCargoTitle>Corpse cargo: {0}</FAF_CorpseCargoTitle>
+  <FAF_CrewOccupancyConflict>There are too many living occupants, or a living occupant shares the freezer with corpse cargo. Everyone and everything remains inside; resolve the conflict before boarding or departure.</FAF_CrewOccupancyConflict>
+  <FAF_GiftPickupContents>Only the actual remaining payload is shown. Gifts already delivered and supplies already consumed are not restored when collecting it.</FAF_GiftPickupContents>
+  <FAF_GiftPickupInterrupted>Gift delivery interrupted; actual remaining cargo waiting for pickup</FAF_GiftPickupInterrupted>
+  <FAF_GiftPickupWaiting>Gift delivery complete; freezer waiting for pickup</FAF_GiftPickupWaiting>
+  <FAF_MattressClearConfirm>Install {0}? Only cargo in the main refrigerated compartment will be moved beside the freezer. The independent transport bay is unchanged. Canceling now leaves everything in place; after installation starts, cargo already moved out will not automatically return if the job is canceled.</FAF_MattressClearConfirm>
+  <FAF_MattressClearFailed>Some main-compartment cargo could not be moved out. Installation stopped; the remaining items and original sleeping pad are preserved.</FAF_MattressClearFailed>
+  <FAF_MattressInstallationUnavailable>A sleeping pad is already fitted or its installation is in progress.</FAF_MattressInstallationUnavailable>
+  <FAF_NoMatchingCargoHere>No matching cargo in this section.</FAF_NoMatchingCargoHere>
+  <FAF_MattressClearConfirmationRequired>The main compartment now contains cargo. Select the sleeping pad again to confirm moving it out.</FAF_MattressClearConfirmationRequired>
+  <FAF_GiftDeliveryPartial>Gift delivery was interrupted. The original freezer and actual undelivered remainder are preserved for collection; delivered gifts will not be restored or sent again.</FAF_GiftDeliveryPartial>
+  <FAF_GiftEmptyDelivery>No cargo remained to give at arrival. The original freezer is waiting for collection; an empty delivery earns no gift goodwill.</FAF_GiftEmptyDelivery>
+  <FAF_GiftMissionPreview>The gift list uses actual cargo. The original freezer, fitted sleeping pad and built-in resources stay at the settlement for caravan pickup. Automatic supply may consume bottled coolant intended as a gift before arrival.</FAF_GiftMissionPreview>
+  <FAF_GiftPickupCreated>Gift delivery complete. The original freezer is waiting at the settlement for a caravan to collect.</FAF_GiftPickupCreated>
+  <FAF_GiftPickupInspect>The original freezer and actual remaining cargo await collection. Delivered gifts are no longer part of this payload.</FAF_GiftPickupInspect>
+  <FAF_GiftSettlementOption>Give the contents to {0} and leave the freezer for pickup</FAF_GiftSettlementOption>
+  <FAF_LiveCorpseConflict>Living occupants and corpse cargo cannot share a freezer.</FAF_LiveCorpseConflict>
+  <FAF_RelinquishedAtSettlement>The freezer and its entire payload have been relinquished at the hostile settlement. They are no longer under your control, and no player recovery site was created.</FAF_RelinquishedAtSettlement>
+  <FAF_RelinquishMissionConfirm>Relinquish everything listed below at the hostile settlement?\n\n{0}\n\nThe original freezer and its entire payload will leave your control. Your animals will also leave your control, but this action does not force their death. No gift goodwill or player pickup site will be created.</FAF_RelinquishMissionConfirm>
+  <FAF_RelinquishSettlementOption>Deliver to {0} and relinquish the freezer and its entire payload</FAF_RelinquishSettlementOption>
+  <FAF_AutoCoolantNoExternalAccess>No stored bottles. Install the freezer on a map for external hauling.</FAF_AutoCoolantNoExternalAccess>
+  <FAF_AutoCoolantWaitingHauler>No stored bottles: waiting for an available map hauler and reachable coolant.</FAF_AutoCoolantWaitingHauler>
+  <FAF_CoolantRefillTarget>Refill target</FAF_CoolantRefillTarget>
+  <FAF_CoolantTargetDragHint>Drag the marker to set this freezer&apos;s refill target.</FAF_CoolantTargetDragHint>
+  <FAF_CoolantTargetInvalid>Enter a number from 0 to {0}.</FAF_CoolantTargetInvalid>
+  <FAF_CoolantTargetManualHint>Manual refills use this target. Changing it neither consumes bottles nor drains coolant.</FAF_CoolantTargetManualHint>
+  <FAF_CoolantTargetRange>Range: 0–{0} units.</FAF_CoolantTargetRange>
+  <FAF_CoolantTargetSharedHint>Manual refills use this target; automatic supply uses it too when enabled. Changing it neither consumes bottles nor drains coolant.</FAF_CoolantTargetSharedHint>
+  <FAF_ResourceBatteryRow>Battery: {0} / {1} Wd</FAF_ResourceBatteryRow>
+  <FAF_ResourceBatteryTip>Actual energy stored in this freezer&apos;s battery. This bar is read-only.</FAF_ResourceBatteryTip>
+  <FAF_ResourceCoolantRow>Coolant: {0} / {1}</FAF_ResourceCoolantRow>
+  <FAF_ResourceGizmoTitle>Freezer #{0}</FAF_ResourceGizmoTitle>
+  <FAF_ResourceTargetValue>Target {0}</FAF_ResourceTargetValue>
+</LanguageData>

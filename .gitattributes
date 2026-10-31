@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: MPL-2.0
+* text=auto
+*.cs text eol=lf
+*.csproj text eol=lf
+*.props text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.png binary
+Build/hooks/pre-push text eol=lf
+# EN: Preserve the official MPL text verbatim, including its original trailing space.
+# 中：逐字保留官方MPL全文，包括原文自带的尾空格。
+LICENSE -whitespace

@@ -1,0 +1,8 @@
+#!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
+# EN: Enable explicitly with git config core.hooksPath Build/hooks; never overwrite a user's hook.
+# 中：显式设置core.hooksPath后启用；不覆盖用户既有hook。
+root=$(git rev-parse --show-toplevel) || exit 1
+# EN: Git supplies actual outgoing refs on stdin; require them to match the audited checkout.
+# 中：Git从标准输入提供真实出站引用；要求其对应已审核的检出。
+exec pwsh -NoLogo -NoProfile -NonInteractive -File "$root/Build/Verify.ps1" -PrePush -FullHistory

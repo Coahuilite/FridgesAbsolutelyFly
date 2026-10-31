@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_SPICE_Cabinet.label>小型低温柜组装</FAF_SPICE_Cabinet.label>
+  <FAF_SPICE_Cabinet.description>经过认真研究，负责参合这事的涅瓦莲工程师确认：家用冷柜应当小到放得进厨房角落，也要透明到一眼看清里面存了什么，断电的时候更要保持冰爽。\n\n效果：解锁涅瓦莲家用冷柜。可冷藏或冷冻，配有可以调温的冷藏调节器、可充电的内置电池、可选的使用冷却液备用，以及...大伙都觉得它的内部尺寸设计得很巧妙。</FAF_SPICE_Cabinet.description>
+  <FAF_SPICE_TOFU.label>Project T.O.F.U</FAF_SPICE_TOFU.label>
+  <FAF_SPICE_TOFU.description>Thermally Optimized Flotation Unit——热优化悬浮单元。\n\n灰尘可以留给地板，冰箱则离地一点。经过适度的热工优化，和负责人的俺寻思，现在所有兼容的冰箱都能离地浮起一小段了。\n\n效果：所有被认可为“冰箱”的储存器，现已可以原位悬浮与旋转。不用担心旋转时落地的事情：先回正，再平稳落地。\n\n负责验收的工程师解释道：“四十五千克的柜壳，搬起来只剩五千克，其余交给悬浮单元。至于里面的晚饭、行李，或者不肯起床的小龙——它们有多重，还是有多重。”</FAF_SPICE_TOFU.description>
+  <FAF_SPICE_CHIVE.label>Project C.H.I.V.E</FAF_SPICE_CHIVE.label>
+  <FAF_SPICE_CHIVE.description>Cryothermal Hermetic Interface Validation Experiment——低温气密界面验证实验。\n\n冷柜的大半工夫，都花在和周围的房间争执上。把每道外部接缝检查一遍，争执便会安静许多。\n\n效果：冷柜与周围环境的被动热交换减半，无论是否通电，断能后柜内更久地维持温度。主动制冷不变。</FAF_SPICE_CHIVE.description>
+  <FAF_SPICE_WALNUT.label>Project W.A.L.N.U.T</FAF_SPICE_WALNUT.label>
+  <FAF_SPICE_WALNUT.description>Wideband Adaptive Load-bearing Network Under Transients——瞬态宽带自适应承载网络。\n\n搬运把手有多可靠，全看它固定在什么样的外壳上，所以先给外壳多下点功夫。\n\n效果：冷柜最大耐久由260提高到390。当前耐久不变，已有损伤仍需修复。</FAF_SPICE_WALNUT.description>
+  <FAF_SPICE_ONION.label>Project O.N.I.O.N</FAF_SPICE_ONION.label>
+  <FAF_SPICE_ONION.description>Optimized Non-Euclidean Interior Occupancy Network——优化型非欧几里得内部容纳网络。\n\n每个家庭都知道，只要有人理直气壮地重新摆一遍，箱子里总还能再放一盒，无论动手的人是不是数学家。工程师团队把这份理直气壮写成了规范。\n\n效果：冷柜储存空间由12叠增至24叠。物品质量照常计算。睡垫仍会占用整个主冷藏仓。</FAF_SPICE_ONION.description>
+  <FAF_SPICE_BASIL.label>Project B.A.S.I.L</FAF_SPICE_BASIL.label>
+  <FAF_SPICE_BASIL.description>Beta Assembly Stabilization In Liquids——液体环境中的β型组装体稳定化。\n\nβ型稳定化组装体让工质在管路里走得更平稳，无论是给柜内降温，还是被送进喷口。冷却液仓也随之扩大。\n\n效果：冷柜冷却液仓容量由5份提高到8份。升级不附带冷却液，新增空间仍需照常填充。</FAF_SPICE_BASIL.description>
+  <FAF_SPICE_CREAM.label>Project C.R.E.A.M</FAF_SPICE_CREAM.label>
+  <FAF_SPICE_CREAM.description>Closed-loop Regulation of Enclosed Atmospheres and Microclimates——封闭气氛与微气候闭环调节。\n\n每个家庭迟早会调过头。只能纠正一侧偏差的控制器，等于决定在另一侧一错到底。\n\n效果：以完整的智能恒温器取代冷藏调节器，增加制热，并将目标温度上限提高到40°C。启用后，食材自有保鲜的安排；至于故意爬进去的贪玩小龙，冷柜还得照顾它的呼吸。柜内有住客或正为其准备休息时，会以80瓦维持供氧环境，温控耗电另计。断电后气压逐渐趋近外界；若无可用备用制冷，温度也会被动变化。电网或内置电池可制冷也可制热；冷却液仅能制冷，不提供热量或空气。恒温器同时显示资源量、净流量与预计续航。</FAF_SPICE_CREAM.description>
+  <FAF_SPICE_GARLIC.label>Project G.A.R.L.I.C</FAF_SPICE_GARLIC.label>
+  <FAF_SPICE_GARLIC.description>Guidance, Attitude Reconstruction, Localization, and Integrated Control——引导、姿态重建、定位与集成控制。\n\n引导、姿态与定位，最直接最不绕弯子的告诉你，就是让冷柜听话。容量更大的电池组装体，加上一套能均衡各模块的控制器，总算塞进了同一个机壳。\n\n效果：内置电池容量由360瓦日提高到720瓦日，自放电由5瓦降到4瓦。已有储能不变，升级不增加电量。增加可手动开启的稳定悬浮模式，减小上下起伏，并提供带正负方向的精细旋转角速度控制。旋转仍可独立开关。</FAF_SPICE_GARLIC.description>
+  <FAF_SPICE_PEPPER.label>Project P.E.P.P.E.R</FAF_SPICE_PEPPER.label>
+  <FAF_SPICE_PEPPER.description>Predictive Emergency Pulse Planning, Execution, Recovery——预测式应急脉冲规划、执行与恢复。\n\n很早以前有一种不靠悬浮引擎也会飞的车。我们只借用一点启发：几个应急喷口，外加恒温器跟不上变化的预案。\n\n效果：为冷柜增加应急喷口和可选的快速稳温模式。快速模式下，主动热输出以及实际用电或用液均提高到三倍。电力可制冷也可制热；冷却液只能制冷。</FAF_SPICE_PEPPER.description>
+  <FAF_SPICE_HOPS.label>Project H.O.P.S</FAF_SPICE_HOPS.label>
+  <FAF_SPICE_HOPS.description>High-precision On-site Pulse Shifting——高精度近场脉冲转运。\n\n目的地只有几步之遥时，冷链不必总是绕远路。\n\n效果：解锁冷柜在同一地图内的短距跳跃，最远35格，柜内物品随柜同行。每次跳跃消耗同一冷却液仓中的冷却液，之后需要冷却等待。</FAF_SPICE_HOPS.description>
+  <FAF_SPICE_SALT.label>Project S.A.L.T</FAF_SPICE_SALT.label>
+  <FAF_SPICE_SALT.description>Subsystem Alignment and Load Testing——子系统校准与载荷测试。\n\n各套子系统已经各自通过检查，剩下的是看整台设备装上实际负载后，彼此是否依然协调。\n\n效果：完成子系统校准与载荷验证，并确定冷柜的最终硬件配置。</FAF_SPICE_SALT.description>
+  <FAF_SPICE_SALT.discoveredLetterTitle>冷柜重新归类完成</FAF_SPICE_SALT.discoveredLetterTitle>
+  <FAF_SPICE_SALT.discoveredLetterText>经过长达一周的紧张测试，尽管所有的工程师们，包括涅拉也不敢相信，这台全面升级的冷柜，已经不能再被分类为家用电器了。 \n\n S.A.L.T联合测试最终确认：涅瓦莲家用冷柜，同时也是一台单人太空梭。\n\n请注意，由于内部生命维持功率有限，每柜至多容纳一名活体乘员，并可在载重限额内额外携带货物。整支远行队可由多柜编组出行。自主投送可前往合适的目的地，无需驾驶员：可以只运货，也可以让一只己方的动物朋友体验一下飞行的快乐。\n\n如果你能触达高天之上（指启用Odyssey） ，还可进入轨道。</FAF_SPICE_SALT.discoveredLetterText>
+<FAF_SPICE_DILL.label>Project D.I.L.L</FAF_SPICE_DILL.label>
+<FAF_SPICE_DILL.description>Demand-driven Internal Liquid Logistics——需求驱动的内部供液调度。\n\n备用冷却液令人安心，前提是别让每个人都以为会有别人去补。现在，这份工作交给冷柜自己。\n\n效果：解锁可选的自动供液，与人工加注共用目标液位。冷柜优先消耗冷柜货物中的整份冷却液；在地图上，仅当储备耗尽且仍需补液时，才安排搬运者领取外部补给。目标以内的空位不足一瓶时等待。自动功能默认关闭，断电、关闭温控或冷却液备用也可补给，不自动开启这些开关；人工加注仍可使用。</FAF_SPICE_DILL.description>
+</LanguageData>

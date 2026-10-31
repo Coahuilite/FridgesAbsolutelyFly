@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_Steady>Steady hover</FAF_Steady>
+  <FAF_SteadyDesc>Reduce the up-and-down motion while hovering. Rotation is controlled separately.</FAF_SteadyDesc>
+  <FAF_AngularSpeed>Fine rotation control</FAF_AngularSpeed>
+  <FAF_AngularSpeedDesc>Adjust how quickly this freezer turns, in either direction.</FAF_AngularSpeedDesc>
+  <FAF_AngularSpeedValue>Rotation: {0}°/s at normal game speed</FAF_AngularSpeedValue>
+  <FAF_PortableCabinets>Portable freezers</FAF_PortableCabinets>
+  <FAF_PortableCabinetsDesc>Manage the freezers carried by this character or caravan.</FAF_PortableCabinetsDesc>
+  <FAF_Inventory>Cargo management</FAF_Inventory>
+  <FAF_InventoryTitle>{0} — unit #{1}</FAF_InventoryTitle>
+  <FAF_SelectCabinet>Choose carried freezer</FAF_SelectCabinet>
+  <FAF_StackCapacity>Stacks: {0} / {1}</FAF_StackCapacity>
+  <FAF_OrdinaryInventory>Carried inventory</FAF_OrdinaryInventory>
+  <FAF_CabinetInventory>Inside this freezer</FAF_CabinetInventory>
+  <FAF_TransferIn>Put inside…</FAF_TransferIn>
+  <FAF_TransferOut>Take out…</FAF_TransferOut>
+  <FAF_TransferCount>{0}: transfer {1}</FAF_TransferCount>
+  <FAF_StorageRejected>Cannot transfer. Check the storage filter, stack space, total weight limit and whether a sleeping pad is fitted.</FAF_StorageRejected>
+  <FAF_EmptyCabinet>No matching items inside this freezer.</FAF_EmptyCabinet>
+  <FAF_NoOrdinaryInventory>No matching pawn/caravan items. A packed freezer on the ground can eject contents here, but map items must be physically hauled in.</FAF_NoOrdinaryInventory>
+  <FAF_MapServiceUnavailable>Reconnecting power and taking out bottled coolant require an installed freezer. Stored coolant can still be used; adding it from carried supplies is a separate operation.</FAF_MapServiceUnavailable>
+  <FAF_ThermalDemand>Thermal demand: {0} W · {1}</FAF_ThermalDemand>
+  <FAF_Cooling>cooling</FAF_Cooling>
+  <FAF_Heating>heating</FAF_Heating>
+  <FAF_Passive>passive</FAF_Passive>
+  <FAF_RapidThermal>Rapid temperature control</FAF_RapidThermal>
+  <FAF_RapidThermalDesc>Increase thermal output and electricity use; backup coolant use rises only when cooling.</FAF_RapidThermalDesc>
+  <FAF_RefuelLaunch>Refill coolant</FAF_RefuelLaunch>
+  <FAF_RefuelLaunchDesc>Manually refill the tank for maneuvering, using the shared refill target. This does not turn on temperature control, coolant backup or automatic supply.</FAF_RefuelLaunchDesc>
+  <FAF_MapJump>Near-field pulse shift</FAF_MapJump>
+  <FAF_MapJumpDesc>Move this freezer, along with its cargo and occupant, up to {0} cells on this map; it can also move empty. Choose an explored, unroofed footprint with sufficient terrain support and valid construction and interaction space. Landing must not remove or destroy existing objects.</FAF_MapJumpDesc>
+  <FAF_MapJumpConfirm>Use {0} coolant for this move?</FAF_MapJumpConfirm>
+  <FAF_JumpComplete>Freezer repositioned.</FAF_JumpComplete>
+  <FAF_UnloadBeforeJump>Finish or cancel outstanding loading first. Only an occupant permitted by the current retrofit can accompany this move.</FAF_UnloadBeforeJump>
+  <FAF_InvalidCabinet>The freezer is no longer accessible, player-owned or eligible for this action.</FAF_InvalidCabinet>
+  <FAF_InvalidCaravan>The player caravan is no longer available.</FAF_InvalidCaravan>
+  <FAF_InvalidSleeper>Only one sleeper accepted by the original Nivarian fridge-bed rules may accompany this move.</FAF_InvalidSleeper>
+  <FAF_Cooldown>The freezer's pulse system is still recovering.</FAF_Cooldown>
+  <FAF_OutOfRange>The destination is outside the allowed range or is the current location.</FAF_OutOfRange>
+  <FAF_RoofBlocked>Clear the roof above the freezer's entire footprint first.</FAF_RoofBlocked>
+  <FAF_InvalidLanding>The full landing footprint must be within the map, explored, unroofed and supported, with valid construction and interaction space.</FAF_InvalidLanding>
+  <FAF_NotEnoughCoolant>At least one freezer does not have enough coolant.</FAF_NotEnoughCoolant>
+  <FAF_OverMass>The net payload is too heavy. Stored goods, sleeping pads, occupants, equipment and cargo count toward the limit; this freezer's shell does not.</FAF_OverMass>
+  <FAF_NotEnoughSeats>One passenger per freezer: the complete party needs enough valid freezers. Dead or destroyed passengers cannot board.</FAF_NotEnoughSeats>
+  <FAF_FinishLoading>Finish loading and have all travellers board before departure.</FAF_FinishLoading>
+  <FAF_ManifestChanged>The travellers or goods have changed. Choose the journey again.</FAF_ManifestChanged>
+  <FAF_InvalidDestination>No suitable arrival is available there. Choose another destination.</FAF_InvalidDestination>
+  <FAF_LaunchNotReady>Launch is not ready: check completed loading, one berth per passenger, mass, roof and pulse cooldown.</FAF_LaunchNotReady>
+  <FAF_Launch>Launch freezer group</FAF_Launch>
+  <FAF_LaunchDesc>Fly the loaded freezer group to its destination. At most one living occupant per freezer; {0} kg net payload per unit, excluding its shell. Maximum atmospheric range: {1} tiles. Occupants stay inside after landing.</FAF_LaunchDesc>
+  <FAF_LaunchCaravan>Launch whole caravan</FAF_LaunchCaravan>
+  <FAF_LaunchCaravanDesc>Use all carried freezers as one-person berths. Every caravan member and item must fit; otherwise nobody departs. Each freezer keeps its own contents and resource state.</FAF_LaunchCaravanDesc>
+  <FAF_LaunchConfirm>Send {0} occupants in {1} freezers for {2} coolant in total? Each freezer uses its own tank. Occupants remain inside after landing.</FAF_LaunchConfirm>
+  <FAF_WorldRange>Maximum surface range: {0} world tiles</FAF_WorldRange>
+  <FAF_CommitFailed>The move did not complete. Check the error log.</FAF_CommitFailed>
+  <FAF_CoolingDemand>Cooling demand: {0} W</FAF_CoolingDemand>
+  <FAF_CoolantStock>Coolant: {0} / {1}</FAF_CoolantStock>
+  <FAF_SwitchOff>Turn control off</FAF_SwitchOff>
+  <FAF_SwitchOn>Turn control on</FAF_SwitchOn>
+  <FAF_PowerSwitchPending>A colonist must operate the installed switch. Click again to cancel the pending change. A carried freezer switches directly.</FAF_PowerSwitchPending>
+  <FAF_CarriedUnitCount>Carried freezers: {0}</FAF_CarriedUnitCount>
+  <FAF_NativeInventoryHint>For ordinary caravan food, medicine and trade, take the required items out of the freezer first.</FAF_NativeInventoryHint>
+  <FAF_UnitPreview>Freezer #{0}: {1}; {2}/{3} kg; coolant cost {4}, available {5}.</FAF_UnitPreview>
+  <FAF_EmptyBerth>unoccupied berth</FAF_EmptyBerth>
+  <FAF_CargoPreview>Transport cargo: {0}</FAF_CargoPreview>
+  <FAF_BatteryStock>Battery: {0} / {1} Wd</FAF_BatteryStock>
+  <FAF_UnloadBeforePacking>Unload the transport bay and cancel unfinished loading before uninstalling or reinstalling. Refrigerated contents can stay inside.</FAF_UnloadBeforePacking>
+  <FAF_MapJumpBoardedDesc>Move this freezer, along with its cargo and occupant, up to {0} cells on this map; it can also move empty. Choose an explored, unroofed footprint with sufficient terrain support and valid construction and interaction space. Landing must not remove or destroy existing objects.</FAF_MapJumpBoardedDesc>
+  <FAF_JumpSleeperNotice>The sleeper's rest ends for this move. The freezer's bed can be used again after landing.</FAF_JumpSleeperNotice>
+  <FAF_JumpBoardedNotice>The occupant stays aboard. Riding inside does not grant a bed or sleep benefits.</FAF_JumpBoardedNotice>
+  <FAF_InvalidBoardedPassenger>The boarded passenger is no longer a living, valid transport occupant.</FAF_InvalidBoardedPassenger>
+  <FAF_UnpackPassengers>A living pawn is carried inside another passenger or cargo holder. Unpack and board each passenger separately; each needs its own freezer berth.</FAF_UnpackPassengers>
+  <FAF_NeedsCaravanOwner>Load at least one living player caravan owner before launch. An uncrewed launch cannot form a caravan.</FAF_NeedsCaravanOwner>
+  <FAF_RecoveryCreated>Some freezer payload could not be delivered. Its original freezers, cargo and remains are preserved at a freezer recovery point. Send another player caravan to collect them.</FAF_RecoveryCreated>
+  <FAF_RecoveryContents>Remaining payload stacks: {0}. {1}</FAF_RecoveryContents>
+  <FAF_RecoverCabinets>Recover freezer payload</FAF_RecoverCabinets>
+  <FAF_ApproachingRecovery>Approaching freezer recovery point</FAF_ApproachingRecovery>
+  <FAF_RecoveryPartial>Some payload was not accepted by the caravan and remains at the recovery point.</FAF_RecoveryPartial>
+  <FAF_RecoveryCabinetDesc>Open the freezer's temperature controls. Energy is still used and food can still spoil while waiting here; the recovery point provides no supplies.</FAF_RecoveryCabinetDesc>
+  <FAF_PodPlacementBlocked>Some payload could not be placed and remains safely inside this pod. Clear nearby cells, then retry unloading. Removing the pod preserves its remaining payload at a world recovery point.</FAF_PodPlacementBlocked>
+  <FAF_RetryPodPlacement>Retry unloading</FAF_RetryPodPlacement>
+  <FAF_CargoManagement>Cargo management</FAF_CargoManagement>
+  <FAF_CargoManagementDesc>Manage this freezer's stored goods and its actual occupants.</FAF_CargoManagementDesc>
+  <FAF_CargoGoods>Goods</FAF_CargoGoods>
+  <FAF_ColdStorage>Refrigerated storage</FAF_ColdStorage>
+  <FAF_TransportCargo>Transport cargo</FAF_TransportCargo>
+  <FAF_CargoArrangeLoading>Arrange loading…</FAF_CargoArrangeLoading>
+  <FAF_TransportCargoHint>Passengers are shown above. Use the loading orders to change the transport cargo.</FAF_TransportCargoHint>
+  <FAF_CargoTotalMass>Net payload: {0} / {1} kg (excluding shell)</FAF_CargoTotalMass>
+  <FAF_CargoItemMass>Mass: {0} kg</FAF_CargoItemMass>
+  <FAF_CargoCabinStatus>Inside: {0} · {1}</FAF_CargoCabinStatus>
+  <FAF_CargoExternalReadOnly>Goods cannot be transferred outside in the current situation.</FAF_CargoExternalReadOnly>
+  <FAF_CargoActionUnavailable>This action is not available here.</FAF_CargoActionUnavailable>
+  <FAF_PayloadTitle>Goods awaiting delivery</FAF_PayloadTitle>
+  <FAF_PayloadReadOnly>These people and goods remain here. No single freezer can currently be assigned to them; viewing does not move them.</FAF_PayloadReadOnly>
+  <FAF_RefuelOwnContents>Use stored coolant</FAF_RefuelOwnContents>
+  <FAF_CrewTitle>Occupants</FAF_CrewTitle>
+  <FAF_RestingTitle>Resting inside</FAF_RestingTitle>
+  <FAF_CrewCount>Occupants: {0} / 1</FAF_CrewCount>
+  <FAF_RestingCount>Current users: {0} / 1</FAF_RestingCount>
+  <FAF_CrewEmpty>No one is inside.</FAF_CrewEmpty>
+  <FAF_CrewEmptyAutonomous>No occupants. Cargo can travel on a route that supports autonomous flight.</FAF_CrewEmptyAutonomous>
+  <FAF_CrewOverCapacity>More than one occupant is present. Everyone is retained; resolve the extra occupancy before further boarding or departure.</FAF_CrewOverCapacity>
+  <FAF_CrewAboard>aboard</FAF_CrewAboard>
+  <FAF_CrewResting>resting</FAF_CrewResting>
+  <FAF_CrewDowned>downed</FAF_CrewDowned>
+  <FAF_CrewDead>deceased</FAF_CrewDead>
+  <FAF_CrewAnimal>animal passenger</FAF_CrewAnimal>
+  <FAF_CrewFood>Food: {0}</FAF_CrewFood>
+  <FAF_CrewEndRest>End rest</FAF_CrewEndRest>
+  <FAF_CrewExit>Leave cabin</FAF_CrewExit>
+  <FAF_CrewLocate>Locate</FAF_CrewLocate>
+  <FAF_CrewPending>Waiting to board: {0}</FAF_CrewPending>
+  <FAF_CrewCancelBoarding>Cancel arrangement</FAF_CrewCancelBoarding>
+  <FAF_CrewArrangeEntry>Arrange boarding…</FAF_CrewArrangeEntry>
+  <FAF_CrewEntryMapOnly>Boarding must be arranged at an installed freezer on the map.</FAF_CrewEntryMapOnly>
+  <FAF_CrewNoCandidates>No available characters are on this map.</FAF_CrewNoCandidates>
+  <FAF_CrewBedRule>Only eligible Nivarians can sleep in this freezer. Riding inside does not grant a bed or sleep benefits.</FAF_CrewBedRule>
+  <FAF_CrewAutonomousMission>Current control: autonomous flight.</FAF_CrewAutonomousMission>
+  <FAF_CrewAutonomyReady>Autonomous flight is available; the chosen route must still be suitable.</FAF_CrewAutonomyReady>
+  <FAF_CrewPresetRoute>Control: preset route.</FAF_CrewPresetRoute>
+  <FAF_CargoPhase_Invalid>Unavailable</FAF_CargoPhase_Invalid>
+  <FAF_CargoPhase_Map>Installed on a map</FAF_CargoPhase_Map>
+  <FAF_CargoPhase_Packed>Packed or being carried</FAF_CargoPhase_Packed>
+  <FAF_CargoPhase_Caravan>Carried by a caravan</FAF_CargoPhase_Caravan>
+  <FAF_CargoPhase_Departing>Taking off</FAF_CargoPhase_Departing>
+  <FAF_CargoPhase_MapFlight>Moving across the map</FAF_CargoPhase_MapFlight>
+  <FAF_CargoPhase_InTransit>In flight</FAF_CargoPhase_InTransit>
+  <FAF_CargoPhase_Landing>Landing or waiting to unload</FAF_CargoPhase_Landing>
+  <FAF_CargoPhase_Recovery>Waiting at a recovery point</FAF_CargoPhase_Recovery>
+  <FAF_CargoPhase_Transferring>Moving between carriers; please wait.</FAF_CargoPhase_Transferring>
+  <FAF_EnvironmentTitle>Cabin environment</FAF_EnvironmentTitle>
+  <FAF_EnvironmentPowered>Fully powered</FAF_EnvironmentPowered>
+  <FAF_EnvironmentUnpowered>Not fully powered</FAF_EnvironmentUnpowered>
+  <FAF_EnvironmentStandby>No occupants; standby</FAF_EnvironmentStandby>
+  <FAF_EnvironmentUnknown>Outside conditions unavailable</FAF_EnvironmentUnknown>
+  <FAF_EnvironmentVacuum>Vacuum inside {0} · outside {1}</FAF_EnvironmentVacuum>
+  <FAF_EnvironmentLoad>Environment demand {0} W · total demand {1} W</FAF_EnvironmentLoad>
+  <FAF_EnvironmentCaution>Vacuum level is not an oxygen gauge or a guarantee of a safe temperature. Environment protection needs electricity; coolant only cools. When power is short, environment protection takes priority.</FAF_EnvironmentCaution>
+  <FAF_DevFillBattery>DEV: Fill battery</FAF_DevFillBattery>
+  <FAF_DevEmptyBattery>DEV: Empty battery</FAF_DevEmptyBattery>
+  <FAF_DevFillCoolant>DEV: Fill coolant</FAF_DevFillCoolant>
+  <FAF_DevEmptyCoolant>DEV: Empty coolant</FAF_DevEmptyCoolant>
+  <FAF_RotateCounterclockwise>−90°/s · counterclockwise</FAF_RotateCounterclockwise>
+  <FAF_RotateHold>0 · hold angle</FAF_RotateHold>
+  <FAF_RotateClockwise>+90°/s · clockwise</FAF_RotateClockwise>
+  <FAF_RotateSetZero>Hold angle</FAF_RotateSetZero>
+  <FAF_AngularZeroHint>Zero holds the current angle. Turning rotation off returns the freezer upright.</FAF_AngularZeroHint>
+  <FAF_AngularInvalidHint>Enter a number from −90 to +90 degrees per second. This input has not been applied.</FAF_AngularInvalidHint>
+  <FAF_TemperatureInvalid>Enter a temperature from {0} to {1}.</FAF_TemperatureInvalid>
+  <FAF_BoardingLocked>Passenger boarding requires the completed SALT retrofit.</FAF_BoardingLocked>
+  <FAF_NoSafeExit>There is no safe place beside the freezer. The occupant will remain inside.</FAF_NoSafeExit>
+  <FAF_NoPendingBoarder>This character has no pending boarding arrangement here.</FAF_NoPendingBoarder>
+  <FAF_CruiseUnavailable>New freezer flights are unavailable in this game version. Check the error log.</FAF_CruiseUnavailable>
+  <FAF_AtmosphereRequired>Complete CREAM before a space route.</FAF_AtmosphereRequired>
+  <FAF_LandCabinetHere>Land the freezer here</FAF_LandCabinetHere>
+  <FAF_CruiseETA>Flight time remaining: {0}</FAF_CruiseETA>
+  <FAF_WorldFlightEstimate>Estimated world flight: {0} (takeoff and landing extra)</FAF_WorldFlightEstimate>
+  <FAF_CruiseEnteringOrbit>Entering orbit</FAF_CruiseEnteringOrbit>
+  <FAF_CruiseReturningSurface>Returning to the surface</FAF_CruiseReturningSurface>
+  <FAF_MapQuote>Distance {0}/{1} cells · coolant {2}\nRotate with the building rotation keys.</FAF_MapQuote>
+  <FAF_WorldQuote>Distance {0}/{1} target-layer tiles · group coolant {2}</FAF_WorldQuote>
+  <FAF_MapQuoteBudget>Hard range {0} cells · coolant range {1}\nDistance {2} · cost {3} · coolant afterwards {4}\nRotate with the building rotation keys.</FAF_MapQuoteBudget>
+  <FAF_WorldQuoteBudget>Hard range {0} target-layer tiles · coolant range {1}\nDistance {2} · group cost {3} · group coolant afterwards {4}</FAF_WorldQuoteBudget>
+  <FAF_QuoteRejected>Cannot travel: {0}</FAF_QuoteRejected>
+  <FAF_EnterCabinet>Enter freezer cabin</FAF_EnterCabinet>
+  <FAF_RestingOverCapacity>More than one character is inside. Everyone remains here; resolve the extra occupancy before arranging another use.</FAF_RestingOverCapacity>
+  <FAF_RestingPresent>inside</FAF_RestingPresent>
+  <FAF_RestingBedRule>Only eligible Nivarians can rest in this freezer.</FAF_RestingBedRule>
+  <FAF_CrewRest>Rest</FAF_CrewRest>
+  <FAF_CrewArrangeRest>Arrange rest…</FAF_CrewArrangeRest>
+  <FAF_CrewRestMapOnly>Rest can be arranged only at an installed freezer on a map.</FAF_CrewRestMapOnly>
+  <FAF_CrewActionFailed>The arrangement could not be completed. Check the current conditions and try again.</FAF_CrewActionFailed>
+  <FAF_CargoStoredMass>Freezer and contents: {0} kg</FAF_CargoStoredMass>
+  <FAF_BedUnavailable>This character cannot use the freezer bed right now.</FAF_BedUnavailable>
+  <FAF_ActualElectricalUse>Actual electrical use: {0} W</FAF_ActualElectricalUse>
+  <FAF_ActualElectricalUseUnknown>Actual electrical use: awaiting a reading</FAF_ActualElectricalUseUnknown>
+  <FAF_ActualElectricalUseDetails>Thermal control {0} W\nAtmosphere {1} W\nBattery self-discharge {2} W\nExcludes charging and power supplied to other devices.</FAF_ActualElectricalUseDetails>
+  <FAF_CancelArrangementsDesc>Cancel unfinished boarding and loading orders for this freezer group. Occupants and cargo already aboard remain inside; use the crew controls to leave.</FAF_CancelArrangementsDesc>
+  <FAF_UnsafeExitConfirm>The selected exit is hazardous: temperature {0}, vacuum {1}. Leave the freezer anyway?</FAF_UnsafeExitConfirm>
+
+  <FAF_RestPreparationPending>Waiting for rest conditions: {0}</FAF_RestPreparationPending>
+  <FAF_CancelRestPreparation>Cancel rest arrangement</FAF_CancelRestPreparation>
+  <FAF_EnvironmentPreparingKnown>Preparing cabin atmosphere · {0}</FAF_EnvironmentPreparingKnown>
+  <FAF_AbandonStation>Abandon station keeping</FAF_AbandonStation>
+  <FAF_AbandonStationDesc>Allow this empty freezer to stop retaining the orbital map.</FAF_AbandonStationDesc>
+  <FAF_EmptyBeforeAbandon>Remove all occupants, cargo and pending rest arrangements first.</FAF_EmptyBeforeAbandon>
+  <FAF_CooldownTimeRemaining>Cooldown remaining: {0} ({1} ticks).</FAF_CooldownTimeRemaining>
+  <FAF_LoadSelectionNoBerth>No free berth: each freezer holds at most one living occupant, including animals. Occupants, sleepers and valid boarding or rest arrangements use that berth. Deselect a passenger, cancel an arrangement, or add an eligible freezer.</FAF_LoadSelectionNoBerth>
+  <FAF_LandingWouldDestroy>Landing would remove or destroy {0}. Choose another spot or clear it yourself first.</FAF_LandingWouldDestroy>
+  <FAF_LeaveFreezer>Leave freezer</FAF_LeaveFreezer>
+  <FAF_LeaveFreezerDesc>Let the current user leave this freezer, ending any rest. Cargo, the sleeping pad and stored coolant remain inside. Hazardous outside conditions still require confirmation.</FAF_LeaveFreezerDesc>
+  <FAF_QuickDisembark>Disembark</FAF_QuickDisembark>
+  <FAF_QuickDisembarkDesc>Let the selected living occupant leave this freezer. Cargo, the sleeping pad and stored coolant remain inside. Hazardous outside conditions still require confirmation.</FAF_QuickDisembarkDesc>
+  <FAF_QuickExitChooseOne>There are {0} current users. Choose one to leave; everyone else remains inside.</FAF_QuickExitChooseOne>
+  <FAF_QuickExitTargets>Freezer: {0}\nCurrent users: {1}</FAF_QuickExitTargets>
+</LanguageData>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Defs>
+  <!-- Base costs are scaled once by Nivarian uplink settings. / 基础费用仅由涅瓦莲上行设置统一缩放一次。 -->
+  <ResearchTabDef ParentName="Nivarian_TechTab_Base">
+    <defName>FAF_Nivarian_Hidden_SPICE</defName>
+    <label>SPICE</label>
+    <generalDescription>Storage Preservation and Integrated Cooling Engineering</generalDescription>
+  </ResearchTabDef>
+  <ResearchProjectDef Name="FAF_SPICE_Base" ParentName="NivarianResearchProjectBase" Abstract="True">
+    <tab>FAF_Nivarian_Hidden_SPICE</tab>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+  <!-- EN: Entry projects stay discoverable; real prerequisites and material costs still govern research. -->
+  <!-- 中：入口科研保持可见；实际前置与耗材仍决定能否研究。 -->
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_Cabinet</defName>
+    <label>compact cryothermal cabinet assembly</label>
+    <description>After careful study, the Nivarian engineers who had a hand in the project have confirmed that a household freezer should be small enough to fit in a kitchen corner, clear enough to show what it keeps at a glance, and cool even when the power goes out.\n\nEffects: Unlocks the Nivarian household freezer. It refrigerates or freezes, with an adjustable cooling controller, a rechargeable built-in battery, optional coolant backup, and... well, everyone agrees its interior dimensions are very well judged.</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>Nivarian_CryoSynthesis</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>25</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>2</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>6</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>1</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter />
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_TOFU</defName>
+    <label>Project T.O.F.U</label>
+    <description>Thermally Optimized Flotation Unit.\n\nFloors may keep the dust; fridges may keep their distance. After a little thermal optimisation—and a confident &apos;It just works&apos; from the project lead—all compatible fridges can now hover a little above the floor.\n\nEffects: All storage units recognised as &quot;fridges&quot; can now hover and rotate in place. No need to worry about landing while spinning: they return upright first, then settle smoothly.\n\nThe commissioning engineer explained: &quot;A forty-five-kilogram shell, but only five kilograms to carry. The flotation unit handles the rest. As for the dinner, luggage, or little dragon inside who refuses to get out of bed—they&apos;re still as heavy as ever.&quot;</description>
+    <baseCost>1200</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>Nivarian_CryoSynthesis</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>10</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>1</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter />
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_CHIVE</defName>
+    <label>Project C.H.I.V.E</label>
+    <description>Cryothermal Hermetic Interface Validation Experiment.\n\nMost of a freezer&apos;s work is arguing with the room around it. Check every exterior seam once, and the argument gets much quieter.\n\nEffects: Halves the freezer&apos;s passive heat exchange with its surroundings, with or without power, so it holds its temperature longer when power runs out. Active cooling is unchanged.</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_TOFU</li>
+      <li>FAF_SPICE_Cabinet</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>20</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_Scale</thingDef>
+            <count>10</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>2</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_TOFU</li>
+          <li>FAF_SPICE_Cabinet</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_WALNUT</defName>
+    <label>Project W.A.L.N.U.T</label>
+    <description>Wideband Adaptive Load-bearing Network Under Transients.\n\nA carrying handle is only as confident as the shell it is fixed to, so the shell gets some attention first.\n\nEffects: Raises the freezer&apos;s maximum hit points from 260 to 390. Current hit points are unchanged, so existing damage still has to be repaired.</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_TOFU</li>
+      <li>FAF_SPICE_Cabinet</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>40</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>2</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>10</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_TOFU</li>
+          <li>FAF_SPICE_Cabinet</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_ONION</defName>
+    <label>Project O.N.I.O.N</label>
+    <description>Optimized Non-Euclidean Interior Occupancy Network.\n\nEvery household knows there is always room for one more box, provided someone rearranges the contents with enough conviction—mathematician or not. The engineering team has written that conviction into a specification.\n\nEffects: Raises the freezer&apos;s storage from 12 to 24 stacks. Stored items keep their normal mass. A sleeping pad still occupies the entire main refrigerated compartment.</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_CHIVE</li>
+      <li>FAF_SPICE_WALNUT</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Plasteel</thingDef>
+            <count>10</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>3</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>16</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_CHIVE</li>
+          <li>FAF_SPICE_WALNUT</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_BASIL</defName>
+    <label>Project B.A.S.I.L</label>
+    <description>Beta Assembly Stabilization In Liquids.\n\nA beta-stabilised assembly keeps the working fluid steadier in its lines, whether it is cooling a shelf or being pushed through a jet. The reserve is enlarged to suit.\n\nEffects: Raises the freezer&apos;s coolant reserve from 5 to 8 units. The upgrade adds no coolant, so the new space has to be filled as usual.</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_ONION</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>3</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>12</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>5</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_ONION</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_CREAM</defName>
+    <label>Project C.R.E.A.M</label>
+    <description>Closed-loop Regulation of Enclosed Atmospheres and Microclimates.\n\nEvery household overshoots eventually. A controller that can correct only one side of the error has simply decided to be wrong on the other.\n\nEffects: Replaces the cooling controller with the full smart thermostat, adding heating and a target limit of 40 °C. Once enabled, food preservation is taken care of; as for mischievous little dragons that climb inside on purpose, the freezer has to mind their breathing too. When a living occupant is inside or the freezer is preparing for their rest, it uses 80 W to maintain breathable air; temperature control costs extra. Without power, pressure inside gradually approaches outside pressure; temperature also drifts unless backup cooling remains available. Grid or built-in battery power can heat or cool; coolant only cools, supplying neither heat nor air. The thermostat also shows resource amounts, net flows and remaining-time estimates.</description>
+    <baseCost>1800</baseCost>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_ONION</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>35</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>3</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>6</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>2</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_ONION</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_GARLIC</defName>
+    <label>Project G.A.R.L.I.C</label>
+    <description>Guidance, Attitude Reconstruction, Localization, and Integrated Control.\n\nGuidance, attitude and localisation, to put it as plainly and directly as possible, mean getting the freezer to do as it is told. A higher-capacity battery assembly and a controller that balances its modules finally fit in the same casing.\n\nEffects: Raises the built-in battery capacity from 360 to 720 Wd and lowers self-discharge from 5 to 4 W. Stored energy is unchanged; the upgrade adds no charge. Adds a manually enabled steady-hover mode that reduces vertical bobbing, plus fine control of rotation speed in either direction. Rotation remains independently switchable.</description>
+    <baseCost>2400</baseCost>
+    <researchViewX>5</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_BASIL</li>
+      <li>FAF_SPICE_CREAM</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Plasteel</thingDef>
+            <count>20</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>4</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>12</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_BASIL</li>
+          <li>FAF_SPICE_CREAM</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_PEPPER</defName>
+    <label>Project P.E.P.P.E.R</label>
+    <description>Predictive Emergency Pulse Planning, Execution, Recovery.\n\nLong ago there was a car that could fly without a flotation engine. We have borrowed only a little of its inspiration: some emergency nozzles, and a plan for when the thermostat cannot keep up with changing conditions.\n\nEffects: Adds emergency nozzles to the freezer and an optional rapid mode. In rapid mode, active thermal output and actual electricity or coolant consumption both rise threefold. Electricity can heat or cool; coolant can only cool.</description>
+    <baseCost>2400</baseCost>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_BASIL</li>
+      <li>FAF_SPICE_CREAM</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Steel</thingDef>
+            <count>50</count>
+          </li>
+          <li>
+            <thingDef>Plasteel</thingDef>
+            <count>15</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>4</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>5</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_BASIL</li>
+          <li>FAF_SPICE_CREAM</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_HOPS</defName>
+    <label>Project H.O.P.S</label>
+    <description>High-precision On-site Pulse Shifting.\n\nWhen the destination is only a few steps away, a cold chain should not have to take the long way round.\n\nEffects: Unlocks a short jump for the freezer within the same map, up to 35 cells, taking its contents with it. Each jump uses coolant from the same reserve and is followed by a cooldown.</description>
+    <baseCost>3200</baseCost>
+    <researchViewX>6</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_BASIL</li>
+      <li>FAF_SPICE_GARLIC</li>
+      <li>FAF_SPICE_PEPPER</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Plasteel</thingDef>
+            <count>25</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>6</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>20</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>8</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_BASIL</li>
+          <li>FAF_SPICE_GARLIC</li>
+          <li>FAF_SPICE_PEPPER</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_SALT</defName>
+    <label>Project S.A.L.T</label>
+    <description>Subsystem Alignment and Load Testing.\n\nEach subsystem has passed its own checks. What remains is to see whether they still agree once the appliance is properly loaded.\n\nEffects: Completes subsystem alignment and load validation, and finalises the freezer&apos;s hardware configuration.</description>
+    <baseCost>4000</baseCost>
+    <researchViewX>7</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_HOPS</li>
+      <li>FAF_SPICE_DILL</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li>
+            <thingDef>Plasteel</thingDef>
+            <count>40</count>
+          </li>
+          <li>
+            <thingDef>ComponentIndustrial</thingDef>
+            <count>8</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_DragonCrystal</thingDef>
+            <count>30</count>
+          </li>
+          <li>
+            <thingDef>Nivarian_CryoCoolant</thingDef>
+            <count>10</count>
+          </li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_HOPS</li>
+          <li>FAF_SPICE_DILL</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+    <discoveredLetterTitle>Freezer reclassification complete</discoveredLetterTitle>
+    <discoveredLetterText>After a week of intensive testing, none of the engineers—not even Nira—can quite believe it: this fully upgraded freezer can no longer be classified as a household appliance.\n\nJoint S.A.L.T testing has confirmed that the Nivarian household freezer is also a single-occupant space shuttle.\n\nPlease note that limited built-in life-support power allows at most one living occupant per freezer, with additional cargo within its load limit. A whole caravan can travel as a group of freezers. Autonomous deliveries can reach suitable destinations without a pilot: they can carry cargo alone, or let one of your animal friends experience the joy of flight.\n\nAnd if you are ready to go to infinity and beyond (that is, with Odyssey enabled), orbit is an option too.</discoveredLetterText>
+  </ResearchProjectDef>
+    <ResearchProjectDef ParentName="FAF_SPICE_Base">
+    <defName>FAF_SPICE_DILL</defName>
+    <label>Project D.I.L.L</label>
+    <description>Demand-driven Internal Liquid Logistics.\n\nA reserve of coolant is reassuring, so long as nobody assumes someone else will refill it. The freezer has now been given that job.\n\nEffects: Unlocks optional automatic coolant replenishment using the same target as manual refilling. The freezer first uses whole containers of coolant from its own cargo. On a map, a worker fetches outside supplies only when this stock is exhausted and more coolant is needed. It waits if there is not room for a whole bottle below the target. Automatic supply is off by default and works without power, temperature control or coolant backup; it does not switch them on. Manual refilling remains available.</description>
+    <baseCost>3200</baseCost>
+    <researchViewX>6</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>FAF_SPICE_BASIL</li>
+      <li>FAF_SPICE_GARLIC</li>
+      <li>FAF_SPICE_PEPPER</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Nivarian.ResearchCostExtension">
+        <requiredMaterials>
+          <li><thingDef>Plasteel</thingDef><count>20</count></li>
+          <li><thingDef>ComponentIndustrial</thingDef><count>6</count></li>
+          <li><thingDef>Nivarian_DragonCrystal</thingDef><count>20</count></li>
+          <li><thingDef>Nivarian_CryoCoolant</thingDef><count>4</count></li>
+        </requiredMaterials>
+      </li>
+      <li Class="FAF.Cabinet.Integration.CabinetResearchVisibility">
+        <revealAfter>
+          <li>FAF_SPICE_BASIL</li>
+          <li>FAF_SPICE_GARLIC</li>
+          <li>FAF_SPICE_PEPPER</li>
+        </revealAfter>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+<FAF.Cabinet.Research.CabinetUpgradeSettingsDef>
+    <defName>FAF_SPICE_Profile</defName>
+    <baseCapacityStacks>12</baseCapacityStacks>
+    <expandedCapacityStacks>24</expandedCapacityStacks>
+    <insulationExchangeFactor>0.5</insulationExchangeFactor>
+    <flotationHullMassDivisor>9</flotationHullMassDivisor>
+    <reinforcedHitPointsFactor>1.5</reinforcedHitPointsFactor>
+    <heatingMaximumTarget>40</heatingMaximumTarget>
+    <rapidThermalMultiplier>3</rapidThermalMultiplier>
+    <baseCoolantCapacity>5</baseCoolantCapacity>
+    <expandedCoolantCapacity>8</expandedCoolantCapacity>
+    <baseBatteryCapacityWattDays>360</baseBatteryCapacityWattDays>
+    <upgradedBatteryCapacityWattDays>720</upgradedBatteryCapacityWattDays>
+    <baseBatterySelfDischargeWatts>5</baseBatterySelfDischargeWatts>
+    <upgradedBatterySelfDischargeWatts>4</upgradedBatterySelfDischargeWatts>
+  </FAF.Cabinet.Research.CabinetUpgradeSettingsDef>
+</Defs>

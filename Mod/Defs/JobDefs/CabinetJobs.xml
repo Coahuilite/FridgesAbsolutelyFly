@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Defs>
+  <!-- Standard hauling job, item A to cabinet B. / 标准搬运任务：将物品A搬至柜B。 -->
+  <JobDef>
+    <defName>FAF_LoadCabinet</defName>
+    <driverClass>FAF.Cabinet.JobDriver_LoadCabinet</driverClass>
+    <reportString>loading TargetA into TargetB.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <!-- Native uninstall work followed by physical carrying. / 原版卸下工作之后进行实体搬运。 -->
+  <JobDef>
+    <defName>FAF_InstallCabinetMattress</defName>
+    <driverClass>FAF.Cabinet.JobDriver_InstallCabinetMattress</driverClass>
+    <reportString>fitting TargetA into TargetB.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <!-- The Job Def carries explicit clearing consent across native driver creation and saves.
+       Job Def让明确清仓授权跨原生driver创建及存读档延续。 -->
+  <JobDef>
+    <defName>FAF_LoadCabinetMattressClearingConfirmed</defName>
+    <driverClass>FAF.Cabinet.JobDriver_LoadCabinet</driverClass>
+    <reportString>loading TargetA into TargetB.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>FAF_InstallCabinetMattressClearingConfirmed</defName>
+    <driverClass>FAF.Cabinet.JobDriver_InstallCabinetMattress</driverClass>
+    <reportString>fitting TargetA into TargetB.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <!-- Explicit launch refuelling shares the whole-bottle hauling driver, not thermal-backup eligibility.
+       明确机动补液共用整瓶搬运驱动，不继承温控备用门槛。 -->
+  <JobDef>
+    <defName>FAF_RefuelCabinetForLaunch</defName>
+    <driverClass>FAF.Cabinet.JobDriver_RefuelCabinet</driverClass>
+    <reportString>adding manoeuvre coolant to TargetA.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>FAF_RefuelCabinetAutomatically</defName>
+    <driverClass>FAF.Cabinet.JobDriver_RefuelCabinet</driverClass>
+    <reportString>replenishing TargetA with coolant.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>FAF_RefuelCabinetManually</defName>
+    <driverClass>FAF.Cabinet.JobDriver_RefuelCabinet</driverClass>
+    <reportString>replenishing TargetA with coolant.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>

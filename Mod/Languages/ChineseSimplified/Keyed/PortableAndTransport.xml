@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_Steady>稳姿悬浮</FAF_Steady>
+  <FAF_SteadyDesc>减小悬浮时的上下晃动；旋转由独立开关控制。</FAF_SteadyDesc>
+  <FAF_AngularSpeed>精细角速度</FAF_AngularSpeed>
+  <FAF_AngularSpeedDesc>调整冷柜旋转的方向与速度。</FAF_AngularSpeedDesc>
+  <FAF_AngularSpeedValue>旋转：标准游戏速度下{0}度/秒</FAF_AngularSpeedValue>
+  <FAF_PortableCabinets>便携冷柜</FAF_PortableCabinets>
+  <FAF_PortableCabinetsDesc>管理此角色或远行队携带的冷柜。</FAF_PortableCabinetsDesc>
+  <FAF_Inventory>货物管理</FAF_Inventory>
+  <FAF_InventoryTitle>{0} — 柜号 #{1}</FAF_InventoryTitle>
+  <FAF_SelectCabinet>选择携带的冷柜</FAF_SelectCabinet>
+  <FAF_StackCapacity>叠数：{0} / {1}</FAF_StackCapacity>
+  <FAF_OrdinaryInventory>携带库存</FAF_OrdinaryInventory>
+  <FAF_CabinetInventory>此冷柜内部库存</FAF_CabinetInventory>
+  <FAF_TransferIn>装入…</FAF_TransferIn>
+  <FAF_TransferOut>取出…</FAF_TransferOut>
+  <FAF_TransferCount>{0}：转移 {1}</FAF_TransferCount>
+  <FAF_StorageRejected>无法转移。请检查储存筛选、叠位、总载重上限及是否已装睡垫。</FAF_StorageRejected>
+  <FAF_EmptyCabinet>此冷柜内没有匹配物品。</FAF_EmptyCabinet>
+  <FAF_NoOrdinaryInventory>没有匹配的角色／队伍物品。地面包裹可在此取出内容物；地图物品仍须实际搬入。</FAF_NoOrdinaryInventory>
+  <FAF_MapServiceUnavailable>重新接线与退瓶需先安装冷柜。柜内冷却液仍可使用；也可另从携带补给补充。</FAF_MapServiceUnavailable>
+  <FAF_ThermalDemand>温控需求：{0} W · {1}</FAF_ThermalDemand>
+  <FAF_Cooling>制冷</FAF_Cooling>
+  <FAF_Heating>制热</FAF_Heating>
+  <FAF_Passive>被动换热</FAF_Passive>
+  <FAF_RapidThermal>快速稳温</FAF_RapidThermal>
+  <FAF_RapidThermalDesc>提高温控输出与用电；备用冷却液仅在制冷时同步增加消耗。</FAF_RapidThermalDesc>
+  <FAF_RefuelLaunch>补充冷却液</FAF_RefuelLaunch>
+  <FAF_RefuelLaunchDesc>为机动手动补液，使用共用补液目标；不会开启温控、冷却液备用或自动供液。</FAF_RefuelLaunchDesc>
+  <FAF_MapJump>近场脉冲转运</FAF_MapJump>
+  <FAF_MapJumpDesc>将本柜及其中人货移至本地图{0}格内，空柜也可移动。落点须已探索、无屋顶、承重足够，并满足建造与交互空间要求；落地不能移除或破坏原有物体。</FAF_MapJumpDesc>
+  <FAF_MapJumpConfirm>本次移动消耗{0}份冷却液？</FAF_MapJumpConfirm>
+  <FAF_JumpComplete>冷柜已转移。</FAF_JumpComplete>
+  <FAF_UnloadBeforeJump>请先完成或取消待办装载；本次移动仅携带当前改装所允许的乘员。</FAF_UnloadBeforeJump>
+  <FAF_InvalidCabinet>冷柜已不可访问、不属玩家，或不满足此操作条件。</FAF_InvalidCabinet>
+  <FAF_InvalidCaravan>玩家远行队已不可用。</FAF_InvalidCaravan>
+  <FAF_InvalidSleeper>本次移动最多携带一位符合原涅瓦莲冰箱床规则的睡眠者。</FAF_InvalidSleeper>
+  <FAF_Cooldown>冷柜脉冲系统仍在恢复。</FAF_Cooldown>
+  <FAF_OutOfRange>目的地超出允许射程，或与当前位置相同。</FAF_OutOfRange>
+  <FAF_RoofBlocked>请先移除冷柜完整占地上方的屋顶。</FAF_RoofBlocked>
+  <FAF_InvalidLanding>完整落点须在地图内、已探索、无屋顶且承重足够，并满足建造与交互空间要求。</FAF_InvalidLanding>
+  <FAF_NotEnoughCoolant>至少一个冷柜的冷却液不足。</FAF_NotEnoughCoolant>
+  <FAF_OverMass>净载荷过重。柜内物品、睡垫、乘员、装备和货物均计入上限，本柜壳不占载荷额度。</FAF_OverMass>
+  <FAF_NotEnoughSeats>每柜一人：整支队伍必须有足够有效冷柜。死亡或已销毁的乘员不能登舱。</FAF_NotEnoughSeats>
+  <FAF_FinishLoading>请先完成装载，并让所有随行者登舱再出发。</FAF_FinishLoading>
+  <FAF_ManifestChanged>随行人员或货物已改变，请重新选择航程。</FAF_ManifestChanged>
+  <FAF_InvalidDestination>该处没有合适的抵达方式，请另选目的地。</FAF_InvalidDestination>
+  <FAF_LaunchNotReady>发射尚未就绪：请检查装载完成、每人一个载位、质量、屋顶与脉冲冷却。</FAF_LaunchNotReady>
+  <FAF_Launch>发射冷柜组</FAF_Launch>
+  <FAF_LaunchDesc>让已装载的冷柜组飞往目的地。每柜净载荷最多{0}kg，不含本柜壳；至多1名活乘员。大气内最远{1}格。着陆后乘员仍留在柜内。</FAF_LaunchDesc>
+  <FAF_LaunchCaravan>发射整支远行队</FAF_LaunchCaravan>
+  <FAF_LaunchCaravanDesc>用所携冷柜提供每柜一人的载位。所有队员与物品均须满足条件，否则无人出发；各柜保留各自库存与资源。</FAF_LaunchCaravanDesc>
+  <FAF_LaunchConfirm>用{1}个冷柜运送{0}名使用者，共耗{2}份冷却液？各柜使用自己的液仓；着陆后乘员留在柜内。</FAF_LaunchConfirm>
+  <FAF_WorldRange>地表最大射程：{0} 世界格</FAF_WorldRange>
+  <FAF_CommitFailed>此次移动未完成，请查看错误日志。</FAF_CommitFailed>
+  <FAF_CoolingDemand>制冷需求：{0} W</FAF_CoolingDemand>
+  <FAF_CoolantStock>冷却液：{0} / {1}</FAF_CoolantStock>
+  <FAF_SwitchOff>关闭温控</FAF_SwitchOff>
+  <FAF_SwitchOn>开启温控</FAF_SwitchOn>
+  <FAF_PowerSwitchPending>已安装冷柜须由殖民者操作开关；再次点击可取消待办切换。携带中的冷柜直接切换。</FAF_PowerSwitchPending>
+  <FAF_CarriedUnitCount>携带冷柜：{0} 个</FAF_CarriedUnitCount>
+  <FAF_NativeInventoryHint>队伍取食、用药或交易时，请先从冷柜取出所需物品。</FAF_NativeInventoryHint>
+  <FAF_UnitPreview>冷柜 #{0}：{1}；{2}/{3} kg；耗液 {4}，现存 {5}。</FAF_UnitPreview>
+  <FAF_EmptyBerth>空载位</FAF_EmptyBerth>
+  <FAF_CargoPreview>运输货物：{0}</FAF_CargoPreview>
+  <FAF_BatteryStock>电池：{0} / {1} Wd</FAF_BatteryStock>
+  <FAF_UnloadBeforePacking>卸下或重新安装前，请先清空运输舱并取消未完成装载；冷藏库存可以保留在柜内。</FAF_UnloadBeforePacking>
+  <FAF_MapJumpBoardedDesc>将本柜及其中人货移至本地图{0}格内，空柜也可移动。落点须已探索、无屋顶、承重足够，并满足建造与交互空间要求；落地不能移除或破坏原有物体。</FAF_MapJumpBoardedDesc>
+  <FAF_JumpSleeperNotice>本次移动会结束当前休息；着陆后可再次使用柜内床位。</FAF_JumpSleeperNotice>
+  <FAF_JumpBoardedNotice>使用者继续留舱；乘坐不会获得床位或睡眠收益。</FAF_JumpBoardedNotice>
+  <FAF_InvalidBoardedPassenger>已登舱者已不再是有效的存活运输乘员。</FAF_InvalidBoardedPassenger>
+  <FAF_UnpackPassengers>有存活角色被另一位乘员或货物容器持有。请先取出，并让每名乘员分别登舱；每人均须一个冷柜载位。</FAF_UnpackPassengers>
+  <FAF_NeedsCaravanOwner>发射前至少装载一名存活、具备玩家远行队归属资格的乘员。无人载荷不能组成远行队。</FAF_NeedsCaravanOwner>
+  <FAF_RecoveryCreated>部分冷柜载荷无法交付。原冷柜、货物和遗体保留在冷柜迫降点；可派另一支玩家远行队前往回收。</FAF_RecoveryCreated>
+  <FAF_RecoveryContents>剩余载荷叠数：{0}。{1}</FAF_RecoveryContents>
+  <FAF_RecoverCabinets>回收冷柜载荷</FAF_RecoverCabinets>
+  <FAF_ApproachingRecovery>正在接近冷柜迫降点</FAF_ApproachingRecovery>
+  <FAF_RecoveryPartial>部分载荷未能被远行队接纳，仍保留在迫降点。</FAF_RecoveryPartial>
+  <FAF_RecoveryCabinetDesc>打开冷柜温控。等待期间仍会耗能，食物仍可能腐烂；迫降点不提供补给。</FAF_RecoveryCabinetDesc>
+  <FAF_PodPlacementBlocked>部分载荷无法放置，仍安全保留在本舱内。清理邻近格后重试卸载；移除此舱会将剩余载荷保留至世界迫降点。</FAF_PodPlacementBlocked>
+  <FAF_RetryPodPlacement>重试卸载</FAF_RetryPodPlacement>
+  <FAF_CargoManagement>货物管理</FAF_CargoManagement>
+  <FAF_CargoManagementDesc>管理此冷柜的货物与实际使用者。</FAF_CargoManagementDesc>
+  <FAF_CargoGoods>货物</FAF_CargoGoods>
+  <FAF_ColdStorage>冷藏储存</FAF_ColdStorage>
+  <FAF_TransportCargo>运输货物</FAF_TransportCargo>
+  <FAF_CargoArrangeLoading>安排装载…</FAF_CargoArrangeLoading>
+  <FAF_TransportCargoHint>乘员列在上方。请使用装载指令调整运输货物。</FAF_TransportCargoHint>
+  <FAF_CargoTotalMass>净载荷：{0} / {1} kg（不含柜壳）</FAF_CargoTotalMass>
+  <FAF_CargoItemMass>质量：{0} kg</FAF_CargoItemMass>
+  <FAF_CargoCabinStatus>柜内：{0} · {1}</FAF_CargoCabinStatus>
+  <FAF_CargoExternalReadOnly>当前场景不能向外转移货物。</FAF_CargoExternalReadOnly>
+  <FAF_CargoActionUnavailable>此处暂不能执行这项操作。</FAF_CargoActionUnavailable>
+  <FAF_PayloadTitle>待交付货物</FAF_PayloadTitle>
+  <FAF_PayloadReadOnly>这些人员与货物仍保留在此，目前无法对应到单个冷柜。此页只供查看，不会移动他们。</FAF_PayloadReadOnly>
+  <FAF_RefuelOwnContents>使用柜内冷却液</FAF_RefuelOwnContents>
+  <FAF_CrewTitle>乘员</FAF_CrewTitle>
+  <FAF_RestingTitle>休息者</FAF_RestingTitle>
+  <FAF_CrewCount>乘员：{0} / 1</FAF_CrewCount>
+  <FAF_RestingCount>当前使用者：{0}／1</FAF_RestingCount>
+  <FAF_CrewEmpty>当前无人使用。</FAF_CrewEmpty>
+  <FAF_CrewEmptyAutonomous>无乘员。可选择支持自动巡航的航线运送货物。</FAF_CrewEmptyAutonomous>
+  <FAF_CrewOverCapacity>当前有多位使用者，所有人均予以保留。请先处理额外占用，再安排入舱或出发。</FAF_CrewOverCapacity>
+  <FAF_CrewAboard>已入舱</FAF_CrewAboard>
+  <FAF_CrewResting>休息中</FAF_CrewResting>
+  <FAF_CrewDowned>倒地</FAF_CrewDowned>
+  <FAF_CrewDead>已死亡</FAF_CrewDead>
+  <FAF_CrewAnimal>动物乘员</FAF_CrewAnimal>
+  <FAF_CrewFood>饱食度：{0}</FAF_CrewFood>
+  <FAF_CrewEndRest>结束休息</FAF_CrewEndRest>
+  <FAF_CrewExit>出舱</FAF_CrewExit>
+  <FAF_CrewLocate>定位</FAF_CrewLocate>
+  <FAF_CrewPending>待登舱：{0}</FAF_CrewPending>
+  <FAF_CrewCancelBoarding>取消安排</FAF_CrewCancelBoarding>
+  <FAF_CrewArrangeEntry>安排入舱…</FAF_CrewArrangeEntry>
+  <FAF_CrewEntryMapOnly>请在地图上已安装的冷柜处安排入舱。</FAF_CrewEntryMapOnly>
+  <FAF_CrewNoCandidates>本地图没有可用的角色。</FAF_CrewNoCandidates>
+  <FAF_CrewBedRule>只有符合条件的涅瓦莲能在本柜睡眠。乘坐不会获得床位或睡眠收益。</FAF_CrewBedRule>
+  <FAF_CrewAutonomousMission>当前控制：自动巡航。</FAF_CrewAutonomousMission>
+  <FAF_CrewAutonomyReady>已具备自动巡航能力，仍须选择合适航线。</FAF_CrewAutonomyReady>
+  <FAF_CrewPresetRoute>控制方式：预设航程。</FAF_CrewPresetRoute>
+  <FAF_CargoPhase_Invalid>不可用</FAF_CargoPhase_Invalid>
+  <FAF_CargoPhase_Map>已安装于地图</FAF_CargoPhase_Map>
+  <FAF_CargoPhase_Packed>已打包或携带中</FAF_CargoPhase_Packed>
+  <FAF_CargoPhase_Caravan>由远行队携带</FAF_CargoPhase_Caravan>
+  <FAF_CargoPhase_Departing>正在起飞</FAF_CargoPhase_Departing>
+  <FAF_CargoPhase_MapFlight>正在地图内飞行</FAF_CargoPhase_MapFlight>
+  <FAF_CargoPhase_InTransit>航程中</FAF_CargoPhase_InTransit>
+  <FAF_CargoPhase_Landing>正在着陆或等待卸载</FAF_CargoPhase_Landing>
+  <FAF_CargoPhase_Recovery>在迫降点等待回收</FAF_CargoPhase_Recovery>
+  <FAF_CargoPhase_Transferring>正在转移，请稍候。</FAF_CargoPhase_Transferring>
+  <FAF_EnvironmentTitle>柜内环境</FAF_EnvironmentTitle>
+  <FAF_EnvironmentPowered>供电正常</FAF_EnvironmentPowered>
+  <FAF_EnvironmentUnpowered>供电不足</FAF_EnvironmentUnpowered>
+  <FAF_EnvironmentStandby>无人使用，待机中</FAF_EnvironmentStandby>
+  <FAF_EnvironmentUnknown>外部环境未知</FAF_EnvironmentUnknown>
+  <FAF_EnvironmentVacuum>真空度：柜内 {0} · 柜外 {1}</FAF_EnvironmentVacuum>
+  <FAF_EnvironmentLoad>环境维持需求 {0} W · 当前总负载 {1} W</FAF_EnvironmentLoad>
+  <FAF_EnvironmentCaution>真空度不是氧气表，也不表示温度适宜。环境保障需要电力，冷却液只能降温。电力不足时优先维持环境保障。</FAF_EnvironmentCaution>
+  <FAF_DevFillBattery>DEV：充满电池</FAF_DevFillBattery>
+  <FAF_DevEmptyBattery>DEV：清空电池</FAF_DevEmptyBattery>
+  <FAF_DevFillCoolant>DEV：加满冷却液</FAF_DevFillCoolant>
+  <FAF_DevEmptyCoolant>DEV：清空冷却液</FAF_DevEmptyCoolant>
+  <FAF_RotateCounterclockwise>−90°/秒 · 逆时针</FAF_RotateCounterclockwise>
+  <FAF_RotateHold>0 · 保持角度</FAF_RotateHold>
+  <FAF_RotateClockwise>+90°/秒 · 顺时针</FAF_RotateClockwise>
+  <FAF_RotateSetZero>保持角度</FAF_RotateSetZero>
+  <FAF_AngularZeroHint>速度为零时保持当前角度；关闭旋转才会回正。</FAF_AngularZeroHint>
+  <FAF_AngularInvalidHint>请输入−90至+90度/秒的数字。此输入尚未采用。</FAF_AngularInvalidHint>
+  <FAF_TemperatureInvalid>请输入{0}至{1}之间的温度。</FAF_TemperatureInvalid>
+  <FAF_BoardingLocked>乘员登舱需要完成SALT改装。</FAF_BoardingLocked>
+  <FAF_NoSafeExit>冷柜旁没有可用的安全站位；当前使用者留在柜内。</FAF_NoSafeExit>
+  <FAF_NoPendingBoarder>此角色没有本柜待登舱安排。</FAF_NoPendingBoarder>
+  <FAF_CruiseUnavailable>当前游戏版本无法安排新的冷柜航程。请查看错误日志。</FAF_CruiseUnavailable>
+  <FAF_AtmosphereRequired>空间航程需先完成CREAM。</FAF_AtmosphereRequired>
+  <FAF_LandCabinetHere>冷柜在此着陆</FAF_LandCabinetHere>
+  <FAF_CruiseETA>剩余航程时间：{0}</FAF_CruiseETA>
+  <FAF_WorldFlightEstimate>预计世界航行：{0}（起降另计）</FAF_WorldFlightEstimate>
+  <FAF_CruiseEnteringOrbit>正在入轨</FAF_CruiseEnteringOrbit>
+  <FAF_CruiseReturningSurface>正在返回地表</FAF_CruiseReturningSurface>
+  <FAF_MapQuote>距离{0}/{1}格 · 冷却液{2}\n使用建筑旋转键调整落点朝向。</FAF_MapQuote>
+  <FAF_WorldQuote>目标层距离{0}/{1}格 · 编组耗液{2}</FAF_WorldQuote>
+  <FAF_MapQuoteBudget>最大范围{0}格 · 工质可达{1}格\n当前距离{2}格 · 耗液{3} · 移动后余液{4}\n使用建筑旋转键调整落点朝向。</FAF_MapQuoteBudget>
+  <FAF_WorldQuoteBudget>目标层最大范围{0}格 · 工质可达{1}格\n当前距离{2}格 · 编组耗液{3} · 移动后编组余液{4}</FAF_WorldQuoteBudget>
+  <FAF_QuoteRejected>无法前往：{0}</FAF_QuoteRejected>
+  <FAF_EnterCabinet>进入冷柜舱</FAF_EnterCabinet>
+  <FAF_RestingOverCapacity>柜内有多位使用者，所有人均予以保留。请先处理额外占用，再安排新的使用者。</FAF_RestingOverCapacity>
+  <FAF_RestingPresent>柜内</FAF_RestingPresent>
+  <FAF_RestingBedRule>只有符合条件的涅瓦莲能在本柜休息。</FAF_RestingBedRule>
+  <FAF_CrewRest>休息</FAF_CrewRest>
+  <FAF_CrewArrangeRest>安排休息…</FAF_CrewArrangeRest>
+  <FAF_CrewRestMapOnly>请在地图上已安装的冷柜处安排休息。</FAF_CrewRestMapOnly>
+  <FAF_CrewActionFailed>未能完成安排。请检查当前条件后重试。</FAF_CrewActionFailed>
+  <FAF_CargoStoredMass>冷柜及其内容物：{0} kg</FAF_CargoStoredMass>
+  <FAF_BedUnavailable>此角色目前无法使用柜内床位。</FAF_BedUnavailable>
+  <FAF_ActualElectricalUse>实际合计耗电：{0} W</FAF_ActualElectricalUse>
+  <FAF_ActualElectricalUseUnknown>实际合计耗电：正在取得读数</FAF_ActualElectricalUseUnknown>
+  <FAF_ActualElectricalUseDetails>温控 {0} W\n气氛维持 {1} W\n电池自放电 {2} W\n不含充电及对其他设备的供电。</FAF_ActualElectricalUseDetails>
+  <FAF_CancelArrangementsDesc>取消本编组尚未完成的登舱与装载安排。已入舱的乘员和货物留在原舱内；出舱请使用乘员操作。</FAF_CancelArrangementsDesc>
+  <FAF_UnsafeExitConfirm>选定出口环境危险：温度{0}，真空度{1}。仍要离开冷柜吗？</FAF_UnsafeExitConfirm>
+
+  <FAF_RestPreparationPending>等待休息环境：{0}</FAF_RestPreparationPending>
+  <FAF_CancelRestPreparation>取消休息安排</FAF_CancelRestPreparation>
+  <FAF_EnvironmentPreparingKnown>正在准备柜内气氛 · {0}</FAF_EnvironmentPreparingKnown>
+  <FAF_AbandonStation>放弃驻留</FAF_AbandonStation>
+  <FAF_AbandonStationDesc>允许这台空冷柜不再保留当前轨道地图。</FAF_AbandonStationDesc>
+  <FAF_EmptyBeforeAbandon>请先移出所有住客与物品，并取消待休息安排。</FAF_EmptyBeforeAbandon>
+  <FAF_CooldownTimeRemaining>冷却剩余：{0}（{1} tick）。</FAF_CooldownTimeRemaining>
+  <FAF_LoadSelectionNoBerth>没有空余载位：每柜最多容纳一名存活乘员，动物也占一席。已入舱者、休息者及有效的登舱或休息安排会占用对应载位。请减少所选乘员、取消安排，或增加符合条件的冷柜。</FAF_LoadSelectionNoBerth>
+  <FAF_LandingWouldDestroy>落地会移除或破坏{0}。请选择其他位置，或先自行清理。</FAF_LandingWouldDestroy>
+  <FAF_LeaveFreezer>离开冷柜</FAF_LeaveFreezer>
+  <FAF_LeaveFreezerDesc>让当前使用者离开冷柜；若正在休息，会先结束休息。货物、睡垫和已存冷却液仍留在柜内；外界危险时仍须确认。</FAF_LeaveFreezerDesc>
+  <FAF_QuickDisembark>快速出舱</FAF_QuickDisembark>
+  <FAF_QuickDisembarkDesc>让选定的活住客离开本柜。货物、睡垫和已存冷却液仍留在柜内；外界危险时仍须确认。</FAF_QuickDisembarkDesc>
+  <FAF_QuickExitChooseOne>当前有{0}位使用者。请选择一位离开，其余原人仍留在柜内。</FAF_QuickExitChooseOne>
+  <FAF_QuickExitTargets>冷柜：{0}\n当前使用者：{1}</FAF_QuickExitTargets>
+</LanguageData>

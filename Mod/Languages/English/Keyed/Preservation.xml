@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_PreservationGuide>Rot, temperature damage and hatching have different requirements. Weather damage and ageing continue separately.</FAF_PreservationGuide>
+  <FAF_PreservationTemperature>Item temperature: {0} · {1}</FAF_PreservationTemperature>
+  <FAF_PreservationNotApplicable>Rot preservation not applicable</FAF_PreservationNotApplicable>
+  <FAF_PreservationFrozen>Frozen conditions</FAF_PreservationFrozen>
+  <FAF_PreservationChilled>Refrigerated conditions</FAF_PreservationChilled>
+  <FAF_PreservationNormal>Normal rot conditions</FAF_PreservationNormal>
+  <FAF_PreservationNoRottable>Rot: not applicable to this item.</FAF_PreservationNoRottable>
+  <FAF_PreservationProgress>{0} · Rot progress: {1} of the fresh-to-rotten threshold</FAF_PreservationProgress>
+  <FAF_PreservationRate>Rot rate: {0}× standard · Until rotten: {1}</FAF_PreservationRate>
+  <FAF_PreservationAlreadyRotten>already rotten</FAF_PreservationAlreadyRotten>
+  <FAF_PreservationInactive>∞ (rot inactive)</FAF_PreservationInactive>
+  <FAF_PreservationStopped>∞ (rot paused)</FAF_PreservationStopped>
+  <FAF_PreservationRateTip>The rate uses the item's current temperature. Remaining time assumes that temperature stays unchanged. Freezing pauses rot but does not remove progress that has already accumulated.</FAF_PreservationRateTip>
+  <FAF_TemperatureDamageProgress>Temperature damage: {0}</FAF_TemperatureDamageProgress>
+  <FAF_TemperatureDamageSafeRange>Safe temperature range: {0} – {1}</FAF_TemperatureDamageSafeRange>
+  <FAF_HatchingTemperatureDamaged>Hatching unavailable: ruined by temperature.</FAF_HatchingTemperatureDamaged>
+</LanguageData>

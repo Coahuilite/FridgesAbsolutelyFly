@@ -1,0 +1,94 @@
+# SPDX-License-Identifier: MPL-2.0
+# EN: Preserve private evidence and unlisted originals; track only manifest-owned artwork, but ship no ArtSource.
+# 中：保留私有证据及未列原画；只跟踪清单明示的自有美术，玩家包不含 ArtSource。
+/.references/
+/ArtSource/**
+/Release/
+/.build/
+/Build/Archive/
+
+# EN: Publish reader guides and canonical specs/models; keep process records and retired root paths local.
+# 中：仅公开读者指南与权威规格／模型；过程记录和已迁出的旧根路径保留本地。
+/PROJECT.md
+/ASSETS.md
+/CHANGELOG.md
+/CHANGELOG.zh-CN.md
+/Docs/**
+!/Docs/ASSETS.md
+!/Docs/CHANGELOG.md
+!/Docs/CHANGELOG.zh-CN.md
+!/Docs/DEVELOPMENT.md
+!/Docs/MECHANICS.md
+!/Docs/WORKSHOP.md
+/openspec/**
+!/openspec/README.md
+!/openspec/config.yaml
+!/openspec/specs/
+!/openspec/specs/**
+!/openspec/models/
+!/openspec/models/cabinet-model.md
+
+# EN: Game/dependency/build binaries and intermediate outputs are local artifacts.
+# 中：游戏、前置与编译二进制及中间产物只留本地。
+*.dll
+*.pdb
+*.cache
+*.log
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+
+# EN: Local reference launchers and IDE/user settings may contain personal paths.
+# 中：本地引用入口及IDE/用户配置可能含私人路径。
+*.local.ps1
+*.local.json
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# EN: Derived Git exceptions from ArtSource/distribution-manifest.json; that manifest is authoritative.
+# 中：以下Git例外派生自ArtSource/distribution-manifest.json；清单为唯一来源依据。
+!/ArtSource/
+!/ArtSource/UpgradeStudies/
+!/ArtSource/IndependentCover/
+!/ArtSource/IndependentCover/Chinese/
+!/ArtSource/CommandIcons/
+!/ArtSource/CommandIcons/NearFieldPulse.generated.png
+!/ArtSource/CommandIcons/RefillCoolant.generated.png
+!/ArtSource/CommandIcons/QuickDisembark.generated.png
+!/ArtSource/PortableSleepingPad.original.png
+!/ArtSource/PortableSleepingPad.generated.png
+!/ArtSource/PortableSleepingPadPacked.generated.png
+!/ArtSource/CommandFly.generated.png
+!/ArtSource/CommandInstallSleepingPad.generated.png
+!/ArtSource/CommandLaunchCabinet.composition.png
+!/ArtSource/CommandLaunchCabinet.generated.png
+!/ArtSource/distribution-manifest.json
+!/ArtSource/distribution-metadata.json
+!/ArtSource/distribution-provenance.json
+!/ArtSource/FlyingCabinet.master.png
+!/ArtSource/FlyingCabinetHorizontal.generated.png
+!/ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png
+!/ArtSource/IndependentCover/Chinese/ChineseCover.generated.png
+!/ArtSource/IndependentCover/IndependentCover.1280x720.png
+!/ArtSource/IndependentCover/stage-A-new-pose.png
+!/ArtSource/IndependentCover/stage-B-color-block-character.png
+!/ArtSource/IndependentCover/stage-C-generated-cover.png
+!/ArtSource/ModIcon.derived.png
+!/ArtSource/Preview.generated.png
+!/ArtSource/SOURCE-DISTRIBUTION.md
+!/ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png
+!/ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png
+!/ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png
+!/ArtSource/UpgradeStudies/Pepper-horizontal.generated.png
+!/ArtSource/UpgradeStudies/Pepper-retrofit.master.png
+!/ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png
+!/ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png
+!/ArtSource/UpgradeStudies/Salt-horizontal.generated.png
+!/ArtSource/UpgradeStudies/Salt-shuttle.master.png
+!/ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png

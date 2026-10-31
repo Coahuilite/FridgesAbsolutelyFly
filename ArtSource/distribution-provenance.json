@@ -1,0 +1,4022 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Selected source and runtime asset sidecars; recorded prompts, operation/reference categories, model evidence and rights scope / 选定源与运行资产旁车，记录提示、操作/参考类别、模型证据及权利范围",
+  "paths": "Project-root relative paths; external references are described without filesystem locations / 项目根相对路径，外部参考仅描述、不记录位置",
+  "artworkCredit": {
+    "en": "Visual assets: GPT Images 2.5 (OpenAI)",
+    "zh-Hans": "视觉资产：GPT Images 2.5（OpenAI）"
+  },
+  "generationTool": "Built-in ImageGen; raster exporters perform the listed image processing / 内置ImageGen；光栅导出器执行所列图像处理",
+  "fieldMeaning": {
+    "origin": "Production-method category, not copyright attribution / 制作方式分类，不是版权署名",
+    "inputs": "Selected production parents and external identity references / 选定制作父源及外部身份参考",
+    "designReferences": "Design ancestry, not additional raster-export dependencies / 设计脉络，不增加光栅导出依赖",
+    "outputs": "Current runtime rasters produced from this source / 由该源制作的当前运行光栅图",
+    "operation": "Creation or export operation, distinct from image-reference mode / 创作或导出操作，与参考模式分开",
+    "referenceMode": "Actual documented reference class; inherited for raster derivatives / 有记录的参考类别，光栅派生继承父源",
+    "prompt": "Recorded actual text, a labelled redaction, unavailable, or parent inheritance / 实际记录、标记脱敏、缺失或父源继承",
+    "rightsPolicyRef": "Scope of this project's grant, not a transfer of third-party rights / 本项目授权范围，不转让第三方权利"
+  },
+  "images": [
+    {
+      "path": "ArtSource/FlyingCabinet.master.png",
+      "origin": "project_imagegen_original",
+      "inputs": [],
+      "role": "Freezer equipment design master / 冷柜设备设计母图",
+      "operation": "generate_no_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "none",
+      "references": [],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept. Asset type: a NEW original RimWorld in-game refrigerator BUILDING SPRITE generated from scratch, NOT a cover illustration or UI icon. One compact NIVARIAN electrical CHEST FREEZER with a large glass viewing lid, genuine transparent background. Fixed high overhead orthographic game camera. Clearly an appliance with a substantial CERAMIC-COATED METAL BODY, a visible lid seam, two small lid hinges, a simple latch/handle, and a SHORT but DISTINCT DARK-INDIGO COMPRESSOR FRONT HOUSING at the SCREEN BOTTOM. The entire lower one-tenth of the cabinet silhouette is this dark-indigo service housing, not just a hairline black foot. It has two broad cooling vents, one tiny cyan linear running-status indicator and a small flush-mounted HEXAGONAL/CRYSTAL-SHAPED COOLING MODULE/control cover. Those are hard mechanical hardware, not jewels or quilted fabric. White-grey ceramic/metal main shell, pale-lavender shadow planes, deep-indigo rigid equipment panels and limited cyan accents: recognizable Nivarian industrial furniture, not a generic grey glass panel. Keep large simple flat shapes that read at around 48x96 game pixels. Thin but confident dark outer outlines; restrained industrial chamfers, no thick rounded white smartphone bezel. The central glass region is large, showing only a simple cool-grey/pale-blue empty lining with faint straight reflections. NO deep bathtub-like basin, no exaggerated internal walls, no mattress or bedding or stitched/diamond quilt pattern, no coffin, no soft upholstery, no tablet, no screen electronics, no creature heads/tails/horns, no characters, no food or items, no lettering or numbers, no logo, no wings or arrows, no particles, no glow bloom, no floor, no cast shadow or scene. Flat hand-painted RimWorld game texture, two-tone hard-surface shading, NOT glossy detailed 3D product rendering, no fine texture grain. All edges visible, small transparent outer margin. The visible FRONT HOUSING must remain a horizontal strip along the SCREEN BOTTOM, never on a side edge. This is ordinary cold-storage machinery interpreted with Nivarian white/indigo/cyan design language. VERTICAL VIEW: one tile wide and two tiles long, straight 1:2 rectangular footprint, long axis vertical on the canvas, perfectly aligned without diagonal skew or visible side-face perspective. The front housing is the short lower edge. Keep the centered glass opening roughly x=.12..88, y=.10..90 of the silhouette, with white-grey rigid side rails and the dark front service band below it.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/FlyingCabinet.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/FlyingCabinetHorizontal.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png"
+      ],
+      "role": "Base East projection source / 基柜东向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinet_east.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_east.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Image reference: FlyingCabinet.master.png only.\n\nUse the supplied refrigerator as the ONLY DESIGN MASTER. EDIT/REDRAW the SAME exact model into its true HORIZONTAL fixed-camera RimWorld game projection. Preserve the grey-white chamfered ceramic/metal case, two indigo/silver hinges, the indigo/silver latch, two compressor vent banks, central cyan hexagonal cooling module and cyan status bar. This is a projection correction, not a redesign. IMPORTANT GEOMETRY: the visible complete cabinet silhouette has WIDTH : HEIGHT approximately 5 : 3 (2 world units wide, 1.2 world units high), because the one-tile-deep roof plus the real front wall must BOTH remain visible. The GLASS OPENING has width approximately 80% of the whole case width and height approximately 63% of whole case height: its aspect ratio is about 2.1 : 1, NOT an extremely thin 4:1 slot. The opening starts about 10% down from the case top and ends about 73% down. The remaining LOWER 27% is a substantial visible front wall/indigo compressor housing, with full-height vents/control module, not squeezed into a strip. The short front WHITE apron with the latch and the INDIGO compressor panel must both retain believable height. Do NOT shrink the complete cabinet into a flat 2:1 outline; the LOGICAL floor footprint is 2x1 but the visible projection includes the front-wall height. High overhead orthographic camera, long axis LEFT/RIGHT, straight aligned case, no diagonal skew or isometric side face. The visible front wall remains along SCREEN BOTTOM. One complete isolated refrigerator centered on a transparent square canvas with comfortable transparent padding. The glass is an empty simple cool-grey lining with faint reflections, no contents. Original master hardware and palette unchanged. Flat readable RimWorld game sprite painting, no labels, no letters, no numbers, no people, no mattress, no arrows, no floor, no cast shadow, no scenery, no glow. Keep the actual box volume; never turn it into a thin glass panel.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/FlyingCabinetHorizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPad.original.png",
+      "origin": "project_imagegen_original",
+      "inputs": [],
+      "role": "Sleeping-pad textile design parent / 睡垫织物设计父源",
+      "operation": "generate_no_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "none",
+      "references": [],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept. Asset type: NEW original RimWorld Nivarian-style cabinet mattress / thin padded liner sprite, generated from scratch. One isolated thin rectangular soft mattress with a SMALL CLEAR PILLOW at the TOP, direct orthographic overhead view, long axis vertical, length twice width, on genuine transparent background. A distinctive elegant cold-climate Nivarian textile design: ice-white and very pale lavender fabric, slim deep-indigo woven binding around the perimeter, a few restrained cyan geometric stitches. The sleeping surface is one broad calm cloth field, NOT six big horizontal puffy blocks and NOT a thick sleeping bag. The mattress is thin and flat, gently soft but not inflatable. Use a simple symmetrical quilt pattern of two or three elongated diamond/hexagonal seams running along the long axis, with ONE small understated cyan ice-crystal-shaped geometric stitch at the center; these are stitched thread motifs, not a logo, badge or printed character. The pillow is ice-white with a small lilac fold and narrow indigo piping, visibly separate but only around one-sixth of the total length. RimWorld-like flat hand-painted game art: chunky readable simple shapes, clean dark-indigo outlines, two-tone fabric shading, no gradient sheen, no grain, no fine ornamental lace. The silhouette nearly fills its rectangular 1:2 footprint, corners only slightly softened, minimal transparent external padding. No bed frame, no metal, no glass, no technology panel, no glow, no buttons, no red, no letters or numbers, no symbols from an existing mod, no character art, no people, no horns or tails or creature parts, no floor, no cast shadow, no other object. This is soft bedding in an icy white/lavender/cyan Nivarian visual language, readable at a tiny 32x64 game size. Pillow must be at the TOP of the image.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/PortableSleepingPad.original.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPad.generated.png",
+      "origin": "project_imagegen_background_extraction_edit",
+      "inputs": [
+        "ArtSource/PortableSleepingPad.original.png"
+      ],
+      "transparentBackground": true,
+      "role": "Transparent unfolded-pad export input / 透明铺开睡垫导出输入",
+      "outputs": [
+        "Mod/Textures/FAF/Things/PortableSleepingPad_north.png",
+        "Mod/Textures/FAF/Things/PortableSleepingPad_east.png",
+        "Mod/Textures/FAF/Things/PortableSleepingPad_south.png",
+        "Mod/Textures/FAF/Things/PortableSleepingPad_west.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.original.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: background-extraction.\nAsset type: transparent RimWorld sleeping-pad sprite source.\nInput image 1 is the sole EDIT TARGET and sole design reference: the already accepted Nivarian portable sleeping pad. This is a minimal background/alpha cleanup, NOT a redesign.\nPrimary request: remove only any background rectangle, stray low-opacity exterior haze or pale pixels OUTSIDE the exact rounded fabric outline. Produce true RGBA transparency outside the object, especially the four rounded outer corners. The white/ice-blue/lavender cloth INSIDE its deep-indigo stitched outline must remain fully opaque. Do not mistake white cloth, the pillow or cyan crystal quilting for background.\nStrictly keep the same thin 1:2 top-down sleeping pad, pillow at the TOP, same straight centered geometry, exact long diamond quilt pattern and small cyan diamond ornaments, deep-indigo fabric binding, small corner rounding, same proportions, colour palette and all interior shading. No new object or design detail. Preserve artwork as closely as possible; only clean the external silhouette and alpha. No white rectangular backplate, no halo, no outer shadow, no checkerboard drawn into pixels, no text or label. One isolated pad on a genuinely transparent canvas, with a small transparent margin on all sides. Do not crop into the indigo edge. No people or scene.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/PortableSleepingPad.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPadPacked.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/PortableSleepingPad.original.png"
+      ],
+      "role": "Packed-pad export input / 卷垫导出输入",
+      "outputs": [
+        "Mod/Textures/FAF/Things/PortableSleepingPadPacked.png"
+      ],
+      "operation": "generate_with_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.original.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept\nAsset type: NEW RimWorld loose-item sprite, packed form of the supplied thin Nivarian cabinet sleeping mat.\nActual sole design reference: the supplied mattress image. This is the ONLY item-design reference. Redraw that same soft textile as a packed bundle; do not generate a new item design or paste source pixels.\nSubject: ONE compact rolled-up thin sleeping mat, a soft oblong cloth roll laid horizontally, secured by two SIMPLE DEEP-INDIGO FABRIC BANDS. One visible rolled end reveals two or three soft nested layers of ice-white/pale-lavender padding with indigo binding, so it instantly reads as a rolled mattress, not a solid box. The outer cloth retains a restrained section of the original elongated diamond quilting and ONE small cyan crystal-shaped stitch, recognisably the same Nivarian material. The little pillow is packed inside, no separate pieces.\nColour/material identity: ice-white and very pale lavender cloth, slim deep-indigo woven edge and simple indigo straps, sparse cyan diamond/crystal stitching. Soft thin padding, NOT an inflatable thick sleeping bag. All straps fabric, no buckles, no handles, no hard casing.\nCamera: fixed HIGH OVERHEAD RimWorld item view with only a little front/side thickness, near-orthographic. Compact clear silhouette about 1.2:1 width to height, centered, fills most of a square canvas with comfortable transparent outer margin. Whole roll and all edges visible, one cohesive item.\nStyle: simple readable RimWorld game texture, clean confident deep-indigo outline, broad colour regions, two-step cloth shadows, very few folds, no fine fabric grain or glossy rendering. Readable when reduced to 64 and 32 pixels. Not detailed product illustration.\nBackground: genuine transparent alpha. NO ground, floor, background colour, checkerboard drawing, scene, cast shadow, external drop shadow, glow or particles.\nNo text, letters, numbers, arrows, people, horns/tails, freezer, box, wood, backpack, hard suitcase, metal frame, floating pillow or extra object. Generate the actual item artwork.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/PortableSleepingPadPacked.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandFly.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png"
+      ],
+      "role": "Hover action and freezer-only ModIcon design / 悬浮动作与单柜ModIcon设计",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/Fly.png",
+        "Mod/About/ModIcon.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "projectReference": "unindexed-composition-target:CommandFly.generated",
+          "assetPath": null,
+          "purpose": "edit_target_or_layout_reference",
+          "evidence": "recorded_generation_input",
+          "indexedPathStatus": "not_recovered_in_selected_catalog",
+          "requiredForRasterExport": false
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Equipment reference: FlyingCabinet.master.png. A discarded layout guide supplied only the arrow/action composition.\n\nEDIT IMAGE 1, the Fly action-icon layout, using IMAGE 2 as the UNIQUE refrigerator DESIGN MASTER. Preserve the clear one-freezer plus ONE large upward cyan arrow action and square transparent composition. Replace the entire appliance in image 1 with the SAME model as image 2, redrawn in the needed slight three-quarter icon view: grey-white chamfered ceramic/metal shell, two indigo/silver hinges, indigo latch, dark-indigo compressor housing with TWO vent banks, small central cyan HEXAGONAL cooling module and cyan status bar. Do not retain image 1's different side crystal control panel; the hardware identity must match image 2. Simplify tiny details for readability at 128, 64 and 32 pixels while retaining these recognisable shared shapes. No text, labels, numbers, wings, characters, floor or scene. Genuine transparent alpha outside freezer and single upward arrow. Cool white/lavender/indigo/cyan palette. Functional high-contrast RimWorld gizmo icon, not a promotional image.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandFly.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandInstallSleepingPad.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/PortableSleepingPad.original.png"
+      ],
+      "role": "Pad-installation action / 安装睡垫动作",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/InstallSleepingPad.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/PortableSleepingPad.original.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "projectReference": "unindexed-composition-target:CommandInstallSleepingPad.generated",
+          "assetPath": null,
+          "purpose": "edit_target_or_layout_reference",
+          "evidence": "recorded_generation_input",
+          "indexedPathStatus": "not_recovered_in_selected_catalog",
+          "requiredForRasterExport": false
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Equipment reference: FlyingCabinet.master.png. Textile reference: PortableSleepingPad.original.png. A discarded guide supplied only the action composition.\n\nEDIT IMAGE 1, the Install Mattress action-icon layout. IMAGE 2 is the UNIQUE refrigerator DESIGN MASTER; IMAGE 3 is the accepted NIVARIAN MATTRESS design reference. Keep image 1's single clear action: one thin mattress going into one open receiving refrigerator with ONE broad cyan downward insertion arrow, square transparent icon. Replace the receiving refrigerator with the SAME hardware model as image 2, opened naturally: grey-white chamfered ceramic/metal shell, two indigo/silver hinges, indigo latch, dark-indigo compressor housing with TWO vent banks, central small cyan HEXAGONAL cooling module and cyan status bar. The refrigerator must match image 2, not image 1's older side-control model. Depict the thin white/lavender mattress in the icon's perspective using image 3's small pillow, indigo fabric binding and simple elongated diamond quilting; do not turn it into a puffy sleeping bag. This only redraws its icon depiction, not the accepted source artwork. Very simple high-contrast RimWorld gizmo raster icon, readable at 128/64/32 pixels. No words, numbers, extra arrows, people, extra objects, badges, ground, cast shadow or scene. Preserve genuine transparent background.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandInstallSleepingPad.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/ModIcon.derived.png",
+      "origin": "project_processed_derivative",
+      "inputs": [
+        "ArtSource/CommandFly.generated.png"
+      ],
+      "processing": "Crop (0,431,1254,1254), clear alpha below16; current freezer-only icon source / 裁切既定区域、清理低alpha，保留当前单柜图标源",
+      "role": "Freezer-only source derivative / 单柜源图派生",
+      "operation": "programmatic_derived",
+      "operationEvidence": "documented",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "method": "Crop (0,431,1254,1254), clear alpha below16; current freezer-only icon source / 裁切既定区域、清理低alpha，保留当前单柜图标源",
+        "source": "recorded_processing_recipe",
+        "status": "recorded_processing_recipe"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/ModIcon.derived.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png"
+      ],
+      "role": "Pepper equipment design parent / Pepper设备设计父源",
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: first-upgrade concept master for a RimWorld Nivarian household glass-top chest freezer; not final runtime textures.\nActual image input: the supplied image is the ONE AUTHORITATIVE freezer master and the EDIT TARGET. Upgrade this exact appliance. Preserve its long rectangular main case, exact broad glass opening, glass-lid hinges, front latch, thick short front wall, two indigo cooling vents, central cyan hexagonal cooling badge and cyan status bar. Keep all the original main-case/window proportions and locations; do not stretch, flatten or shorten the body or opening.\nUpgrade stage: PEPPER emergency-nozzle / attitude-protection retrofit. Still unmistakably a DOMESTIC ELECTRICAL CHEST FREEZER, not a spacecraft yet. Add a restrained set of SMALL removable emergency manoeuvring modules: four compact white/indigo corner blocks outside the viewing window, each with one tiny recessed dark nozzle and a small cyan lip; two nozzles at the lower side/base corners can be more visible. Add one modest indigo protective/control strip integrated into a side rail. The retrofit reads as practical safety hardware attached to hard furniture, not jewellery or quilted fabric. Small, purposeful and visually legible; do not cover the window or original handle/hinges.\nGeometry: high-overhead fixed RimWorld orthographic camera, long axis vertical, same view as the input. The complete visible front wall and compressor base remain along SCREEN BOTTOM. No diagonal/isometric skew and no rotation of the whole image. Keep the ORIGINAL FULL-SIZE glass viewing opening completely unobstructed so a native-sized sleeper, mattress or stored items can later occupy it. No bars or panels across the middle. Preserve box depth. Retrofit hardware should add only modest perimeter width, not turn the cabinet into a wide vehicle. Keep the entire object visible with enough transparent margin for the new modules.\nPalette and medium: original Nivarian white/grey ceramic-metal shell, deep-indigo equipment panels, ice-blue glass, pale-lavender shadow and restrained cyan controls/nozzle lips. Clean flat RimWorld game art, simple large hard-surface planes, thin confident dark edges, two-step shadows. No fine texture or glossy product-render detail.\nGenuine transparent background, preserve transparency. No people, Nira, sleeping mat, contents, lettering, numbers, PEPPER word, arrows, wings, long fins, flame trails, smoke, floor, external cast shadow, scene or decorative border. Draw actual complete upgraded appliance hardware, not an overlay diagram.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/UpgradeStudies/Pepper-retrofit.master.png"
+      ],
+      "role": "Salt equipment design parent / Salt设备设计父源",
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: final-upgrade concept master for a RimWorld ONE-PERSON SPACE-SHUTTLE CHEST FREEZER; not final runtime textures.\nActual image references: IMAGE 1 is the original authoritative household freezer. IMAGE 2 is its already-generated PEPPER emergency-nozzle retrofit. Evolve IMAGE 2 into the final SALT shuttle upgrade, while preserving IMAGE 1's unmistakable freezer identity. This is a sequential upgrade of the same unit, not an unrelated spacecraft.\nKeep the ORIGINAL FULL-SIZE rectangular glass lid opening in precisely the same proportion and relative position. Keep the lid hinges, latch/handle, substantial front-wall depth, white/grey shell, recognizable two indigo cooling vents, cyan hexagonal cooling badge and status line. The large transparent viewing area remains completely unobstructed, with no cross-bars, seats, console or trim inside it; a full sleeping mat and native-size person must later fit there.\nFINAL UPGRADE: now clearly a compact personal space shuttle as well as a working domestic chest freezer. Integrate PEPPER's four small emergency modules into a cohesive rigid WHITE/INDIGO SPACE-RATED OUTER HULL with a thin sealed canopy rim. Along the OUTSIDE of the two long sides, add close-fitting shallow angular propulsion fairings, two short integrated rear engine pods near the upper corners, and small recessed attitude nozzles toward the lower corners. The rear engine pods are the strongest new cue: compact dark exhaust throats with restrained icy-cyan inner rings, not separate rockets strapped on. Give the screen-bottom end a modest tapered protective nose/bumper OUTSIDE the original compressor face, retaining visible handle and cooling hardware. A few short flush stabilising shoulders/lugs may connect the hull; no broad wings or long tailfins. The result should read as one cohesive little single-occupant freezer-shuttle, not four cameras on a box and not a large ship.\nHardware remains perimeter-only. Main freezer/window length and width are unchanged; outer fairings extend only a small amount beyond the original case and can fit a transparent 4x4 drawing quad around a logical 1x2 footprint. The original glass opening must not become narrower or shorter to make room for the spacecraft hardware. Never flatten, squeeze or stretch the main case or its full-height front wall.\nCamera/composition: exactly the same fixed high-overhead orthographic RimWorld camera as both inputs; long axis VERTICAL, front compressor wall along SCREEN BOTTOM, no diagonal/isometric skew, no rotation or perspective turn. Whole silhouette visible with transparent margin. Preserve enough box depth below the lid. One complete empty object.\nVisual language: Nivarian white-grey ceramic/metal, deep-indigo rigid service hull, ice-blue glass, pale-lavender shadow, limited cyan controls and engine rings. Bold simple readable game shapes and two-step flat shadow, thin dark outline, no dense surface greebles or glossy rendering. Ordinary appliance DNA remains readable at 64px.\nGenuine transparent background. NO person, Nira, mattress, contents, words, letters, SALT text, numbers, symbols copied from another game, arrows, burning flames, exhaust plume, smoke, glow bloom, scene, stars, floor or external cast shadow. Do not turn it into an air conditioner, bed frame, bathtub, coffin, fighter jet, huge spaceship, or a new generic sci-fi pod unrelated to the original freezer.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Salt-shuttle.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+        "ArtSource/FlyingCabinetHorizontal.generated.png"
+      ],
+      "role": "Pepper East projection source / Pepper东向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_east.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_east.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: independently drawn HORIZONTAL fixed-camera projection for the accepted PEPPER freezer upgrade.\nActual image inputs: IMAGE 1 is the accepted PEPPER retrofit DESIGN MASTER. IMAGE 2 is the accepted BASE FREEZER HORIZONTAL PROJECTION and is the GEOMETRY/CAMERA EDIT TARGET. Replace image 2's plain base case only with the same upgrade hardware as image 1. Both derive from the original authoritative cabinet; do not introduce another model.\nPreserve image 2's EXACT horizontal high-overhead orthographic view, original rectangular glass opening, original lid rails/hinges/handle, full white apron and full-height dark compressor FRONT FACE along SCREEN BOTTOM. Keep the glass, top rim and front face in the same proportions and relative locations as image 2. NO planar 90-degree rotation of image 1, no diagonal/isometric skew. This must be a real horizontal view, not a vertical sprite turned sideways.\nPEPPER stage hardware: FOUR SMALL white/indigo emergency-nozzle corner modules outside the window, each with a dark recessed round nozzle, tiny cyan status slit and practical mounting. Same restrained angular shapes as image 1, still domestic appliance scale, not a spacecraft. One modest indigo control/protection strip on a side perimeter rail. Preserve the original two indigo compressor vents, central cyan hexagonal badge and cyan status bar, and thick white/grey chest body.\nThe window remains FULL SIZE and completely unobstructed; modules add only a modest exterior width/edge silhouette. Never shorten the opening, flatten the body, put a brace across the glass or squeeze the front face into a hairline strip. All nozzle hardware stays outside the glass region. Main cabinet long axis LEFT/RIGHT.\nPalette: white-grey ceramic/metal, indigo panels, ice-blue glass, pale-lavender shadows, tiny cyan accents. Clean readable flat RimWorld game texture, two-step shading and confident thin outlines; avoid detailed product rendering, greebles and texture.\nOne complete isolated empty freezer on genuine TRANSPARENT background, comfortable transparent outer margin, all hardware visible. No people, mattress, contents, text, numbers, PEPPER letters, symbols, arrows, wings, flame, smoke, floor, scene or external cast shadow.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+        "ArtSource/FlyingCabinetHorizontal.generated.png"
+      ],
+      "role": "Salt East projection source / Salt东向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_east.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_east.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: independently drawn HORIZONTAL fixed-camera projection for the accepted SALT one-person freezer-shuttle upgrade.\nActual image inputs: IMAGE 1 is the accepted SALT freezer-shuttle DESIGN MASTER. IMAGE 2 is the accepted BASE FREEZER HORIZONTAL PROJECTION and is the GEOMETRY/CAMERA EDIT TARGET. Upgrade image 2 to precisely the same complete shuttle model as image 1, not a different vehicle. Retain the original appliance DNA.\nPreserve image 2's horizontal high-overhead orthographic camera and main glass-opening / chest-body proportions. Whole visible front wall, white apron, handle and full dark compressor FRONT FACE remain at SCREEN BOTTOM. Do NOT rotate image 1 as a flat image; independently redraw its hardware for a TRUE HORIZONTAL projection. No isometric/diagonal skew. Cabinet long axis LEFT/RIGHT.\nThe SAME SALT model: close-fitting indigo/white propulsion hull around the original freezer core, compact paired rear engine pods with dark throats and cyan inner rings near the back corners, smaller recessed attitude nozzles at front corners, shallow angular side propulsion fairings and a modest protective nose/bumper integrated OUTSIDE the original front compressor face. Engine housings must have clear small physical volume, not just painted cyan circles. Keep the original hinges, handle, two cooling vents, central cyan hexagonal badge/status bar and substantial box depth. No broad wings, huge engines, long tailfin or cockpit console.\nThe original BIG rectangular glass window is kept FULL SIZE in the same relative position as image 2. All engine pods/fairings stay on the outside perimeter, leaving the entire interior visible for a full-size mattress, pawn and contents later. Do not shrink or shorten the opening to make room for hardware. Do not compress the front apron/service face into a narrow strip or flatten the whole box. Glass lid/canopy, frame and deep front wall together read as both a household chest freezer and compact personal shuttle.\nWhite/grey ceramic-metal case, indigo service hull, ice-blue glass, pale-lavender shadow, restrained cyan engine rings/controls. Flat readable RimWorld game art, simple broad forms, two-step shade, confident thin dark edges, no photoreal product polish or tiny greebles.\nOne complete isolated empty object with genuine TRANSPARENT background and enough transparent outer margin. No person, portrait, mattress, items, lettering, numbers, SALT words, arrows, flame/exhaust plume, smoke, glow bloom, scenery, floor or external cast shadow.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/FlyingCabinetHorizontal.generated.png"
+      ],
+      "role": "Base North/South and UI source / Base南北及UI源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinet_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinet_south.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_south.png",
+        "Mod/Textures/FAF/UI/FlyingCabinet.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: surgical LONG-SIDE top-lid hinge correction of the original RimWorld freezer, vertical view.\nActual input 1 is the original authoritative V freezer and EDIT TARGET. Input 2 is its original H view, which correctly shows the LONG-SIDE hinge/latch arrangement and is the physical door-system reference.\nThe user has explicitly chosen a LONG-SIDE hinged glass lid. In this vertical V artwork, the LONG SIDES are LEFT and RIGHT. Correct ONLY lid/carriage hardware, not the appliance shape:\n- REMOVE the two silver-cylinder hinge blocks along the TOP SHORT EDGE. Restore its white-grey case rail; small flush indigo service caps are acceptable there, but no hinge axle on either short end.\n- Put TWO clearly articulated small silver/indigo lid hinges along the LEFT LONG SIDE, well separated along that side, outside the glass. Their cylindrical hinge axes run vertically along the long rail.\n- Put ONE clear small silver/indigo lift-latch/grip along the RIGHT LONG SIDE, roughly midway, outside the glass. This is the lid-opening grip opposite the long hinge axis.\n- Keep the short screen-bottom handle only as a CHASSIS CARRYING HANDLE, attached below the lid seam to the short FRONT WALL. If needed seat it slightly lower on the white apron, so it does not look like a short-end lid latch. No short-end opening hinge.\n- Any long-side cyan/blue strip is a flush electrical CONTROL PANEL, not a hinge or second opening mechanism.\nLOCK the original case, glass opening dimensions/position, front-wall thickness, vent banks, cyan hex badge/status bar, palette, shading and fixed high overhead orthographic camera. Long axis VERTICAL, complete compressor front wall at SCREEN BOTTOM. Do not flatten, stretch or shrink the case/window. Keep all hardware outside the full viewing opening.\nSame simple readable RimWorld appliance art and genuine transparent exterior. No mattress, contents, people, words, arrows, flames, floor, scene or external shadow. Not a redesign.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/FlyingCabinetHorizontal.generated.png",
+        "ArtSource/FlyingCabinet.master.png"
+      ],
+      "role": "Base West projection source / Base西向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinet_west.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_west.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: opposite-facing LONG-SIDE hinge version of the original horizontal RimWorld chest freezer.\nActual input 1 is the original H artwork and EDIT TARGET. Input 2 is the original authoritative V cabinet for equipment identity only.\nKeep the entire fixed-camera horizontal cabinet exactly where it is: glass-window dimensions/location, body depth, white apron, indigo front compressor wall at SCREEN BOTTOM, two vents, cyan hex/status bar, colours and silhouette. Do NOT flip the entire picture vertically or move the front wall to the top.\nChange only the LONG-SIDE lid hardware for the opposite cardinal facing:\n- The existing TWO silver/indigo lid hinges on the TOP LONG RAIL move to the BOTTOM LONG RAIL, one left and one right, with hinge cylinders horizontal along that long edge.\n- The existing central opening latch/grip on the BOTTOM LONG RAIL moves to the centre of the TOP LONG RAIL, opposite the hinges.\n- Restore plain white-grey rail where the old hardware was. SHORT LEFT/RIGHT ENDS do NOT carry opening hinges or lid locks; they may remain plain chassis or small carrying/service structures.\nKeep the complete glass opening unobstructed. The hatch opens around the BOTTOM LONG EDGE in this view. The ordinary front WALL underneath remains screen-bottom with full original height. This is an independent fixed-camera hardware view, not a planar rotation, not a different freezer.\nGenuine transparent background, all edges visible. No people, contents, mattress, text, arrows, new propulsion hardware, scene, floor or shadow.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "role": "Pepper North/South and UI source / Pepper南北及UI源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_south.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_south.png",
+        "Mod/Textures/FAF/UI/FlyingCabinetPepper.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: surgical LONG-SIDE lid-hardware correction for the Pepper vertical freezer upgrade.\nActual inputs: image 1 is the accepted Pepper V DESIGN MASTER and EDIT TARGET; image 2 is the corrected Base V and provides the LONG-SIDE hinge/latch layout. Preserve image 1's complete four small emergency nozzles, their mounting blocks and side protection/control panel.\nThe USER requires LONG-SIDE hinged top glass, not short-end opening. Apply the same hardware layout as image 2 without redesigning the Pepper body:\n1. REMOVE silver-cylinder lid hinges from the TOP SHORT EDGE. Restore that short rail to white-grey with small service caps/rigid structural blocks, no opening axle there.\n2. Put TWO small silver/indigo lid hinges along the LEFT LONG SIDE, widely separated, with vertical hinge cylinders along that long rail, OUTSIDE the glass and not blocking any nozzle.\n3. Put ONE clearly readable lid latch/lift grip midway along the RIGHT LONG SIDE opposite those hinges, outside the window. It must look like a grip, distinct from flat cyan control strips.\n4. Preserve the original short screen-bottom handle as a CHASSIS CARRYING HANDLE on the short front wall BELOW the lid seam, not a second opening latch. Keep short-end corner nozzles mechanical, never another door axis.\n5. Existing long-side blue/cyan bars remain FLUSH ELECTRICAL CONTROL PANELS. If a panel conflicts with the new hinge/latch, shift that small panel within the perimeter only; do not make it a hinge.\nLOCK original glass opening size/position, main case proportions, full screen-bottom front wall, vents, cyan hex badge, status light, all propulsion hardware, colours and fixed high-overhead camera. Main axis VERTICAL, front wall stays screen-bottom. No scaling, flattening, shrinking, perspective turn or cross-window brace. Glass remains entirely unobstructed.\nSame flat readable RimWorld style, two-step shadows, real transparent exterior. No text, people, mattress, contents, arrows, flame, scenery or external cast shadow. Change only necessary hardware, not a new model.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+        "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+        "ArtSource/UpgradeStudies/Pepper-retrofit.master.png"
+      ],
+      "role": "Pepper West projection source / Pepper西向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_west.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_west.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: opposite-facing LONG-SIDE lid-hardware view for the Pepper HORIZONTAL freezer upgrade.\nActual inputs: image 1 is the original Pepper H EDIT TARGET, retaining the accepted upgrade design; image 2 is the corrected Base WEST H and controls the opposite long-side hinge/latch layout; image 3 is the Pepper V design master for hardware identity only.\nKeep image 1's entire horizontal camera, original glass opening, shape, colour, complete white apron and dark front wall, vents, cyan hex/status and every corner emergency nozzle and control strip UNCHANGED. Do not flip/rotate the entire image; the full front wall must remain at SCREEN BOTTOM.\nOnly move the TOP-LID LONG-SIDE hardware for opposite facing:\n- Remove TWO silver/indigo hinge blocks on the TOP LONG RAIL and place them spaced apart on the BOTTOM LONG RAIL, horizontal hinge axes, as image 2.\n- Move the single central opening latch/grip from the BOTTOM LONG RAIL to the centre of the TOP LONG RAIL, opposite the hinges.\n- Restore plain rail where old hardware was. Neither LEFT nor RIGHT SHORT END is an opening hinge axis; retain their nozzle/control/chassis structures. Flat blue control strips are not hinges or extra grips.\nKeep all hardware outside the FULL UNCHANGED glass opening. Preserve chest thickness and the entire compressor front wall below the lid, do not squeeze it into a strip. Same orthographic fixed RimWorld high camera, long axis LEFT/RIGHT. Same simple flat paint and transparent exterior, no dense detail.\nNo person, mattress, items, text, arrows, added rockets, flames, floor, shadow or scene. A surgical hardware view of the SAME model, not a new design.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "role": "Salt North/South and UI source / Salt南北及UI源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_north.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_south.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_south.png",
+        "Mod/Textures/FAF/UI/FlyingCabinetSalt.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: surgical LONG-SIDE lid-hardware correction for the Salt vertical freezer upgrade.\nActual inputs: image 1 is the accepted Salt V DESIGN MASTER and EDIT TARGET; image 2 is the corrected Base V and provides the LONG-SIDE hinge/latch layout. Preserve image 1's complete white/indigo propulsion hull, engine pods and cyan rings, attitude modules and protective nose.\nThe USER requires LONG-SIDE hinged top glass, not short-end opening. Apply the same hardware layout as image 2 without redesigning the Salt body:\n1. REMOVE silver-cylinder lid hinges from the TOP SHORT EDGE. Restore that short rail to white-grey with small service caps/rigid structural blocks, no opening axle there.\n2. Put TWO small silver/indigo lid hinges along the LEFT LONG SIDE, widely separated, with vertical hinge cylinders along that long rail, OUTSIDE the glass and not blocking any nozzle.\n3. Put ONE clearly readable lid latch/lift grip midway along the RIGHT LONG SIDE opposite those hinges, outside the window. It must look like a grip, distinct from flat cyan control strips.\n4. Preserve the original short screen-bottom handle as a CHASSIS CARRYING HANDLE on the short front wall BELOW the lid seam, not a second opening latch. Keep short-end corner nozzles mechanical, never another door axis.\n5. Existing long-side blue/cyan bars remain FLUSH ELECTRICAL CONTROL PANELS. If a panel conflicts with the new hinge/latch, shift that small panel within the perimeter only; do not make it a hinge.\nLOCK original glass opening size/position, main case proportions, full screen-bottom front wall, vents, cyan hex badge, status light, all propulsion hardware, colours and fixed high-overhead camera. Main axis VERTICAL, front wall stays screen-bottom. No scaling, flattening, shrinking, perspective turn or cross-window brace. Glass remains entirely unobstructed.\nSame flat readable RimWorld style, two-step shadows, real transparent exterior. No text, people, mattress, contents, arrows, flame, scenery or external cast shadow. Change only necessary hardware, not a new model.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+        "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+        "ArtSource/UpgradeStudies/Salt-shuttle.master.png"
+      ],
+      "role": "Salt West projection source / Salt西向投影源",
+      "outputs": [
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_west.png",
+        "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_west.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: precise-object-edit\nAsset type: opposite-facing LONG-SIDE lid-hardware view for the Salt HORIZONTAL freezer upgrade.\nActual inputs: image 1 is the original Salt H EDIT TARGET, retaining the accepted upgrade design; image 2 is the corrected Base WEST H and controls the opposite long-side hinge/latch layout; image 3 is the Salt V design master for hardware identity only.\nKeep image 1's entire horizontal camera, original glass opening, shape, colour, complete white apron and dark front wall, vents, cyan hex/status and every integrated hull/engine pod/cyan engine ring/fairing UNCHANGED. Do not flip/rotate the entire image; the full front wall must remain at SCREEN BOTTOM.\nOnly move the TOP-LID LONG-SIDE hardware for opposite facing:\n- Remove TWO silver/indigo hinge blocks on the TOP LONG RAIL and place them spaced apart on the BOTTOM LONG RAIL, horizontal hinge axes, as image 2.\n- Move the single central opening latch/grip from the BOTTOM LONG RAIL to the centre of the TOP LONG RAIL, opposite the hinges.\n- Restore plain rail where old hardware was. Neither LEFT nor RIGHT SHORT END is an opening hinge axis; retain their nozzle/control/chassis structures. Flat blue control strips are not hinges or extra grips.\nKeep all hardware outside the FULL UNCHANGED glass opening. Preserve chest thickness and the entire compressor front wall below the lid, do not squeeze it into a strip. Same orthographic fixed RimWorld high camera, long axis LEFT/RIGHT. Same simple flat paint and transparent exterior, no dense detail.\nNo person, mattress, items, text, arrows, added rockets, flames, floor, shadow or scene. A surgical hardware view of the SAME model, not a new design.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-A-new-pose.png",
+      "origin": "project_imagegen_new_artwork",
+      "inputs": [
+        {
+          "kind": "external_reference_not_distributed",
+          "id": "user_nira_portrait",
+          "included": false,
+          "requiredForRasterExport": false,
+          "role": "Nivarian species/costume identity reference / 涅瓦莲种族与服饰身份参考"
+        }
+      ],
+      "role": "Nivarian character source / 涅瓦莲角色源",
+      "operation": "generate_with_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "external",
+      "references": [
+        {
+          "externalReference": "nivarian-nira-portrait",
+          "purpose": "identity_reference",
+          "evidence": "recorded",
+          "requiredForRasterExport": false
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept\nAsset type: original character pose study, stage A of a new poster.\nInput image 1 is an identity and costume reference only, not artwork to paste.\nRedraw Nira as new artwork with a substantially different full-body pose: she floats weightlessly in a relaxed curled reclining posture, knees comfortably bent and feet together, upper body gently propped as if resting on an invisible cushion. One hand rests on her lap; her other hand offers a small friendly open-palmed wave. Her expression is warm, calm and lightly amused, with clearly visible teal eyes and a small smile.\nPreserve recognizable identity: long paper-white and ice-blue hair, two normally proportioned cyan-blue horns, pointed ears, blue dragon tail with pale underside, white outfit with indigo accents. Keep youthful anime adult proportions and humanlike face; do not make the horns giant, the eyes blank, or the body monstrous. No mug or drink from the source.\nElegant clean anime illustration with broad readable color masses, very limited fine hair and fabric detail. Show the entire character and tail against a plain pale lavender background, with ample margin. No furniture, no freezer, no scenery, no text. Newly drawn pixels throughout, never paste source art.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/stage-A-new-pose.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-B-color-block-character.png",
+      "origin": "project_imagegen_new_artwork",
+      "inputs": [
+        "ArtSource/IndependentCover/stage-A-new-pose.png"
+      ],
+      "role": "Colour-block character source / 色块角色源",
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/stage-A-new-pose.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept\nAsset type: constructivist character collage, stage B for an original game-mod poster.\nInput image 1 is the actual newly generated Nira pose study and the sole character reference.\nReinterpret this exact recognizable friendly character and relaxed curled floating pose as a bold constructivist paper-cut color-block assembly. This is an original redrawing, not tracing or pasting source pixels. Preserve the humanlike warm face, teal eyes and small smile, the two cyan horns, pointed ear, pale long hair, white and indigo outfit, and broad blue curled tail. Keep the wave and tucked knees.\nReduce clothing and hair to a small number of LARGE purposeful cut-paper silhouettes, arcs, wedges, rectangles and blunt geometric planes. Let the white hair be about five broad flowing pieces, not strands. White sleeves and indigo garment panels should be powerful simple shapes rather than lots of facets. Use a simple expressive anime face integrated into the collage, large enough to remain recognizable; only the eyes and smile need delicate marks. Keep hands and face humanlike and friendly.\nPalette only paper-white, ice-blue, cyan, pale lavender and very deep indigo. Crisp flat poster inks, no gradients, almost no texture, no realistic rendering. Tiny fabric folds and scales are removed. This is elegant constructivism, not a shattered-glass mosaic and not a monster made of spikes.\nEntire figure and tail visible with generous margins on a plain paper-white background. No text, no furniture, no freezer, no icons, no scenery.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/stage-B-color-block-character.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-C-generated-cover.png",
+      "origin": "project_imagegen_new_artwork",
+      "inputs": [
+        "ArtSource/IndependentCover/stage-B-color-block-character.png",
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/PortableSleepingPad.original.png"
+      ],
+      "role": "English cover artwork source / 英文封面画稿源",
+      "operation": "generate_with_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/stage-B-color-block-character.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/PortableSleepingPad.original.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: ads-marketing\nAsset type: finished 16:9 landscape illustrated cover for a RimWorld Nivarian sleep-in-a-freezer addon. Generate the whole poster including every letter. Output aspect ratio exactly 16:9, intended to finish at 1280 x 720.\nActual visual references: Image 1 is the new color-block Nira character and her relaxed floating curled pose; image 2 is the ONLY freezer design reference, shown from above; image 3 is the sleeping mattress design for its interior. Redraw and reinterpret all of them in one unified constructivist poster. Do not paste reference pixels.\nCore story: A real deep horizontal chest freezer can fly, and Nira can comfortably rest inside it. Make the freezer unmistakably a CHEST FREEZER with a large partly OPEN hinged glass TOP LID, a visible handle, deep white sidewalls, indigo base, an open cavity and a pale pillow/mattress. The two dark vents are minor lower-side details, never the main face. This is not a wall-mounted air conditioner, not a narrow coffin, not a fridge standing vertically. Show the top opening and generous box depth in a clear three-quarter perspective.\nCreative composition: the long freezer dominates the lower-right half, flying with its long axis rising gently toward the right. Its high right end carries Nira's head and shoulders, while her bent knees rest within the left part of the box on the visible mattress. Nira is seated/reclining INSIDE, not pasted floating in front: the front rim overlaps her lower legs and skirt. Her long pale hair, normal cyan horns, pointed ear, cyan curled tail and warm teal-eyed smiling face remain instantly recognizable. One hand gives a small wave. The lid opens behind her as a strong pale-blue translucent geometric plane. Her tail curves over the rim. Preserve character identity but avoid dense anime detail.\nSet the typography from the freezer's flight axis: a stepped family of bold condensed sans-serif word-blocks fills the open left and upper-left space, with baseline and slab edges echoing that same gentle rising-right axis. The enormous final FLY !! becomes a strong structural block beside the box, not a tiny caption. This is a bold printmaker's composition: LARGE white, cyan, pale-lavender and deep-indigo shapes lock together; one giant cropped cyan circle and a few deep-indigo/ice-blue trapezoids imply lift and motion. Paper-white background, very little texture, crisp flat screenprint inks. No glossy product rendering, no detailed scenery, no stars, no ornamental UI borders. Keep the character, box and typography in the same simple color-block visual language.\nRender the following exact complete title ONCE, preserving all words, punctuation, capitalization and the intentionally unusual grammar. It may be split into these lines, and they must read in this order:\n\"N.S.I.F Extend :\"\n\"These fridges\"\n\"are absolutely can\"\n\"FLY !!\"\nAlso render the addon monogram \"F.A.F.\" once, smaller, in a restrained solid block. No other words at all.\nTypography must be exceptionally clear at 640 x 360. N.S.I.F Extend : is smaller than the core title but fully readable, not microtext; use thick simple letterforms. No missing word, no duplicate title. Leave generous safe margin around all lettering and keep every character fully inside the 16:9 canvas. Light planes behind dark lettering for maximum contrast. Balance bold geometric abstraction with a visible friendly humanlike face; never turn her into a faceless angular monster. Cool Nivarian palette only: paper-white, ice-blue, cyan, pale lavender, deep indigo; no Soviet red/black.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/stage-C-generated-cover.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/IndependentCover.1280x720.png",
+      "origin": "project_processed_derivative",
+      "inputs": [
+        "ArtSource/IndependentCover/stage-C-generated-cover.png"
+      ],
+      "processing": "Whole-image LANCZOS resize to1280x720, seven-bit-per-channel colour reduction, PNG optimise/compress9; no cropping or compositing / 全图缩放、每通道七位色彩缩减与PNG优化，不裁切或合成",
+      "role": "English cover final / 英文封面最终图",
+      "operation": "programmatic_derived",
+      "operationEvidence": "documented",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/stage-C-generated-cover.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/IndependentCover/stage-C-generated-cover.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "method": "Whole-image LANCZOS resize to1280x720, seven-bit-per-channel colour reduction, PNG optimise/compress9; no cropping or compositing / 全图缩放、每通道七位色彩缩减与PNG优化，不裁切或合成",
+        "source": "recorded_processing_recipe",
+        "status": "recorded_processing_recipe"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/IndependentCover/stage-C-generated-cover.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+      }
+    },
+    {
+      "path": "ArtSource/Preview.generated.png",
+      "origin": "project_processed_derivative",
+      "inputs": [
+        "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+      ],
+      "processing": "Unchanged file-copy alias read by Prepare-About.py / About工具读取的原样文件复制别名",
+      "role": "English cover export alias / 英文封面导出别名",
+      "outputs": [
+        "Mod/About/Preview.png"
+      ],
+      "operation": "copy_alias",
+      "operationEvidence": "documented",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/IndependentCover.1280x720.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "method": "unchanged_file_copy",
+        "status": "recorded_processing_recipe"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/Preview.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png",
+      "origin": "project_imagegen_text_localisation",
+      "inputs": [
+        "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+      ],
+      "role": "Chinese cover text-localisation source / 中文封面文字本地化源",
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/IndependentCover.1280x720.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: text-localization\nAsset type: Simplified Chinese alternate version of an already accepted 16:9 game-mod cover.\nImage 1 is the ACTUAL ACCEPTED COVER and the edit target, not a moodboard. Make a surgical TEXT-ONLY LOCALIZATION. Preserve the original illustration exactly: same friendly Nira face, teal eyes, cyan horns, white hair, pointed ears, waving hand, bent-leg pose and blue tail; same chest freezer, handle, open glass lid, hinges, mattress, perspective, lighting, colors, geometric background, framing, and overall layout. Do not redesign, redraw, move or regenerate these illustration elements. Do not add anything.\nReplace ALL of the original English title text with these four precise Simplified Chinese lines:\nSmall top indigo strip: “睡冰箱扩展”\nFirst main-title strip: “冰箱！”\nSecond main-title strip: “当然！”\nLargest final indigo slab: “会飞！”\nKeep the existing small bottom-left “F.A.F.” monogram exactly unchanged.\nThe original left-side stepped color bands and their rising-right baseline direction remain. Re-space only the lettering naturally for Chinese: bold, clear, heavy geometric Chinese sans-serif characters, thick complete readable strokes, not calligraphy. The top line is small white type on indigo; “冰箱！” and “当然！” are indigo on the existing light strips; “会飞！” is the dominant huge cyan line on the existing deep-indigo slab. Keep all Chinese glyphs inside the image. Do not squeeze the entire title into one line. Make the strongest emphasis “会飞！”.\nRender those exact characters, in that exact order, with full-width Chinese exclamation mark “！” after each main line. Only these words and the preserved “F.A.F.” may appear: 睡冰箱扩展 / 冰箱！ / 当然！ / 会飞！ / F.A.F.\nRemove every old English headline letter, including N.S.I.F Extend, These fridges, are absolutely can, and FLY. No residual English title, no extra captions. Preserve 16:9 aspect ratio, intended final 1280x720. Readable at 640x360.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png",
+      "origin": "project_processed_derivative",
+      "inputs": [
+        "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png"
+      ],
+      "processing": "Whole-image LANCZOS resize to1280x720, seven-bit-per-channel colour reduction, PNG optimise/compress9; no cropping or compositing / 全图缩放、每通道七位色彩缩减与PNG优化，不裁切或合成",
+      "role": "Optional Chinese cover final / 可选中文封面最终图",
+      "outputs": [
+        "Mod/About/Preview_zh-Hans.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "documented",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "method": "Whole-image LANCZOS resize to1280x720, seven-bit-per-channel colour reduction, PNG optimise/compress9; no cropping or compositing / 全图缩放、每通道七位色彩缩减与PNG优化，不裁切或合成",
+        "source": "recorded_processing_recipe",
+        "status": "recorded_processing_recipe"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandLaunchCabinet.composition.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "role": "World-launch composition parent / 世界发射构图父源",
+      "operation": "generate_with_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept. Asset type: final RimWorld game command icon, square transparent PNG, designed to read clearly at 64x64 and 32x32. Generate a NEW simplified action-icon interpretation using the attached accepted SALT freezer as the actual appliance identity reference. One Nivarian freezer-shuttle is launching diagonally upward toward the upper right, with two short bold cyan-white exhaust flames streaming toward the lower left from its rear thruster units. The cabinet is the overwhelmingly dominant subject. Preserve its unmistakable long rectangular glass-topped chest-freezer shape, thick cold-white shell, deep indigo equipment base and corner thruster housings, cyan rings and minimal cyan status light; the lid is hinged on a LONG side, not across a short end. Show the glass lid and a substantial front/equipment wall in a clean three-quarter oblique view; the chest must have depth, not look like a flat tablet. Simplify hardware into a few strong readable shapes: large uninterrupted pale-blue viewing lid, white border, indigo base, twin bright exhaust strokes. Empty cabinet, no pawn, no mattress, no object inside. Crisp dark game-art outline, restrained painterly flat shading matching RimWorld icon art. Isolated on genuinely transparent alpha background, no ground, no scenery, no panel, no framing badge, no text, no letters, no logo, no arrow. No wings, no rocket cone, no generic transport pod and no air conditioner grille replacing the glass lid. Fill most of square canvas with clear margins and keep all exhaust visible. This is WORLD LAUNCH, not gentle hovering: communicate propulsion with the two exhaust plumes rather than an up-arrow.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandLaunchCabinet.composition.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandLaunchCabinet.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        "ArtSource/CommandLaunchCabinet.composition.png"
+      ],
+      "role": "World-launch action / 世界发射动作",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/LaunchCabinet.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/CommandLaunchCabinet.composition.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Precise production edit of the attached generated world-launch command icon. Keep exactly this single glass-topped white/indigo/cyan freezer-shuttle design, long-side hinges, three-quarter oblique angle, large window, front wall and twin cyan-white rear jets. Change ONLY framing and exhaust length: make the entire appliance and BOTH COMPLETE exhaust tips fit comfortably inside a square transparent canvas with at least 7 percent genuinely empty alpha margin on every edge. Shorten the two exhaust plumes moderately if needed; their pointed tips MUST be visible and must not touch or be cut by any canvas edge. Keep the freezer large and readable at 64x64, with bold dark outline and simple high contrast. No extra arrows, no text, no ground or backdrop, no additional objects. Preserve a genuinely transparent alpha background. Do not crop the housing, do not redesign the freezer, and do not turn the exhaust into clouds.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandLaunchCabinet.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/NearFieldPulse.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [
+        {
+          "kind": "external_vanilla_game_icon_reference",
+          "assetPath": "UI/Abilities/Longjump",
+          "sourceUrl": "https://rimworldwiki.com/wiki/File:Longjump.png",
+          "included": false,
+          "requiredForRasterExport": false,
+          "role": "Endpoint-to-endpoint leap-arch reference / 端点之间的跨越拱弧参考"
+        }
+      ],
+      "designReferences": [
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+        "ArtSource/CommandFly.generated.png"
+      ],
+      "role": "Near-field pulse action / 近场脉冲动作",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/NearFieldPulse.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "mixed",
+      "references": [
+        {
+          "externalReference": "rimworld-longjump-icon",
+          "purpose": "spanning_leap_arch_reference",
+          "evidence": "recorded",
+          "requiredForRasterExport": false
+        },
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "projectReference": "unindexed-composition-target:NearFieldPulse.generated",
+          "assetPath": null,
+          "purpose": "edit_target_or_layout_reference",
+          "evidence": "recorded_generation_input",
+          "indexedPathStatus": "not_recovered_in_selected_catalog",
+          "requiredForRasterExport": false
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Precise-object-edit/new command-icon variation. Input image 1 is our existing white/indigo PEPPER freezer command art: preserve this same recognizable three-quarter glass-top freezer body, nozzles, long-edge lid hardware, complete compressor front and cyan hexagonal module. Input image 2 is the ACTUAL vanilla RimWorld Longjump ability icon, used ONLY as the reference for the jumping motion grammar. Replace image 1's straight arrow with ONE bold ice-cyan PARABOLIC LEAP ARROW like input 2: a tail at lower left rises in a single inverted-U arch then descends to a downward/rightward arrowhead at lower right, clearly connecting two different positions. The freezer is airborne above the central part of this arch, analogous to how the pawn is above the arch in the vanilla reference. It must read as leaping from a departure end to a landing end, not circling, not rotating or orbiting around the freezer. No ellipse, ring, wraparound spiral, U-turn or straight flat arrow. Use one arc only, thick dark-indigo contour and 2–3 simple cyan shading values; no additional landing dot, crosshair, burst, particle, floor or trail. Keep bold simple white/indigo/ice-cyan game-icon styling, generous safe margin, square composition and true transparent alpha. No pawn/person, no text, no UI frame, no scene or background, no flames. The external vanilla image supplies trajectory language only; do not copy its beige pawn or beige color.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "rimworld-longjump-icon"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandIcons/NearFieldPulse.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/RefillCoolant.generated.png",
+      "origin": "project_imagegen_reference_generation",
+      "inputs": [
+        {
+          "kind": "external_required_mod_item_identity_reference",
+          "defName": "Nivarian_CryoCoolant",
+          "assetPath": "Nivarian/Icon/Item/bio_coolant",
+          "included": false,
+          "requiredForRasterExport": false,
+          "role": "Nivarian coolant-package identity reference / 涅瓦莲冷却液包装身份参考"
+        },
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+        "ArtSource/CommandFly.generated.png"
+      ],
+      "role": "Coolant service-port refill action / 冷却液检修口加注动作",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/RefillCoolant.png"
+      ],
+      "operation": "generate_with_reference",
+      "operationEvidence": "documented",
+      "referenceMode": "mixed",
+      "references": [
+        {
+          "externalReference": "nivarian-cryo-coolant-icon",
+          "purpose": "item_identity_reference",
+          "evidence": "recorded",
+          "requiredForRasterExport": false
+        },
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "production_parent_or_design_reference",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Use case: stylized-concept. Generate ONE square transparent RimWorld button icon draft titled semantically REFILL COOLANT, with NO text. Image 1 is the actual Nivarian coolant cartridge identity: blue rectangular container, light silver chamfered frame, mustard-yellow top closure, dark horizontal band; preserve that recognizable identity, remove all lettering. Image 2 is our accepted PEPPER freezer appliance, derived from the one F.A.F. master: preserve its grey-white ceramic casing, deep-indigo mechanical front, dark vents and cyan hexagonal status module. Image 3 is our F.A.F. command-icon bold outlines and simple shading style. New CLOSE-UP COMPOSITION: show only a large cropped CORNER of this actual freezer, not an entire tiny freezer and not a separate little basin. The large glass STORAGE LID is firmly CLOSED and latched; its sealed glass plane and continuous solid rim can be partly visible at the top of the crop. Add a clearly SEPARATE SMALL EXTERNAL SERVICE FILLER NECK on the OUTSIDE electromechanical side panel: a raised round silver-collared pipe inlet with a small open protective cap, isolated from the glass storage chamber by an intact solid white body panel. A single large coolant cartridge tilts down from above/left and pours one short thick cyan liquid stream directly into this small service neck ONLY. Its pouring mouth points visibly at that exact filler neck. The viewer must instantly understand REFILLING THE FREEZER'S COOLANT TANK THROUGH ITS SERVICE PORT, never pouring liquid into food storage. The service port is small and round, never a rectangular open compartment; no visible cabinet interior, no open large lid, no bucket, bowl, tray, open storage well or standalone reservoir. Keep bottle, stream and service neck large and clearly connected at64 pixels. Bold dark-indigo contour, broad pale white/indigo/cyan blocks, 2–3 shading values, simplified hardware, safe square edge margin and true transparent alpha. No people, arrows, words, UI frame, flame, lightning, floor or scenery.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-cryo-coolant-icon"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandIcons/RefillCoolant.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/QuickDisembark.generated.png",
+      "origin": "project_imagegen_reference_edit",
+      "inputs": [],
+      "designReferences": [
+        "ArtSource/FlyingCabinet.master.png",
+        "ArtSource/CommandFly.generated.png",
+        "ArtSource/IndependentCover/stage-A-new-pose.png"
+      ],
+      "role": "Nivarian leaving the freezer / 涅瓦莲离柜动作",
+      "outputs": [
+        "Mod/Textures/FAF/UI/Commands/QuickDisembark.png"
+      ],
+      "operation": "image_edit",
+      "operationEvidence": "documented",
+      "referenceMode": "project",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinet.master.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "asset": "ArtSource/IndependentCover/stage-A-new-pose.png",
+          "purpose": "design_ancestry",
+          "evidence": "recorded"
+        },
+        {
+          "projectReference": "unindexed-composition-target:QuickDisembark.generated",
+          "assetPath": null,
+          "purpose": "edit_target_or_layout_reference",
+          "evidence": "recorded_generation_input",
+          "indexedPathStatus": "not_recovered_in_selected_catalog",
+          "requiredForRasterExport": false
+        }
+      ],
+      "prompt": {
+        "status": "recorded_actual",
+        "text": "Precise-object-edit of the provided transparent QUICK DISEMBARK command icon. Keep the same open freezer appliance, white/indigo/cyan hardware family, thick compressor wall, camera angle, long-edge-hinged glass lid, existing outward cyan arrow, overall composition and transparent background. Change ONLY the occupant into a MUCH SIMPLER Nivarian PAWN PICTOGRAM that reads clearly at 64 pixels: one large round pale head under a single smooth silver-blue hair-cap shape, TWO broad ice-cyan swept horns, one plain white-and-indigo tapered torso, two short simple feet, and one smooth curved cyan tail without scales. No individual hair strands, no layered bangs, no bow detail, no jewelry, no buttons, no seams, no cloth folds, no fingers, no face rendering or facial anatomy; the face may be a blank pale oval. The simple character remains calmly standing outside to the right, visibly separate from the freezer silhouette with a clear transparent gap. Preserve the outward movement meaning: character leaving, NOT entering, NOT flying, NOT being launched, NOT dumping cargo. Use at most a few flat broad shapes and 2–3 shading values, bold dark-indigo contours, same pale-white/indigo/ice-cyan palette. Do not alter the freezer or add any other symbol, text, border, scenery, floor, flame, smoke or background. True transparent alpha, square icon safe margin.",
+        "evidenceType": "retained_generation_record",
+        "recordingConvention": "recorded_text_with_current_owned_source_filename_aliases",
+        "redactions": [],
+        "reconstructed": false
+      },
+      "softwareRecipe": null,
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "embedded_family_only",
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "selected_source_or_production_parent",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "ArtSource/CommandIcons/QuickDisembark.generated.png"
+      }
+    }
+  ],
+  "runtimeProcessing": {
+    "cabinetTool": "Tools/Prepare-CabinetUpgrades.py",
+    "facingHingeSide": {
+      "north": "left long edge",
+      "east": "upper long edge",
+      "south": "right long edge",
+      "west": "lower long edge"
+    },
+    "canvas": [
+      512,
+      512
+    ],
+    "drawSize": [
+      4,
+      4
+    ],
+    "logicalFootprint": [
+      1,
+      2
+    ],
+    "topSurfaceOffsetZ": 0.2,
+    "nsWindow": [
+      207.5,
+      127.9,
+      97,
+      205
+    ],
+    "ewWindow": [
+      153.5,
+      181.9,
+      205,
+      97
+    ],
+    "sourceWindows": {
+      "ns": [
+        195,
+        210,
+        494,
+        1137
+      ],
+      "east": [
+        223,
+        257,
+        1172,
+        328
+      ],
+      "west": {
+        "Base": [
+          223,
+          243,
+          1172,
+          328
+        ],
+        "Pepper": [
+          223,
+          257,
+          1172,
+          328
+        ],
+        "Salt": [
+          223,
+          257,
+          1172,
+          328
+        ]
+      }
+    },
+    "sleepingPadTool": "Tools/Prepare-Textures.ps1 -MattressOnly",
+    "sleepingPadAlpha": "Source-fringe cleanup, silhouette crop and window fit; exterior rounded corners stay transparent and no opaque rectangle is drawn underneath / 外围雾边清理、轮廓裁切及窗口适配；圆角外保持透明，不在下方绘制不透明矩形"
+  },
+  "repositoryBoundary": "Only manifest-owned self-generated ArtSource is public; external references are excluded. Source, Tools and ArtSource are development-repository material and do not enter player packages / 仅清单选入自生成ArtSource公开，外部参考排除；Source、Tools与ArtSource用于开发仓库，不进入玩家包",
+  "runtimeImages": [
+    {
+      "path": "Mod/About/ModIcon.png",
+      "parents": [
+        "ArtSource/CommandFly.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-About.py",
+        "method": "freezer_only_crop_resize_center",
+        "sourceCrop": [
+          0,
+          431,
+          1254,
+          1254
+        ],
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          60,
+          60
+        ],
+        "canvas": [
+          64,
+          64
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/About/ModIcon.png"
+      }
+    },
+    {
+      "path": "Mod/About/Preview.png",
+      "parents": [
+        "ArtSource/Preview.generated.png"
+      ],
+      "operation": "copy_alias",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/Preview.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/Preview.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-About.py",
+        "method": "unchanged_file_copy",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/Preview.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/About/Preview.png"
+      }
+    },
+    {
+      "path": "Mod/About/Preview_zh-Hans.png",
+      "parents": [
+        "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png"
+      ],
+      "operation": "copy_alias",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "file_copy",
+        "method": "unchanged_file_copy",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/About/Preview_zh-Hans.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_east.png",
+      "parents": [
+        "ArtSource/FlyingCabinetHorizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/FlyingCabinetHorizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/FlyingCabinetHorizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_east.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_east.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_east.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_east.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_east.png",
+      "parents": [
+        "ArtSource/FlyingCabinetHorizontal.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/FlyingCabinetHorizontal.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/FlyingCabinetHorizontal.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/FlyingCabinetHorizontal.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_north.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_south.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_west.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPadPacked.png",
+      "parents": [
+        "ArtSource/PortableSleepingPadPacked.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPadPacked.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPadPacked.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-PackedMattress.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          224,
+          224
+        ],
+        "canvas": [
+          256,
+          256
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPadPacked.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPadPacked.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_east.png",
+      "parents": [
+        "ArtSource/PortableSleepingPad.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-Textures.ps1",
+        "scope": "-MattressOnly",
+        "method": "alpha_fringe_cleanup_crop_window_fit_rotate",
+        "window": [
+          31,
+          51,
+          194,
+          410
+        ],
+        "opaqueUnderlay": false,
+        "clockwiseDegrees": 270,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_north.png",
+      "parents": [
+        "ArtSource/PortableSleepingPad.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-Textures.ps1",
+        "scope": "-MattressOnly",
+        "method": "alpha_fringe_cleanup_crop_window_fit_rotate",
+        "window": [
+          31,
+          51,
+          194,
+          410
+        ],
+        "opaqueUnderlay": false,
+        "clockwiseDegrees": 180,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_south.png",
+      "parents": [
+        "ArtSource/PortableSleepingPad.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-Textures.ps1",
+        "scope": "-MattressOnly",
+        "method": "alpha_fringe_cleanup_crop_window_fit_rotate",
+        "window": [
+          31,
+          51,
+          194,
+          410
+        ],
+        "opaqueUnderlay": false,
+        "clockwiseDegrees": 0,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_west.png",
+      "parents": [
+        "ArtSource/PortableSleepingPad.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/PortableSleepingPad.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-Textures.ps1",
+        "scope": "-MattressOnly",
+        "method": "alpha_fringe_cleanup_crop_window_fit_rotate",
+        "window": [
+          31,
+          51,
+          194,
+          410
+        ],
+        "opaqueUnderlay": false,
+        "clockwiseDegrees": 90,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/PortableSleepingPad.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/Fly.png",
+      "parents": [
+        "ArtSource/CommandFly.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandFly.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandFly.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/Fly.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/InstallSleepingPad.png",
+      "parents": [
+        "ArtSource/CommandInstallSleepingPad.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandInstallSleepingPad.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandInstallSleepingPad.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandInstallSleepingPad.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/InstallSleepingPad.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/LaunchCabinet.png",
+      "parents": [
+        "ArtSource/CommandLaunchCabinet.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandLaunchCabinet.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandLaunchCabinet.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandLaunchCabinet.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/LaunchCabinet.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/NearFieldPulse.png",
+      "parents": [
+        "ArtSource/CommandIcons/NearFieldPulse.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandIcons/NearFieldPulse.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandIcons/NearFieldPulse.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandIcons/NearFieldPulse.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [
+        "rimworld-longjump-icon"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/NearFieldPulse.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/QuickDisembark.png",
+      "parents": [
+        "ArtSource/CommandIcons/QuickDisembark.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandIcons/QuickDisembark.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandIcons/QuickDisembark.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandIcons/QuickDisembark.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [
+        "nivarian-nira-portrait"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/QuickDisembark.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/RefillCoolant.png",
+      "parents": [
+        "ArtSource/CommandIcons/RefillCoolant.generated.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/CommandIcons/RefillCoolant.generated.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/CommandIcons/RefillCoolant.generated.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CommandIcons.py",
+        "method": "alpha_crop_proportional_resize_center",
+        "alphaClearBelow": 16,
+        "fitWithin": [
+          120,
+          120
+        ],
+        "canvas": [
+          128,
+          128
+        ],
+        "resampling": "LANCZOS",
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/CommandIcons/RefillCoolant.generated.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [
+        "nivarian-cryo-coolant-icon"
+      ],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/Commands/RefillCoolant.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinet.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinet.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinetPepper.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinetPepper.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinetSalt.png",
+      "parents": [
+        "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      ],
+      "operation": "programmatic_derived",
+      "operationEvidence": "current_exporter_implementation_and_output_mapping",
+      "referenceMode": "inherited",
+      "references": [
+        {
+          "asset": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+          "purpose": "raster_input",
+          "evidence": "recorded"
+        }
+      ],
+      "prompt": {
+        "status": "inherited_from_parent",
+        "text": null,
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "reconstructed": false
+      },
+      "softwareRecipe": {
+        "tool": "Tools/Prepare-CabinetUpgrades.py",
+        "method": "fixed_camera_affine_projection_and_alpha_layers",
+        "parametersRef": "#/runtimeProcessing",
+        "frameWindowAlpha": null,
+        "status": "current_exporter_recipe",
+        "evidenceScope": "Method from current exporter implementation and registered output mapping, not an execution timestamp / 方法来自当前导出实现与登记输出映射，不代表执行时间记录"
+      },
+      "rightsPolicyRef": "#/rightsPolicy",
+      "modelRef": "#/modelDeclaration",
+      "modelEvidence": {
+        "level": "inherited_from_parents",
+        "inheritFrom": [
+          "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+        ],
+        "numericPerCallVersionVerified": false
+      },
+      "usage": "runtime_asset",
+      "externalReferenceLineage": [],
+      "formatMetadataRef": {
+        "catalog": "ArtSource/distribution-metadata.json",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinetSalt.png"
+      }
+    }
+  ],
+  "rightsPolicy": {
+    "notice": "Mod/THIRD_PARTY_NOTICES.md",
+    "usageScope": "with_this_mod_only",
+    "standaloneAssetRedistribution": "not_granted",
+    "grantScope": "only_rights_we_can_grant",
+    "thirdPartyRightsGranted": false,
+    "externalReferenceAndCharacterRightsIncluded": false,
+    "rightsHolderForExternalMaterial": "respective_rights_holders",
+    "meaning": "The project's grant is limited to rights it can grant. External reference images and character rights remain outside that grant; this does not assert that their owners prohibit all uses / 本项目仅授予有权授予的权利，外部参考图与角色权利不纳入；这不等于认定权利人禁止一切使用"
+  },
+  "modelDeclaration": {
+    "attribution": "GPT Images 2.5 (OpenAI)",
+    "declaredVersion": "2.5",
+    "declarationEvidence": "maintainer_confirmation",
+    "perCallApiModelId": null,
+    "perCallVersionVerified": false,
+    "embeddedEvidenceLimit": "C2PA softwareAgent version gpt-image identifies the family, not a numeric per-call model version / C2PA的gpt-image标识家族，不证明单次调用数字版本"
+  },
+  "externalReferences": {
+    "nivarian-nira-portrait": {
+      "identity": "Nira portrait and Nivarian character/species reference / Nira立绘及涅瓦莲角色/种族参考",
+      "sourceId": "external:nivarian-base-mod",
+      "sourceName": "Nivarian base mod, Nira portrait",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3624805128",
+      "rightsHolder": "unconfirmed_respective_rights_holders",
+      "modAuthor": {
+        "name": "keeptpa",
+        "scope": "mod_metadata_author_not_specific_portrait_attribution"
+      },
+      "modWideArtCredits": {
+        "names": [
+          "神月Shione",
+          "大王(一木)"
+        ],
+        "scope": "mod_wide_not_specific_nira_attribution"
+      },
+      "licenseStatus": "not_found_in_checked_sources",
+      "licenseReview": {
+        "explicitPortraitOrCharacterPermission": "not_found",
+        "explicitPortraitOrCharacterProhibition": "not_found",
+        "softwareAndAudioLicensesDoNotEstablishPortraitRights": true,
+        "checkedSources": [
+          {
+            "sourceId": "external:nivarian-base-mod",
+            "sourceName": "About/About.xml",
+            "lines": [
+              6,
+              10
+            ],
+            "scope": "mod_author_metadata_only"
+          },
+          {
+            "sourceId": "external:nivarian-base-mod",
+            "sourceName": "1.7/RU/LICENSE",
+            "lines": [
+              1,
+              13
+            ],
+            "scope": "RimUnity_software_MIT_not_portrait_or_character"
+          },
+          {
+            "sourceId": "external:nivarian-base-mod",
+            "sourceName": "1.7/RU/README.en.md",
+            "lines": [
+              64,
+              64
+            ],
+            "scope": "RimUnity_software_MIT_not_portrait_or_character"
+          },
+          {
+            "sourceId": "external:nivarian-base-mod",
+            "sourceName": "About/Licenses",
+            "scope": "audio_licenses_not_portrait_or_character"
+          },
+          {
+            "sourceName": "Steam Workshop mod description, cached page",
+            "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3624805128&searchtext=",
+            "scope": "mod_wide_art_credits_not_specific_nira_rights",
+            "limitations": "Accessible copy is older cached content; direct current page was region-restricted. Not represented as a latest-page verification / 可访问内容为较旧缓存，当前直接页受地区限制，不作为最新页面核验"
+          }
+        ]
+      },
+      "consent": {
+        "status": "maintainer_reported_no_objection",
+        "evidenceType": "maintainer_report",
+        "scope": "existing_FAF_project_and_selected_cover_context",
+        "writtenLicenseVerified": false,
+        "sublicensingEstablished": false
+      },
+      "includedInRepository": false,
+      "includedInPlayerPackage": false,
+      "ourGrantIncludesTheseRights": false
+    },
+    "rimworld-longjump-icon": {
+      "identity": "RimWorld Longjump icon / RimWorld长跃图标",
+      "assetId": "UI/Abilities/Longjump",
+      "sourceUrl": "https://rimworldwiki.com/wiki/File:Longjump.png",
+      "rightsHolder": "respective_rimworld_rights_holders",
+      "licenseStatus": "not_asserted_by_this_catalog",
+      "includedInRepository": false,
+      "includedInPlayerPackage": false,
+      "ourGrantIncludesTheseRights": false
+    },
+    "nivarian-cryo-coolant-icon": {
+      "identity": "Nivarian coolant-package identity / 涅瓦莲冷却液包装身份",
+      "defName": "Nivarian_CryoCoolant",
+      "assetId": "Nivarian/Icon/Item/bio_coolant",
+      "sourceId": "external:nivarian-base-mod",
+      "rightsHolder": "unconfirmed_respective_rights_holders",
+      "licenseStatus": "not_asserted_for_this_specific_image",
+      "includedInRepository": false,
+      "includedInPlayerPackage": false,
+      "ourGrantIncludesTheseRights": false
+    },
+    "user-layout-sketch": {
+      "identity": "User-supplied poster layout sketch / 用户提供的海报布局草图",
+      "rightsHolder": "respective_rights_holders",
+      "licenseStatus": "not_asserted_by_this_catalog",
+      "includedInRepository": false,
+      "includedInPlayerPackage": false,
+      "ourGrantIncludesTheseRights": false
+    }
+  },
+  "operationVocabulary": [
+    "generate_no_reference",
+    "generate_with_reference",
+    "image_edit",
+    "programmatic_derived",
+    "copy_alias",
+    "unknown"
+  ],
+  "referenceModeVocabulary": [
+    "none",
+    "project",
+    "external",
+    "mixed",
+    "inherited",
+    "unknown"
+  ],
+  "promptPolicy": "Only recovered actual prompt text is included; path redactions are labelled. Derived/copy assets inherit parent prompts, and missing actual prompts remain null/unavailable. No reconstructed prompts are supplied / 仅附恢复的实际提示并标注路径脱敏；派生/复制链至父源，缺失提示保留null/unavailable，不提供重构提示",
+  "referenceClassificationPolicy": "No-reference generation requires an affirmative no-reference generation record. Missing PNG metadata does not establish absent references; uncertainty stays unknown / 无参考生成须有无参考记录的正面依据；PNG元数据缺失不证明无参考，不确定者保留unknown"
+}

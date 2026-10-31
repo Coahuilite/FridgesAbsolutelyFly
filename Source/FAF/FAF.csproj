@@ -1,0 +1,47 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GameVersion Condition="'$(GameVersion)' == ''">1.6</GameVersion>
+    <TargetFramework Condition="'$(GameVersion)' == '1.6'">net472</TargetFramework>
+    <TargetFramework Condition="'$(GameVersion)' == '1.7'">net10.0</TargetFramework>
+    <AssemblyName>FAF.FridgesAbsolutelyFly</AssemblyName>
+    <Version>0.1.0</Version>
+    <RootNamespace>FAF</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <GenerateTargetFrameworkAttribute>true</GenerateTargetFrameworkAttribute>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=/FAF/Source</PathMap>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>../../Mod/$(GameVersion)/Assemblies/</OutputPath>
+    <DefineConstants Condition="'$(GameVersion)' == '1.6'">$(DefineConstants);RIMWORLD_16</DefineConstants>
+    <DefineConstants Condition="'$(GameVersion)' == '1.7'">$(DefineConstants);RIMWORLD_17</DefineConstants>
+  </PropertyGroup>
+  <Target Name="ValidateInputs" BeforeTargets="ResolveReferences">
+    <Error Condition="'$(GameVersion)' != '1.6' And '$(GameVersion)' != '1.7'" Text="GameVersion must be 1.6 or 1.7." />
+    <Error Condition="!Exists('$(GameReferencesDir)/Assembly-CSharp.dll')" Text="Set GameReferencesDir to the target version's managed references directory." />
+    <Error Condition="!Exists('$(HarmonyAssemblyPath)')" Text="Set HarmonyAssemblyPath to this game version's 0Harmony.dll." />
+    <Error Condition="!Exists('$(UpstreamAssemblyPath)')" Text="Set UpstreamAssemblyPath to this game version's NivarianSleepInFridges.dll." />
+  </Target>
+  <ItemGroup>
+    <Compile Include="Core/**/*.cs;Integration/**/*.cs;Rendering/**/*.cs;Cabinet/**/*.cs;UI/**/*.cs;Transport/**/*.cs;Adapters/$(GameVersion)/**/*.cs" />
+    <Reference Include="Assembly-CSharp" HintPath="$(GameReferencesDir)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(HarmonyAssemblyPath)" Private="false" />
+    <Reference Include="NivarianSleepInFridges" HintPath="$(UpstreamAssemblyPath)" Private="false" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(GameVersion)' == '1.6'">
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(GameReferencesDir)/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(GameReferencesDir)/UnityEngine.InputLegacyModule.dll" Private="false" />
+    <Reference Include="UnityEngine.IMGUIModule" HintPath="$(GameReferencesDir)/UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(GameReferencesDir)/UnityEngine.TextRenderingModule.dll" Private="false" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(GameVersion)' == '1.7'">
+    <Reference Include="UnityStubs" HintPath="$(GameReferencesDir)/UnityStubs.dll" Private="false" />
+    <Reference Include="Waylith" HintPath="$(GameReferencesDir)/Waylith.dll" Private="false" />
+    <Reference Include="Waylith.UnityCompat" HintPath="$(GameReferencesDir)/Waylith.UnityCompat.dll" Private="false" />
+  </ItemGroup>
+</Project>

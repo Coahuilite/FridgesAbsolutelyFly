@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Defs>
+  <!-- EN: Coolant units are real bottles in the one shared cabinet tank; no launch-only reserve. -->
+  <!-- 中：单位为共用柜仓中的真实冷却液瓶，不设发射专仓。 -->
+  <FAF.Transport.CabinetTravelDef>
+    <defName>FAF_CabinetTravel</defName>
+    <mapRange>35</mapRange>
+    <mapBaseCoolant>0.05</mapBaseCoolant>
+    <mapCoolantPerCell>0.003</mapCoolantPerCell>
+    <worldRange>60</worldRange>
+    <orbitRange>10</orbitRange>
+    <worldBaseCoolant>0.20</worldBaseCoolant>
+    <worldCoolantPerTile>0.035</worldCoolantPerTile>
+    <orbitAscentBaseCoolant>1</orbitAscentBaseCoolant>
+    <orbitDistanceFactor>20</orbitDistanceFactor>
+    <worldPeakRadiansPerTick>0.00015</worldPeakRadiansPerTick>
+    <accelerationFraction>0.30</accelerationFraction>
+    <brakingFraction>0.08</brakingFraction>
+    <minimumWorldTicks>1200</minimumWorldTicks>
+    <orbitAscentTicks>5400</orbitAscentTicks>
+    <orbitDescentTicks>900</orbitDescentTicks>
+    <massCapacity>250</massCapacity>
+    <cooldownTicks>2500</cooldownTicks>
+  </FAF.Transport.CabinetTravelDef>
+  <JobDef>
+    <defName>FAF_PrepareCabinetRest</defName>
+    <driverClass>FAF.Transport.JobDriver_PrepareCabinetRest</driverClass>
+    <reportString>waiting for a safe freezer atmosphere.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <!-- EN: Native Core leaving/pod/world-arrival pipeline, not a PassengerShuttle or CompShuttle. -->
+  <!-- 中：原生Core离图/运输舱/世界抵达链，不伪装载客穿梭机。 -->
+  <ThingDef ParentName="DropPodLeaving">
+    <defName>FAF_CabinetLeaving</defName>
+    <label>household freezer (departing)</label>
+    <thingClass>FAF.Transport.CabinetLeaving</thingClass>
+    <graphicData>
+      <texPath>FAF/UI/FlyingCabinetSalt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>2.2</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Native incoming dust/impact is retained; only our real layered cabinet replaces the pod artwork.
+       保留原生入场烟尘/冲击；以本柜真实分层替代运输舱画面。 -->
+  <ThingDef ParentName="DropPodIncoming">
+    <defName>FAF_CabinetIncoming</defName>
+    <label>household freezer (arriving)</label>
+    <thingClass>FAF.Transport.CabinetIncoming</thingClass>
+  </ThingDef>
+  <ThingDef>
+    <defName>FAF_CabinetMapFlyer</defName>
+    <label>household freezer (flying)</label>
+    <thingClass>FAF.Transport.CabinetMapFlyer</thingClass>
+    <category>Ethereal</category>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Skyfaller</altitudeLayer>
+    <selectable>true</selectable>
+    <useHitPoints>false</useHitPoints>
+    <graphicData><texPath>FAF/Buildings/FlyingCabinetSaltInterior</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>4</drawSize></graphicData>
+    <pawnFlyer><flightDurationMin>1</flightDurationMin><flightSpeed>9</flightSpeed><heightFactor>2</heightFactor></pawnFlyer>
+  </ThingDef>
+  <ThingDef>
+    <defName>FAF_CabinetBreach</defName>
+    <label>breached freezer debris</label>
+    <thingClass>FAF.Transport.CabinetBreach</thingClass>
+    <category>Item</category>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <useHitPoints>false</useHitPoints>
+    <graphicData><texPath>Things/Filth/RubbleBuilding</texPath><graphicClass>Graphic_Cluster</graphicClass><shaderType>Transparent</shaderType><drawSize>1</drawSize></graphicData>
+  </ThingDef>
+  <!-- EN: Failed landing placements retain their real payload; other Core pods are unchanged. -->
+  <!-- 中：落物失败保留真实载荷，不改变其他 Core 运输舱。 -->
+  <ThingDef ParentName="ActiveDropPod">
+    <defName>FAF_CabinetActivePod</defName>
+    <label>household freezer (landed)</label>
+    <thingClass>FAF.Transport.CabinetActivePod</thingClass>
+    <drawerType>RealtimeOnly</drawerType>
+  </ThingDef>
+  <WorldObjectDef>
+    <defName>FAF_CabinetTravelling</defName>
+    <label>freezer flight</label>
+    <description>Freezer in flight</description>
+    <worldObjectClass>FAF.Transport.CabinetTravellingTransporters</worldObjectClass>
+    <texture>FAF/UI/FlyingCabinetSalt</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>FAF/UI/FlyingCabinetSalt</expandingIconTexture>
+    <expandingIconPriority>60</expandingIconPriority>
+    <rotateGraphicWhenTraveling>true</rotateGraphicWhenTraveling>
+    <validLaunchTarget>false</validLaunchTarget>
+  </WorldObjectDef>
+  <WorldObjectDef>
+    <defName>FAF_CabinetRecoverySite</defName>
+    <label>freezer recovery point</label>
+    <description>Undelivered freezer payloads. Send a player caravan here to recover the original freezers, cargo and remains. Stored resources and perishables continue to tick normally.</description>
+    <worldObjectClass>FAF.Transport.CabinetRecoverySite</worldObjectClass>
+    <texture>World/WorldObjects/TravelingTransportPods</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/TravelingTransportPods</expandingIconTexture>
+    <expandingIconPriority>60</expandingIconPriority>
+    <expandMore>true</expandMore>
+    <validLaunchTarget>false</validLaunchTarget>
+  </WorldObjectDef>
+</Defs>

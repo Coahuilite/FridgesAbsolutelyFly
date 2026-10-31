@@ -1,0 +1,30 @@
+# SPDX-License-Identifier: MPL-2.0
+schema: spec-driven
+
+context: |
+  Language: zh-CN
+  All artifacts must be written in zh-CN.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  F.A.F. is a RimWorld 1.6/1.7 add-on; N.S.I.F. refers to its upstream mod.
+  Main specs are the sole current behavior contract, not proof of implementation.
+  Change deltas remain candidates until an explicit adoption updates the current specs.
+  Keep progress, per-task owners, TODOs and evidence out of spec.md files.
+  Spec headers may state normative status, maintenance responsibility and applicability.
+  State and evidence belong in a change's status.md; execution belongs in tasks.md.
+  Preserve stable save identifiers and real Thing/Pawn ownership.
+  No automatic game launch/deployment or game-version changes.
+  Do not add unit tests or equivalent validation scripts; existing CLI checks/builds are allowed.
+  Use pwsh, never Windows PowerShell 5.x.
+
+rules:
+  specs:
+    - Write short observable requirements with stable IDs and concrete scenarios.
+    - Keep class names, patch anchors, implementation choices and progress in other artifacts.
+    - Preserve agreed behavior; use deltas only for real rule changes, not restoration or editorial migration.
+    - Document actual producer-consumer duties without creating duplicate state or speculative infrastructure.
+  design:
+    - Keep one state authority per inventory, occupant, resource and lifecycle phase.
+    - Separate stable gameplay from actual version-specific seams without wrapping every game API.
+  tasks:
+    - Mark a task complete only when its stated acceptance condition is satisfied.
+    - Do not equate written code, compilation and native game validation.

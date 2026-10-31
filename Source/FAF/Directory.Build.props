@@ -1,0 +1,9 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<Project>
+  <PropertyGroup>
+    <!-- EN: Keep transient compiler/NuGet files in the ignored workspace cache, outside Mod. -->
+    <!-- 中：编译器与 NuGet 临时文件放在忽略的工作区缓存中，不进入 Mod。 -->
+    <GameVersion Condition="'$(GameVersion)' == ''">1.6</GameVersion>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.build/$(GameVersion)/</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

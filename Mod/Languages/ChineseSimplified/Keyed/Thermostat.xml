@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_ThermostatTitle>智能恒温器</FAF_ThermostatTitle>
+  <FAF_ThermostatOpenDesc>设定目标温度，管理电池与可选冷却液备用。</FAF_ThermostatOpenDesc>
+  <FAF_ThermostatInside>柜内</FAF_ThermostatInside>
+  <FAF_ThermostatOutside>柜外</FAF_ThermostatOutside>
+  <FAF_ThermostatTarget>目标温度</FAF_ThermostatTarget>
+  <FAF_ThermostatRange>范围：{0} – {1}</FAF_ThermostatRange>
+  <FAF_ThermostatDemand>温控需求：{0} W</FAF_ThermostatDemand>
+  <FAF_ThermostatSupply>当前来源：{0}</FAF_ThermostatSupply>
+  <FAF_ThermostatBattery>内置电池</FAF_ThermostatBattery>
+  <FAF_ThermostatEnergy>{0} / {1} 瓦日</FAF_ThermostatEnergy>
+  <FAF_ThermostatBatteryDrain>净消耗：{0} W</FAF_ThermostatBatteryDrain>
+  <FAF_ThermostatBatteryCharge>正在充电：{0} W</FAF_ThermostatBatteryCharge>
+  <FAF_ThermostatBatteryIdle>储能未变</FAF_ThermostatBatteryIdle>
+  <FAF_ThermostatBatteryUnknown>正在测量储能变化…</FAF_ThermostatBatteryUnknown>
+  <FAF_ThermostatRemaining>预计续航：{0}</FAF_ThermostatRemaining>
+  <FAF_ThermostatEmpty>已耗尽</FAF_ThermostatEmpty>
+  <FAF_ThermostatNoSample>待采样</FAF_ThermostatNoSample>
+  <FAF_ThermostatInfinite>∞（未消耗）</FAF_ThermostatInfinite>
+  <FAF_ThermostatDays>{0} 天</FAF_ThermostatDays>
+  <FAF_ThermostatHours>{0} 小时</FAF_ThermostatHours>
+  <FAF_ThermostatCoolant>冷却液</FAF_ThermostatCoolant>
+  <FAF_ThermostatCoolantAmount>{0} / {1}</FAF_ThermostatCoolantAmount>
+  <FAF_ThermostatCoolantUse>消耗：{0} / 天</FAF_ThermostatCoolantUse>
+  <FAF_ThermostatCoolantBackup>允许冷却液备用</FAF_ThermostatCoolantBackup>
+  <FAF_ThermostatCoolantBackupDesc>冷却液仅供降温备用，且仅在电网和内置电池均无法供冷时消耗；升温必须使用电力。</FAF_ThermostatCoolantBackupDesc>
+  <FAF_ThermostatBatteryFlowDesc>电池净变化包括充电、向电网供电与自放电；温控需求单独显示。</FAF_ThermostatBatteryFlowDesc>
+  <FAF_ThermostatSwitchOn>已开启</FAF_ThermostatSwitchOn>
+  <FAF_ThermostatSwitchOff>已关闭</FAF_ThermostatSwitchOff>
+  <FAF_ThermostatRefuel>补充冷却液</FAF_ThermostatRefuel>
+  <FAF_ThermostatReturn>取出冷却液</FAF_ThermostatReturn>
+  <FAF_ThermostatReconnect>重新接线</FAF_ThermostatReconnect>
+  <FAF_ThermostatSourceOff>温控已关闭</FAF_ThermostatSourceOff>
+  <FAF_ThermostatSourceIdle>无需主动温控</FAF_ThermostatSourceIdle>
+  <FAF_ThermostatSourceElectricity>电力</FAF_ThermostatSourceElectricity>
+  <FAF_ThermostatSourceCoolant>备用冷却液</FAF_ThermostatSourceCoolant>
+  <FAF_ThermostatSourceUnavailable>温控无可用能源</FAF_ThermostatSourceUnavailable>
+  <FAF_ThermostatSourceHeatingUnavailable>无可用制热电源</FAF_ThermostatSourceHeatingUnavailable>
+  <FAF_ThermostatSourceWaiting>等待供电</FAF_ThermostatSourceWaiting>
+  <FAF_ThermostatWireAutomatic>自动连接导线（相邻或6格范围内）</FAF_ThermostatWireAutomatic>
+  <FAF_CoolantBackupDisabled>请先在恒温器中启用冷却液备用，再补充冷却液。</FAF_CoolantBackupDisabled>
+  <FAF_NoCoolantHauler>没有可用的搬运工能为此柜补充冷却液，请检查冷却液库存、通路与预留。</FAF_NoCoolantHauler>
+  <FAF_CoolantFractionRetained>没有完整未用的瓶量可取出。剩余部分瓶量保留在备用仓，冷却液备用现已关闭。</FAF_CoolantFractionRetained>
+  <FAF_RapidThermalControl>快速稳温</FAF_RapidThermalControl>
+  <FAF_RapidThermalControlDesc>主动热能力和用电需求同步提高至{0}倍；仅在制冷时，备用冷却液消耗也按同一倍率增加。被动保温不变。</FAF_RapidThermalControlDesc>
+  <FAF_CoolantReserveFull>已达到补液目标，或剩余空位不足一整瓶。</FAF_CoolantReserveFull>
+  <FAF_CoolingRegulatorTitle>冷藏调节器</FAF_CoolingRegulatorTitle>
+  <FAF_CoolingRegulatorDesc>为基础冷柜设定冷藏或冷冻目标。</FAF_CoolingRegulatorDesc>
+  <FAF_CabinetUnavailable>此冷柜当前不可管理。</FAF_CabinetUnavailable>
+  <FAF_DevelopmentOnly>需要开发者模式。</FAF_DevelopmentOnly>
+  <FAF_ThermostatSourceMixed>电力与备用冷却液接力</FAF_ThermostatSourceMixed>
+  <FAF_ThermostatDemandDesc>维持用于抵消不利外温。普通拉温另需120 W，达到目标后转为维持；只按实际供能时间消耗资源，无可用能源时温度随环境自然变化。快速稳温同时提高速度与需求；冷却液不能制热。</FAF_ThermostatDemandDesc>
+</LanguageData>

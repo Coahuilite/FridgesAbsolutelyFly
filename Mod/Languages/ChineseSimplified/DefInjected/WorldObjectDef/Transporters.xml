@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_CabinetTravelling.label>冷柜航程</FAF_CabinetTravelling.label>
+  <FAF_CabinetTravelling.description>飞行中的冷柜</FAF_CabinetTravelling.description>
+  <FAF_CabinetRecoverySite.label>冷柜迫降点</FAF_CabinetRecoverySite.label>
+  <FAF_CabinetRecoverySite.description>未能交付的冷柜载荷。可派玩家远行队前往回收原冷柜、货物和遗体；资源与易腐物品仍正常推进。</FAF_CabinetRecoverySite.description>
+</LanguageData>

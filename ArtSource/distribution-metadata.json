@@ -1,0 +1,1846 @@
+{
+  "schemaVersion": 1,
+  "images": [
+    {
+      "path": "ArtSource/FlyingCabinet.master.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/FlyingCabinet.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/FlyingCabinetHorizontal.generated.png",
+      "dimensions": [
+        1619,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/FlyingCabinetHorizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPad.original.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/PortableSleepingPad.original.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPad.generated.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/PortableSleepingPad.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/PortableSleepingPadPacked.generated.png",
+      "dimensions": [
+        1374,
+        1145
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/PortableSleepingPadPacked.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandFly.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandFly.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandInstallSleepingPad.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandInstallSleepingPad.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/ModIcon.derived.png",
+      "dimensions": [
+        1254,
+        823
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/ModIcon.derived.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Pepper-retrofit.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Salt-shuttle.master.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+      "dimensions": [
+        1620,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+      "dimensions": [
+        1619,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+      "dimensions": [
+        1620,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+      "dimensions": [
+        1619,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+      "dimensions": [
+        1619,
+        971
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-A-new-pose.png",
+      "dimensions": [
+        1054,
+        1492
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/stage-A-new-pose.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-B-color-block-character.png",
+      "dimensions": [
+        1054,
+        1492
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/stage-B-color-block-character.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/stage-C-generated-cover.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/stage-C-generated-cover.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/IndependentCover.1280x720.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/IndependentCover.1280x720.png"
+      }
+    },
+    {
+      "path": "ArtSource/Preview.generated.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/Preview.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandLaunchCabinet.composition.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandLaunchCabinet.composition.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandLaunchCabinet.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandLaunchCabinet.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/NearFieldPulse.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandIcons/NearFieldPulse.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/RefillCoolant.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandIcons/RefillCoolant.generated.png"
+      }
+    },
+    {
+      "path": "ArtSource/CommandIcons/QuickDisembark.generated.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": true,
+        "softwareFields": [
+          {
+            "field": "softwareAgent",
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          {
+            "field": "claim_generator_info",
+            "name": "OpenAI Media Service API"
+          }
+        ],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "images",
+        "path": "ArtSource/CommandIcons/QuickDisembark.generated.png"
+      }
+    }
+  ],
+  "purpose": "Read-only PNG format inventory with sidecar provenance links; no PNG payload is changed / 只读PNG格式目录及旁车来源索引，不修改PNG负载",
+  "runtimeImages": [
+    {
+      "path": "Mod/About/ModIcon.png",
+      "dimensions": [
+        64,
+        64
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/About/ModIcon.png"
+      }
+    },
+    {
+      "path": "Mod/About/Preview.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/About/Preview.png"
+      }
+    },
+    {
+      "path": "Mod/About/Preview_zh-Hans.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "RGB",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/About/Preview_zh-Hans.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperFrame_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetPepperInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltFrame_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinetSaltInterior_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_east.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_north.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_south.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_west.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Buildings/FlyingCabinet_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPadPacked.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPadPacked.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_east.png",
+      "dimensions": [
+        512,
+        256
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [
+        "srgb",
+        "gamma",
+        "dpi"
+      ],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_east.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_north.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [
+        "srgb",
+        "gamma",
+        "dpi"
+      ],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_north.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_south.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [
+        "srgb",
+        "gamma",
+        "dpi"
+      ],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_south.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/Things/PortableSleepingPad_west.png",
+      "dimensions": [
+        512,
+        256
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [
+        "srgb",
+        "gamma",
+        "dpi"
+      ],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/Things/PortableSleepingPad_west.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/Fly.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/Fly.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/InstallSleepingPad.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/InstallSleepingPad.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/LaunchCabinet.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/LaunchCabinet.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/NearFieldPulse.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/NearFieldPulse.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/QuickDisembark.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/QuickDisembark.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/Commands/RefillCoolant.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/Commands/RefillCoolant.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinet.png",
+      "dimensions": [
+        134,
+        288
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinet.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinetPepper.png",
+      "dimensions": [
+        153,
+        291
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinetPepper.png"
+      }
+    },
+    {
+      "path": "Mod/Textures/FAF/UI/FlyingCabinetSalt.png",
+      "dimensions": [
+        164,
+        297
+      ],
+      "format": "RGBA",
+      "fileFormat": "PNG",
+      "pngTextOrExifChunks": [],
+      "pillowMetadataKeys": [],
+      "exifEntries": 0,
+      "embeddedProvenance": {
+        "hasC2pa": false,
+        "softwareFields": [],
+        "signatureVerification": "not_performed"
+      },
+      "provenanceRef": {
+        "catalog": "ArtSource/distribution-provenance.json",
+        "collection": "runtimeImages",
+        "path": "Mod/Textures/FAF/UI/FlyingCabinetSalt.png"
+      }
+    }
+  ]
+}

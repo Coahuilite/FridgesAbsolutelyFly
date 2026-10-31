@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_CabinetLeaving.label>航行冷柜</FAF_CabinetLeaving.label>
+  <FAF_CabinetActivePod.label>家用冷柜（已着陆）</FAF_CabinetActivePod.label>
+  <FAF_CabinetIncoming.label>航行冷柜</FAF_CabinetIncoming.label>
+  <FAF_CabinetMapFlyer.label>航行冷柜</FAF_CabinetMapFlyer.label>
+  <FAF_CabinetBreach.label>冷柜残骸</FAF_CabinetBreach.label>
+</LanguageData>

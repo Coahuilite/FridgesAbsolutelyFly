@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData><FAF_LoadCabinet.reportString>正在将TargetA装进TargetB。</FAF_LoadCabinet.reportString>  <FAF_InstallCabinetMattress.reportString>正在将TargetA安装进TargetB。</FAF_InstallCabinetMattress.reportString>
+  <FAF_PrepareCabinetRest.reportString>正在等待冷柜内的安全气氛。</FAF_PrepareCabinetRest.reportString>
+  <FAF_LoadCabinetMattressClearingConfirmed.reportString>正在将TargetA装进TargetB。</FAF_LoadCabinetMattressClearingConfirmed.reportString>
+  <FAF_InstallCabinetMattressClearingConfirmed.reportString>正在将TargetA安装进TargetB。</FAF_InstallCabinetMattressClearingConfirmed.reportString>
+  <FAF_RefuelCabinetAutomatically.reportString>正在向TargetA补充冷却液。</FAF_RefuelCabinetAutomatically.reportString>
+  <FAF_RefuelCabinetManually.reportString>正在向TargetA补充冷却液。</FAF_RefuelCabinetManually.reportString>
+</LanguageData>

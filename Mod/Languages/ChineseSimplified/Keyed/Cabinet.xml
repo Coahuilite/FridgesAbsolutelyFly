@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_CabinetTemperature>柜内温度：{0}</FAF_CabinetTemperature>
+  <FAF_CabinetEnergy>内置电池：{0} / {1} 瓦日</FAF_CabinetEnergy>
+  <FAF_CabinetStored>内部储存：{0} / {1} 叠</FAF_CabinetStored>
+  <FAF_CabinetBedMode>已装睡垫：{0}</FAF_CabinetBedMode>
+  <FAF_CabinetContentsTab>内容物</FAF_CabinetContentsTab>
+  <FAF_AutoLoad>自动装载</FAF_AutoLoad>
+  <FAF_AutoLoadDesc>搬运工会将符合筛选条件的物品从较低优先级的储存处搬进柜内。可在“储存”页调整筛选条件。睡垫需要手动安装。</FAF_AutoLoadDesc>
+  <FAF_LoadItem>装入物品</FAF_LoadItem>
+  <FAF_LoadItemDesc>选择地图上的物品，由可用的殖民者搬进柜内。仍须符合储存筛选条件。</FAF_LoadItemDesc>
+  <FAF_InstallMattress>安装睡垫</FAF_InstallMattress>
+  <FAF_InstallMattressDesc>从本地图选择已铺开或已打包的睡垫。主冷藏仓有货物时，先确认将其移出，独立运输舱保持原样。殖民者按需卸下原睡垫，再搬进柜内。启用“允许睡觉”后，涅瓦莲即可使用柜中的床。</FAF_InstallMattressDesc>
+  <FAF_CabinetMattressExclusive>请先取出睡垫，再储存其他物品。</FAF_CabinetMattressExclusive>
+  <FAF_CabinetMustBeEmpty>请先清空冷柜，再安装睡垫。</FAF_CabinetMustBeEmpty>
+  <FAF_EjectContents>弹出内容物</FAF_EjectContents>
+  <FAF_EjectContentsDesc>将内容物放在柜旁并设为禁用，避免立即被自动装回。可在“内容物”页单独取出每叠物品。</FAF_EjectContentsDesc>
+  <FAF_NoCabinetHauler>没有可用的殖民者能将此物品搬至柜内。</FAF_NoCabinetHauler>
+  <FAF_ResetCabinetTempDesc>将冷柜目标温度重设为-5°C。</FAF_ResetCabinetTempDesc>
+  <FAF_CabinetSwitchedOff>温控已关闭</FAF_CabinetSwitchedOff>
+  <FAF_CabinetGridPower>温控运行中</FAF_CabinetGridPower>
+  <FAF_CabinetBatteryPower>使用内置电池</FAF_CabinetBatteryPower>
+  <FAF_CabinetBatteryEmpty>无电源：内置电池已耗尽</FAF_CabinetBatteryEmpty>
+  <FAF_CabinetLoad>温控负载：{0} W</FAF_CabinetLoad>
+  <FAF_CabinetNoPower>温控等待供电</FAF_CabinetNoPower>
+  <FAF_SelectMattress>选择睡垫</FAF_SelectMattress>
+  <FAF_NoMattressesOnMap>本地图没有可用的已铺开或已打包的涅瓦莲便携睡垫。</FAF_NoMattressesOnMap>
+  <FAF_MattressCandidate>{0} · {1} · {2} [{3}, {4}]</FAF_MattressCandidate>
+  <FAF_MattressBuilt>已铺开</FAF_MattressBuilt>
+  <FAF_MattressUninstalled>已打包</FAF_MattressUninstalled>
+  <FAF_UnknownMattressMaterial>未指定材料</FAF_UnknownMattressMaterial>
+  <FAF_MattressForbidden>已禁用</FAF_MattressForbidden>
+  <FAF_MattressBurning>正在燃烧</FAF_MattressBurning>
+  <FAF_NoMattressInstaller>没有可用的建造兼搬运工（请检查通路与预留）。</FAF_NoMattressInstaller>
+  <FAF_NoMattressHauler>没有可用的搬运工（请检查通路与预留）。</FAF_NoMattressHauler>
+  <FAF_MattressNoLongerAvailable>睡垫或冷柜已无法用于本次安装。</FAF_MattressNoLongerAvailable>
+  <FAF_ItemNoLongerAvailable>物品或柜内储存空间已不可用。</FAF_ItemNoLongerAvailable>
+  <FAF_CabinetOrderRejected>无法同时预留物品和柜子，请检查当前预留。</FAF_CabinetOrderRejected>
+  <FAF_MattressOrderAccepted>已安排{0}安装{1}。</FAF_MattressOrderAccepted>
+</LanguageData>

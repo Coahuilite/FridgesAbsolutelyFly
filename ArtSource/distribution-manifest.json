@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "pathBasis": "projectRoot",
+  "ownedFiles": [
+    "ArtSource/PortableSleepingPad.original.png",
+    "ArtSource/PortableSleepingPad.generated.png",
+    "ArtSource/PortableSleepingPadPacked.generated.png",
+    "ArtSource/CommandFly.generated.png",
+    "ArtSource/CommandInstallSleepingPad.generated.png",
+    "ArtSource/CommandLaunchCabinet.generated.png",
+    "ArtSource/CommandLaunchCabinet.composition.png",
+    "ArtSource/CommandIcons/NearFieldPulse.generated.png",
+    "ArtSource/CommandIcons/RefillCoolant.generated.png",
+    "ArtSource/CommandIcons/QuickDisembark.generated.png",
+    "ArtSource/FlyingCabinet.master.png",
+    "ArtSource/FlyingCabinetHorizontal.generated.png",
+    "ArtSource/ModIcon.derived.png",
+    "ArtSource/Preview.generated.png",
+    "ArtSource/UpgradeStudies/Pepper-retrofit.master.png",
+    "ArtSource/UpgradeStudies/Salt-shuttle.master.png",
+    "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+    "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+    "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+    "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+    "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+    "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+    "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+    "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+    "ArtSource/IndependentCover/stage-A-new-pose.png",
+    "ArtSource/IndependentCover/stage-B-color-block-character.png",
+    "ArtSource/IndependentCover/stage-C-generated-cover.png",
+    "ArtSource/IndependentCover/IndependentCover.1280x720.png",
+    "ArtSource/IndependentCover/Chinese/ChineseCover.generated.png",
+    "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png",
+    "ArtSource/distribution-manifest.json",
+    "ArtSource/distribution-provenance.json",
+    "ArtSource/distribution-metadata.json",
+    "ArtSource/SOURCE-DISTRIBUTION.md"
+  ],
+  "tools": [
+    "Tools/Prepare-CabinetUpgrades.py",
+    "Tools/Prepare-Textures.ps1",
+    "Tools/Prepare-About.py",
+    "Tools/Prepare-CommandIcons.py",
+    "Tools/Prepare-PackedMattress.py"
+  ],
+  "toolInputs": {
+    "Tools/Prepare-CabinetUpgrades.py": [
+      "ArtSource/FlyingCabinetHorizontal.generated.png",
+      "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+      "ArtSource/UpgradeStudies/Salt-horizontal.generated.png"
+    ],
+    "Tools/Prepare-Textures.ps1": [
+      "ArtSource/FlyingCabinetHorizontal.generated.png",
+      "ArtSource/UpgradeStudies/Base-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Base-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Salt-vertical-long-hinge.corrected.png",
+      "ArtSource/UpgradeStudies/Salt-horizontal-long-hinge-west.corrected.png",
+      "ArtSource/UpgradeStudies/Pepper-horizontal.generated.png",
+      "ArtSource/UpgradeStudies/Salt-horizontal.generated.png",
+      "ArtSource/PortableSleepingPad.generated.png",
+      "ArtSource/Preview.generated.png",
+      "ArtSource/CommandFly.generated.png"
+    ],
+    "Tools/Prepare-About.py": [
+      "ArtSource/Preview.generated.png",
+      "ArtSource/CommandFly.generated.png"
+    ],
+    "Tools/Prepare-CommandIcons.py": [
+      "ArtSource/CommandFly.generated.png",
+      "ArtSource/CommandInstallSleepingPad.generated.png",
+      "ArtSource/CommandLaunchCabinet.generated.png",
+      "ArtSource/CommandIcons/NearFieldPulse.generated.png",
+      "ArtSource/CommandIcons/RefillCoolant.generated.png",
+      "ArtSource/CommandIcons/QuickDisembark.generated.png"
+    ],
+    "Tools/Prepare-PackedMattress.py": [
+      "ArtSource/PortableSleepingPadPacked.generated.png"
+    ]
+  },
+  "inputCoverageMeaning": "toolInputs includes transitive ArtSource reads for ordinary/default use and supported modes; all paths must be in ownedFiles / 覆盖普通默认及支持模式的传递ArtSource读取，全部输入均须在ownedFiles",
+  "manualCopies": [
+    {
+      "source": "ArtSource/IndependentCover/Chinese/ChineseCover.1280x720.png",
+      "destination": "Mod/About/Preview_zh-Hans.png",
+      "automaticLanguageSwitch": false
+    }
+  ],
+  "provenance": "ArtSource/distribution-provenance.json",
+  "metadataReport": "ArtSource/distribution-metadata.json",
+  "sourceGuide": "ArtSource/SOURCE-DISTRIBUTION.md",
+  "exclusionPolicy": "Maintenance/Git selection only, not a Package input despite the historical filename: ownedFiles selects ArtSource for Git; tools/toolInputs record development rebuild dependencies. All ArtSource is excluded from the player package. Unlisted ArtSource stays local; external art references never enter ownedFiles, Git or the player package regardless of location / 仅维护/Git来源选入，历史文件名不代表Package入口：ownedFiles选入Git内ArtSource，tools/toolInputs记录开发重建依赖。全部ArtSource排除出玩家包；未列入的ArtSource留本地，外部参考不论位置均不进入ownedFiles、Git或玩家包",
+  "localOnlyCategories": [
+    "External Nira portrait, third-party mod images and raw external references / 外部Nira原立绘、别mod原图及原始外部参考",
+    "Historical PreviewStudies and short-hinge corrected variants / 历史封面研究及短端修正变体",
+    "RuntimeReview contacts, thumbnails, projection studies, caches and raw working records / 审图、缩略、投影研究、缓存及原工作记录"
+  ]
+}

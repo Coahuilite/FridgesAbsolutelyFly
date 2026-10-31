@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_ThermostatTitle>Smart thermostat</FAF_ThermostatTitle>
+  <FAF_ThermostatOpenDesc>Set the target temperature and manage the battery and optional coolant reserve.</FAF_ThermostatOpenDesc>
+  <FAF_ThermostatInside>Inside</FAF_ThermostatInside>
+  <FAF_ThermostatOutside>Outside</FAF_ThermostatOutside>
+  <FAF_ThermostatTarget>Target temperature</FAF_ThermostatTarget>
+  <FAF_ThermostatRange>Range: {0} – {1}</FAF_ThermostatRange>
+  <FAF_ThermostatDemand>Thermal demand: {0} W</FAF_ThermostatDemand>
+  <FAF_ThermostatSupply>Source: {0}</FAF_ThermostatSupply>
+  <FAF_ThermostatBattery>Internal battery</FAF_ThermostatBattery>
+  <FAF_ThermostatEnergy>{0} / {1} Wd</FAF_ThermostatEnergy>
+  <FAF_ThermostatBatteryDrain>Net use: {0} W</FAF_ThermostatBatteryDrain>
+  <FAF_ThermostatBatteryCharge>Charging: {0} W</FAF_ThermostatBatteryCharge>
+  <FAF_ThermostatBatteryIdle>Storage unchanged</FAF_ThermostatBatteryIdle>
+  <FAF_ThermostatBatteryUnknown>Measuring energy flow…</FAF_ThermostatBatteryUnknown>
+  <FAF_ThermostatRemaining>Remaining: {0}</FAF_ThermostatRemaining>
+  <FAF_ThermostatEmpty>Empty</FAF_ThermostatEmpty>
+  <FAF_ThermostatNoSample>Not yet known</FAF_ThermostatNoSample>
+  <FAF_ThermostatInfinite>∞ (not consuming)</FAF_ThermostatInfinite>
+  <FAF_ThermostatDays>{0} days</FAF_ThermostatDays>
+  <FAF_ThermostatHours>{0} hours</FAF_ThermostatHours>
+  <FAF_ThermostatCoolant>Coolant</FAF_ThermostatCoolant>
+  <FAF_ThermostatCoolantAmount>{0} / {1}</FAF_ThermostatCoolantAmount>
+  <FAF_ThermostatCoolantUse>Use: {0} / day</FAF_ThermostatCoolantUse>
+  <FAF_ThermostatCoolantBackup>Allow coolant backup</FAF_ThermostatCoolantBackup>
+  <FAF_ThermostatCoolantBackupDesc>Uses coolant for cooling only, and only when neither the grid nor the internal battery can supply it. Heating requires electricity.</FAF_ThermostatCoolantBackupDesc>
+  <FAF_ThermostatBatteryFlowDesc>The battery's net change includes charging, supplying the power grid and self-discharge. Temperature-control demand is shown separately.</FAF_ThermostatBatteryFlowDesc>
+  <FAF_ThermostatSwitchOn>Switched on</FAF_ThermostatSwitchOn>
+  <FAF_ThermostatSwitchOff>Switched off</FAF_ThermostatSwitchOff>
+  <FAF_ThermostatRefuel>Add coolant</FAF_ThermostatRefuel>
+  <FAF_ThermostatReturn>Return coolant</FAF_ThermostatReturn>
+  <FAF_ThermostatReconnect>Reconnect</FAF_ThermostatReconnect>
+  <FAF_ThermostatSourceOff>Temperature control switched off</FAF_ThermostatSourceOff>
+  <FAF_ThermostatSourceIdle>No active temperature control needed</FAF_ThermostatSourceIdle>
+  <FAF_ThermostatSourceElectricity>Electricity</FAF_ThermostatSourceElectricity>
+  <FAF_ThermostatSourceCoolant>Backup coolant</FAF_ThermostatSourceCoolant>
+  <FAF_ThermostatSourceUnavailable>No temperature-control supply</FAF_ThermostatSourceUnavailable>
+  <FAF_ThermostatSourceHeatingUnavailable>No electrical power for heating</FAF_ThermostatSourceHeatingUnavailable>
+  <FAF_ThermostatSourceWaiting>Waiting for electrical supply</FAF_ThermostatSourceWaiting>
+  <FAF_ThermostatWireAutomatic>Automatic conduit connection (adjacent or within 6 cells)</FAF_ThermostatWireAutomatic>
+  <FAF_CoolantBackupDisabled>Enable coolant backup in the thermostat before adding coolant.</FAF_CoolantBackupDisabled>
+  <FAF_NoCoolantHauler>No available hauler can refuel this cabinet. Check coolant supply, access and reservations.</FAF_NoCoolantHauler>
+  <FAF_CoolantFractionRetained>No whole unused bottle remains. The partial bottle stays in the reserve; coolant backup is now disabled.</FAF_CoolantFractionRetained>
+  <FAF_RapidThermalControl>Rapid temperature recovery</FAF_RapidThermalControl>
+  <FAF_RapidThermalControlDesc>Multiply active thermal output and electricity demand by {0}. Backup coolant use increases by the same factor only when cooling. Passive insulation is unchanged.</FAF_RapidThermalControlDesc>
+  <FAF_CoolantReserveFull>The refill target is reached, or less than one whole bottle fits.</FAF_CoolantReserveFull>
+  <FAF_CoolingRegulatorTitle>Cooling regulator</FAF_CoolingRegulatorTitle>
+  <FAF_CoolingRegulatorDesc>Set a refrigeration or freezing target for the base freezer.</FAF_CoolingRegulatorDesc>
+  <FAF_CabinetUnavailable>This freezer is no longer available for management.</FAF_CabinetUnavailable>
+  <FAF_DevelopmentOnly>Development mode is required.</FAF_DevelopmentOnly>
+  <FAF_ThermostatSourceMixed>Electricity, then backup coolant</FAF_ThermostatSourceMixed>
+  <FAF_ThermostatDemandDesc>Maintenance offsets adverse outside temperatures. In normal mode, temperature adjustment adds 120 W until the target is reached, then switches to maintenance. Resources are used only while control is powered; without a usable source, the temperature drifts naturally. Rapid control increases both speed and demand. Coolant cannot provide heat.</FAF_ThermostatDemandDesc>
+</LanguageData>

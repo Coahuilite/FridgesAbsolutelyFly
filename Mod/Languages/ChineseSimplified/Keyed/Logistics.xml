@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_AutoCoolantCargoHint>优先使用本柜货物中的整瓶冷却液，也可能消耗待赠瓶装液；柜内已无可用瓶装物时，地图搬运工才领取外部补给。补入液仓不是制冷耗液。</FAF_AutoCoolantCargoHint>
+  <FAF_AutoCoolantEnable>自动供液</FAF_AutoCoolantEnable>
+  <FAF_AutoCoolantLocked>自动供液需要完成Project D.I.L.L。</FAF_AutoCoolantLocked>
+  <FAF_AutoCoolantNoStoredCoolant>本柜直接货物中没有瓶装冷却液。</FAF_AutoCoolantNoStoredCoolant>
+  <FAF_AutoCoolantOff>自动供液已关闭。</FAF_AutoCoolantOff>
+  <FAF_AutoCoolantReady>已有可用库存，将在下次定时更新时供液。</FAF_AutoCoolantReady>
+  <FAF_AutoCoolantTarget>补液目标</FAF_AutoCoolantTarget>
+  <FAF_AutoCoolantTargetInvalid>请输入0～{0}之间的数字。</FAF_AutoCoolantTargetInvalid>
+  <FAF_AutoCoolantTargetRange>范围：0～{0}单位；调低目标不会排液。</FAF_AutoCoolantTargetRange>
+  <FAF_AutoCoolantTransferring>等待当前货物移交完成。</FAF_AutoCoolantTransferring>
+  <FAF_AutoCoolantUnavailable>当前持有状态无法自动供液。</FAF_AutoCoolantUnavailable>
+  <FAF_AutoCoolantWaitingSpace>等待：补液目标以内的空位不足一整瓶。</FAF_AutoCoolantWaitingSpace>
+  <FAF_CoolantThermalUse>制冷耗液：{0}／天</FAF_CoolantThermalUse>
+  <FAF_CorpseCargoHeldElsewhere>由运输载荷或嵌套容器实际持有，请通过对应持有者整理。</FAF_CorpseCargoHeldElsewhere>
+  <FAF_CorpseCargoHint>遗体是货物，不计活席位。</FAF_CorpseCargoHint>
+  <FAF_CorpseCargoTitle>遗体货物：{0}</FAF_CorpseCargoTitle>
+  <FAF_CrewOccupancyConflict>当前生物载荷存在占用冲突。现有人货保留；请先安全整理，再新增载荷或发起机动。</FAF_CrewOccupancyConflict>
+  <FAF_GiftPickupContents>此处只显示当前实际待取载荷；取回不会恢复已赠送或已消耗的物品。</FAF_GiftPickupContents>
+  <FAF_GiftPickupInterrupted>赠礼已中止，实际余物待取</FAF_GiftPickupInterrupted>
+  <FAF_GiftPickupWaiting>赠礼已完成，原柜待取</FAF_GiftPickupWaiting>
+  <FAF_MattressClearConfirm>安装{0}？只将主冷藏仓货物移到柜旁，独立运输舱保持原样。现在取消不会移动任何物品；安装开始后若取消任务，已移出的物品不会自动装回。</FAF_MattressClearConfirm>
+  <FAF_MattressClearFailed>部分主仓货物无法移出，安装已停止；未移出物品与原睡垫均保留。</FAF_MattressClearFailed>
+  <FAF_MattressInstallationUnavailable>柜内已有睡垫，或正在安装睡垫。</FAF_MattressInstallationUnavailable>
+  <FAF_NoMatchingCargoHere>本区没有匹配的货物。</FAF_NoMatchingCargoHere>
+  <FAF_MattressClearConfirmationRequired>主仓现在已有货物，请重新选择睡垫并确认移出。</FAF_MattressClearConfirmationRequired>
+  <FAF_GiftDeliveryPartial>赠礼已中止，原柜与实际未交付余物保留待取；已赠送物不会恢复，也不会重复赠送。</FAF_GiftDeliveryPartial>
+  <FAF_GiftEmptyDelivery>抵达时已无货物可赠，原柜留待取回；空礼单不增加赠礼好感。</FAF_GiftEmptyDelivery>
+  <FAF_GiftMissionPreview>礼单采用当前实际货物。原柜、已安装睡垫及内置资源留在当地，由远行队取回。抵达前自动供液可能消耗准备赠送的瓶装冷却液。</FAF_GiftMissionPreview>
+  <FAF_GiftPickupCreated>赠礼已完成，原柜留在当地，等待远行队取回。</FAF_GiftPickupCreated>
+  <FAF_GiftPickupInspect>原柜及实际余物等待取回，已赠送物不再属于此载荷。</FAF_GiftPickupInspect>
+  <FAF_GiftSettlementOption>向{0}赠送内容物，并留下原柜待取</FAF_GiftSettlementOption>
+  <FAF_LiveCorpseConflict>活乘员与遗体货物不能同柜。</FAF_LiveCorpseConflict>
+  <FAF_RelinquishedAtSettlement>原柜及全部载荷已在敌对聚落被放弃，不再归玩家控制，也未生成我方回收点。</FAF_RelinquishedAtSettlement>
+  <FAF_RelinquishMissionConfirm>确定向敌对聚落投送并放弃以下全部物品吗？\n\n{0}\n\n原柜及全部载荷都将失去玩家控制；随柜己方动物也将失去控制，但不会由此被强制杀死。不获得赠礼好感，也不生成我方待取点。</FAF_RelinquishMissionConfirm>
+  <FAF_RelinquishSettlementOption>向{0}投送，并放弃原柜及全部载荷</FAF_RelinquishSettlementOption>
+  <FAF_AutoCoolantNoExternalAccess>柜内已无瓶装补给。将冷柜安装在地图上，才能由外部搬运补液。</FAF_AutoCoolantNoExternalAccess>
+  <FAF_AutoCoolantWaitingHauler>柜内已无瓶装补给：等待可用地图搬运工与可达冷却液。</FAF_AutoCoolantWaitingHauler>
+  <FAF_CoolantRefillTarget>补液目标</FAF_CoolantRefillTarget>
+  <FAF_CoolantTargetDragHint>拖动刻度，设置本柜补液目标。</FAF_CoolantTargetDragHint>
+  <FAF_CoolantTargetInvalid>请输入0～{0}之间的数字。</FAF_CoolantTargetInvalid>
+  <FAF_CoolantTargetManualHint>手动补液使用此目标。修改目标不会消耗瓶装物，也不会排液。</FAF_CoolantTargetManualHint>
+  <FAF_CoolantTargetRange>范围：0～{0}单位。</FAF_CoolantTargetRange>
+  <FAF_CoolantTargetSharedHint>自动供液开启后，与手动补液共用此目标。修改目标不会消耗瓶装物，也不会排液。</FAF_CoolantTargetSharedHint>
+  <FAF_ResourceBatteryRow>电量：{0}／{1} Wd</FAF_ResourceBatteryRow>
+  <FAF_ResourceBatteryTip>本柜电池的实际储能，此条仅供查看。</FAF_ResourceBatteryTip>
+  <FAF_ResourceCoolantRow>冷却液：{0}／{1}</FAF_ResourceCoolantRow>
+  <FAF_ResourceGizmoTitle>冷柜 #{0}</FAF_ResourceGizmoTitle>
+  <FAF_ResourceTargetValue>目标 {0}</FAF_ResourceTargetValue>
+</LanguageData>

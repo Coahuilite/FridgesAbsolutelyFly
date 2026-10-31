@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<LanguageData>
+  <FAF_CabinetTemperature>Inside: {0}</FAF_CabinetTemperature>
+  <FAF_CabinetEnergy>Internal battery: {0} / {1} Wd</FAF_CabinetEnergy>
+  <FAF_CabinetStored>Internal storage: {0} / {1} stacks</FAF_CabinetStored>
+  <FAF_CabinetBedMode>Sleeping pad fitted: {0}</FAF_CabinetBedMode>
+  <FAF_CabinetContentsTab>Contents</FAF_CabinetContentsTab>
+  <FAF_AutoLoad>Automatic loading</FAF_AutoLoad>
+  <FAF_AutoLoadDesc>Haulers load eligible items from lower-priority storage into this freezer. Change the Storage filter to choose items. Sleeping pads are fitted manually.</FAF_AutoLoadDesc>
+  <FAF_LoadItem>Load item</FAF_LoadItem>
+  <FAF_LoadItemDesc>Choose an item on the map. An available colonist carries it into this freezer. The storage filter still applies.</FAF_LoadItemDesc>
+  <FAF_InstallMattress>Install sleeping pad</FAF_InstallMattress>
+  <FAF_InstallMattressDesc>Choose a laid-out or packed sleeping pad from this map. If the main refrigerated compartment contains cargo, confirm moving it out first; the independent transport bay is unchanged. A colonist uninstalls the original pad if needed, then carries it into the freezer. Enable Allow sleeping to use the Nivarian bed.</FAF_InstallMattressDesc>
+  <FAF_CabinetMattressExclusive>Remove the sleeping pad before storing other items.</FAF_CabinetMattressExclusive>
+  <FAF_CabinetMustBeEmpty>Empty the freezer before fitting a sleeping pad.</FAF_CabinetMustBeEmpty>
+  <FAF_EjectContents>Eject contents</FAF_EjectContents>
+  <FAF_EjectContentsDesc>Place the contents beside the freezer and forbid them to prevent immediate automatic reloading. Use the Contents tab to remove individual stacks.</FAF_EjectContentsDesc>
+  <FAF_NoCabinetHauler>No available colonist can carry this item to the freezer.</FAF_NoCabinetHauler>
+  <FAF_ResetCabinetTempDesc>Reset the freezer target to -5°C.</FAF_ResetCabinetTempDesc>
+  <FAF_CabinetSwitchedOff>Temperature control switched off</FAF_CabinetSwitchedOff>
+  <FAF_CabinetGridPower>Temperature control running</FAF_CabinetGridPower>
+  <FAF_CabinetBatteryPower>Running on internal battery</FAF_CabinetBatteryPower>
+  <FAF_CabinetBatteryEmpty>No power: internal battery empty</FAF_CabinetBatteryEmpty>
+  <FAF_CabinetLoad>Thermal load: {0} W</FAF_CabinetLoad>
+  <FAF_CabinetNoPower>Temperature control waiting for power</FAF_CabinetNoPower>
+  <FAF_SelectMattress>Choose a sleeping pad</FAF_SelectMattress>
+  <FAF_NoMattressesOnMap>No laid-out or packed Nivarian portable sleeping pad is available on this map.</FAF_NoMattressesOnMap>
+  <FAF_MattressCandidate>{0} · {1} · {2} [{3}, {4}]</FAF_MattressCandidate>
+  <FAF_MattressBuilt>Laid out</FAF_MattressBuilt>
+  <FAF_MattressUninstalled>Packed</FAF_MattressUninstalled>
+  <FAF_UnknownMattressMaterial>Unspecified material</FAF_UnknownMattressMaterial>
+  <FAF_MattressForbidden>Forbidden</FAF_MattressForbidden>
+  <FAF_MattressBurning>Burning</FAF_MattressBurning>
+  <FAF_NoMattressInstaller>No constructor/hauler available (check access and reservations).</FAF_NoMattressInstaller>
+  <FAF_NoMattressHauler>No hauler available (check access and reservations).</FAF_NoMattressHauler>
+  <FAF_MattressNoLongerAvailable>The sleeping pad or freezer is no longer available for installation.</FAF_MattressNoLongerAvailable>
+  <FAF_ItemNoLongerAvailable>The item or freezer storage space is no longer available.</FAF_ItemNoLongerAvailable>
+  <FAF_CabinetOrderRejected>Could not reserve both the item and freezer. Check current reservations.</FAF_CabinetOrderRejected>
+  <FAF_MattressOrderAccepted>Ordered {0} to install {1}.</FAF_MattressOrderAccepted>
+</LanguageData>
